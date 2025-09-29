@@ -1,0 +1,66 @@
+c ix net/minecraft/inventory/PlayerInventory
+
+f a main [Liz;
+f b armor [Liz;
+f c selectedSlot I
+f d player Lgs;
+f e dirty Z
+f f cursorStack Liz;
+
+m <init> (Lgs;)V
+arg 1 player
+
+m a addStack (Liz;)Z
+arg 1 stack
+
+m a getAttackDamage (Lsn;)I
+arg 1 entity
+
+m a writeNbt (Lsp;)Lsp;
+arg 1 nbt
+
+m a getStrengthOnBlock (Luu;)F
+arg 1 block
+
+m b getSelectedItem ()Liz;
+m c remove (I)Z
+arg 1 itemId
+
+m b setCursorStack (Liz;)V
+arg 1 cursorStack
+
+m b readNbt (Lsp;)V
+arg 1 nbt
+
+m b isUsingEffectiveTool (Luu;)Z
+arg 1 block
+
+m e damageArmor (I)V
+arg 1 amount
+
+m c contains (Liz;)Z
+arg 1 stack
+
+m f indexOf (I)I
+arg 1 itemId
+
+m d indexOf (Liz;)I
+arg 1 stack
+
+m e combineStacks (Liz;)I
+arg 1 stack
+
+m e inventoryTick ()V
+m f getTotalArmorDurability ()I
+m g dropInventory ()V
+m i getCursorStack ()Liz;
+m j getEmptySlot ()I
+m a setHeldItem (IZ)V
+arg 1 itemId
+arg 2 testInteractionManager
+
+m b scrollInHotbar (I)V
+arg 1 direction
+
+m d getArmorStack (I)Liz;
+arg 1 index

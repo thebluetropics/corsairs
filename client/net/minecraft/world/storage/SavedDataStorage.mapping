@@ -1,0 +1,26 @@
+c hc net/minecraft/world/storage/SavedDataStorage
+
+f a storage Lwt;
+f b loadedStatesById Ljava/util/Map;
+f c loadedStates Ljava/util/List;
+f d idCounts Ljava/util/Map;
+
+m <init> (Lwt;)V
+arg 1 storage
+
+m a save ()V
+m a save (Lhm;)V
+arg 1 state
+
+m a getOrCreate (Ljava/lang/Class;Ljava/lang/String;)Lhm;
+arg 1 stateClass
+arg 2 id
+
+m a getIdCount (Ljava/lang/String;)I
+arg 1 id
+
+m a set (Ljava/lang/String;Lhm;)V
+arg 1 id
+arg 2 state
+
+m b loadIdCounts ()V

@@ -1,0 +1,4 @@
+c ad net/minecraft/world/gen/feature/GrassPatchFeature
+
+f a tallGrassBlockId I
+f b tallGrassBlockMeta I

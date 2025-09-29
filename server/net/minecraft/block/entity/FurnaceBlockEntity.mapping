@@ -1,0 +1,13 @@
+c ln net/minecraft/block/entity/FurnaceBlockEntity
+
+f a burnTime I
+f b fuelTime I
+f c cookTime I
+f i inventory [Lfy;
+
+m a getFuelTime (Lfy;)I
+arg 1 itemStack
+
+m k isBurning ()Z
+m l craftRecipe ()V
+m m canAcceptRecipeOutput ()Z

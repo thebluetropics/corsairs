@@ -1,0 +1,6 @@
+c pe net/minecraft/network/packet/play/ChatMessagePacket
+
+f a chatMessage Ljava/lang/String;
+
+m <init> (Ljava/lang/String;)V
+arg 1 chatMessage

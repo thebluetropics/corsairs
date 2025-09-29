@@ -1,0 +1,47 @@
+c ll net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+
+f a INSTANCE Lll;
+f b offsetX D
+f c offsetY D
+f d offsetZ D
+f e textureManager Lji;
+f f world Lfd;
+f g camera Lls;
+f h cameraYaw F
+f i cameraPitch F
+f j cameraX D
+f k cameraY D
+f l cameraZ D
+f m renderers Ljava/util/Map;
+f n textRenderer Lsj;
+
+m a getTextRenderer ()Lsj;
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a prepare (Lfd;Lji;Lsj;Lls;F)V
+arg 1 world
+arg 2 textureManager
+arg 3 textRenderer
+arg 4 camera
+arg 5 tickDelta
+
+m a getRenderer (Ljava/lang/Class;)Lje;
+arg 1 type
+
+m a hasRenderer (Low;)Z
+arg 1 blockEntity
+
+m a render (Low;DDDF)V
+arg 1 blockEntity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+arg 5 tickDelta
+
+m a render (Low;F)V
+arg 1 blockEntity
+arg 2 tickDelta
+
+m b getRenderer (Low;)Lje;
+arg 1 blockEntity

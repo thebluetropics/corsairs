@@ -1,0 +1,52 @@
+c gi net/minecraft/block/PistonBlock
+
+f a sticky Z
+f b deaf Z
+
+m a canMoveBlock (ILdj;IIIZ)Z
+arg 1 id
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 allowBreaking
+
+m c getFacing (I)I
+arg 1 meta
+
+m c getFacingForPlacement (Ldj;IIILem;)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 player
+
+m d isExtended (I)Z
+arg 1 meta
+
+m f shouldExtend (Ldj;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 facing
+
+m g checkExtended (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h canExtend (Ldj;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 dir
+
+m i push (Ldj;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 dir

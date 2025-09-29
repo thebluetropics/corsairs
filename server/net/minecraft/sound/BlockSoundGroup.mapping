@@ -1,0 +1,9 @@
+c bu net/minecraft/sound/BlockSoundGroup
+
+f a soundName Ljava/lang/String;
+f b volume F
+f c pitch F
+
+m a getVolume ()F
+m b getPitch ()F
+m c getSound ()Ljava/lang/String;

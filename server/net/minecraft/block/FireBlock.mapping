@@ -1,0 +1,43 @@
+c pt net/minecraft/block/FireBlock
+
+f a burnChances [I
+f b spreadChances [I
+
+m a registerFlammableBlock (III)V
+arg 1 block
+arg 2 burnChance
+arg 3 spreadChance
+
+m a trySpreadingFire (Ldj;IIIILjava/util/Random;I)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 spreadFactor
+arg 6 random
+arg 7 currentAge
+
+m b isFlammable (Lpb;III)Z
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+
+m f getBurnChance (Ldj;IIII)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 currentChance
+
+m g areBlocksAroundFlammable (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h getBurnChance (Ldj;III)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

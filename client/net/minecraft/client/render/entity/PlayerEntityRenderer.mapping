@@ -1,0 +1,8 @@
+c ds net/minecraft/client/render/entity/PlayerEntityRenderer
+
+f a bipedModel Lfh;
+f g armor1 Lfh;
+f h armor2 Lfh;
+f i armorTextureNames [Ljava/lang/String;
+
+m b renderHand ()V

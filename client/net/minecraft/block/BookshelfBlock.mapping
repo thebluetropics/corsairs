@@ -1,0 +1,5 @@
+c hb net/minecraft/block/BookshelfBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId

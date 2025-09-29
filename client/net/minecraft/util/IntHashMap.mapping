@@ -1,0 +1,46 @@
+c jx net/minecraft/util/IntHashMap
+
+f a table [Lwm;
+f b size I
+f c threshold I
+f d loadFactor F
+f e modCount I
+
+m a clear ()V
+m a get (I)Ljava/lang/Object;
+arg 1 key
+
+m a indexOf (II)I
+arg 1 hash
+arg 2 arrayLength
+
+m a addEntry (IILjava/lang/Object;I)V
+arg 1 hash
+arg 2 key
+arg 3 value
+arg 4 index
+
+m a put (ILjava/lang/Object;)V
+arg 1 key
+arg 2 value
+
+m a transfer ([Lwm;)V
+arg 1 entryArray
+
+m c getEntry (I)Lwm;
+arg 1 key
+
+m b remove (I)Ljava/lang/Object;
+arg 1 key
+
+m c removeEntry (I)Lwm;
+arg 1 key
+
+m d synthHash (I)I
+arg 1 key
+
+m e hash (I)I
+arg 1 key
+
+m f resize (I)V
+arg 1 size

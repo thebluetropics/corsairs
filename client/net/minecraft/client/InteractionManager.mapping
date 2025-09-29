@@ -1,0 +1,76 @@
+c ob net/minecraft/client/InteractionManager
+
+f a minecraft Lnet/minecraft/client/Minecraft;
+f b noTick Z
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m a cancelBlockBreaking ()V
+m a update (F)V
+m a attackBlock (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 direction
+
+m a clickSlot (IIIZLgs;)Liz;
+arg 1 syncId
+arg 2 slotId
+arg 3 button
+arg 4 shift
+arg 5 player
+
+m a onScreenRemoved (ILgs;)V
+arg 1 syncId
+arg 2 player
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a preparePlayer (Lgs;)V
+arg 1 player
+
+m a interactItem (Lgs;Lfd;Liz;)Z
+arg 1 player
+arg 2 world
+arg 3 item
+
+m a interactBlock (Lgs;Lfd;Liz;IIII)Z
+arg 1 player
+arg 2 world
+arg 3 item
+arg 4 x
+arg 5 y
+arg 6 z
+arg 7 side
+
+m a interactEntity (Lgs;Lsn;)V
+arg 1 player
+arg 2 entity
+
+m b getReachDistance ()F
+m b breakBlock (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 direction
+
+m b createPlayer (Lfd;)Lgs;
+arg 1 world
+
+m b preparePlayerRespawn (Lgs;)V
+arg 1 player
+
+m b attackEntity (Lgs;Lsn;)V
+arg 1 player
+arg 2 target
+
+m c tick ()V
+m c processBlockBreakingAction (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 side
+
+m d canBeRendered ()Z

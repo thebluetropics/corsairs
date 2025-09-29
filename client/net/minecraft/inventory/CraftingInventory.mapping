@@ -1,0 +1,14 @@
+c mq net/minecraft/inventory/CraftingInventory
+
+f a stacks [Liz;
+f b width I
+f c handler Ldw;
+
+m <init> (Ldw;II)V
+arg 1 handler
+arg 2 width
+arg 3 height
+
+m b getStack (II)Liz;
+arg 1 x
+arg 2 y

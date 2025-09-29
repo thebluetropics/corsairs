@@ -1,0 +1,4 @@
+c aq net/minecraft/block/material/PassableMaterial
+
+m <init> (Ldx;)V
+arg 1 mapColor

@@ -1,0 +1,6 @@
+c ox net/minecraft/network/packet/play/PlayerRespawnPacket
+
+f a dimensionRawId B
+
+m <init> (B)V
+arg 1 dimension

@@ -1,0 +1,13 @@
+c wf net/minecraft/util/math/BlockPos
+
+f a x I
+f b y I
+f c z I
+
+m <init> (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m equals (Ljava/lang/Object;)Z
+arg 1 o

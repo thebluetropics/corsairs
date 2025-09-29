@@ -1,0 +1,3 @@
+c ag net/minecraft/client/render/block/entity/MobSpawnerBlockEntityRenderer
+
+f b models Ljava/util/Map;

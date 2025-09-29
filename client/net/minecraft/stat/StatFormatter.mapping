@@ -1,0 +1,4 @@
+c wk net/minecraft/stat/StatFormatter
+
+m a format (I)Ljava/lang/String;
+arg 1 value

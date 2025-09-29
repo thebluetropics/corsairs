@@ -1,0 +1,26 @@
+c cl net/minecraft/world/chunk/ChunkSource
+
+m a tick ()Z
+m a isChunkLoaded (II)Z
+arg 1 x
+arg 2 z
+
+m a decorate (Lcl;II)V
+arg 1 source
+arg 2 x
+arg 3 z
+
+m a save (ZLyb;)Z
+arg 1 saveEntities
+arg 2 display
+
+m b canSave ()Z
+m b getChunk (II)Llm;
+arg 1 chunkX
+arg 2 chunkZ
+
+m c loadChunk (II)Llm;
+arg 1 chunkX
+arg 2 chunkZ
+
+m c getDebugInfo ()Ljava/lang/String;

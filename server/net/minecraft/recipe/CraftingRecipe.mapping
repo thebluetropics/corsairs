@@ -1,0 +1,9 @@
+c ck net/minecraft/recipe/CraftingRecipe
+
+m a getSize ()I
+m a matches (Lhz;)Z
+arg 1 craftingInventory
+
+m b getOutput ()Lfy;
+m b craft (Lhz;)Lfy;
+arg 1 craftingInventory

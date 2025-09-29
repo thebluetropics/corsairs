@@ -1,0 +1,53 @@
+c th net/minecraft/client/render/entity/EntityRenderDispatcher
+
+f a INSTANCE Lth;
+f b offsetX D
+f c offsetY D
+f d offsetZ D
+f e textureManager Lji;
+f f heldItemRenderer Lra;
+f g world Lfd;
+f h cameraEntity Lls;
+f i yaw F
+f j pitch F
+f k options Lkv;
+f l x D
+f m y D
+f n z D
+f o renderers Ljava/util/Map;
+f p textRenderer Lsj;
+
+m a getTextRenderer ()Lsj;
+m a squaredDistanceTo (DDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a init (Lfd;Lji;Lsj;Lls;Lkv;F)V
+arg 1 world
+arg 2 textureManager
+arg 3 textRenderer
+arg 4 livingEntity
+arg 5 options
+arg 6 scale
+
+m a get (Ljava/lang/Class;)Lbw;
+arg 1 entityClass
+
+m a get (Lsn;)Lbw;
+arg 1 entity
+
+m a render (Lsn;DDDFF)V
+arg 1 entity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 yaw
+arg 6 pitch
+
+m a render (Lsn;F)V
+arg 1 entity
+arg 2 scale

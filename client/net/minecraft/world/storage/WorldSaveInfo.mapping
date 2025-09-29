@@ -1,0 +1,20 @@
+c vb net/minecraft/world/storage/WorldSaveInfo
+
+f a saveName Ljava/lang/String;
+f b name Ljava/lang/String;
+f c lastPlayed J
+f d size J
+f e sameVersion Z
+
+m <init> (Ljava/lang/String;Ljava/lang/String;JJZ)V
+arg 1 fileName
+arg 2 name
+arg 3 lastPlayed
+arg 4 size
+arg 5 sameVersion
+
+m a getSaveName ()Ljava/lang/String;
+m b getName ()Ljava/lang/String;
+m c getSize ()J
+m d isSameVersion ()Z
+m e getLastPlayed ()J

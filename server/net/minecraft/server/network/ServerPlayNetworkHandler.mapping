@@ -1,0 +1,34 @@
+c ha net/minecraft/server/network/ServerPlayNetworkHandler
+
+f a LOGGER Ljava/util/logging/Logger;
+f b connection Ljl;
+f c disconnected Z
+f d server Lnet/minecraft/server/MinecraftServer;
+f e player Ldl;
+f f ticks I
+f g lastKeepAliveTime I
+f h floatingTime I
+f i moved Z
+f j teleportTargetX D
+f k teleportTargetY D
+f l teleportTargetZ D
+f m teleported Z
+f n transactions Ljava/util/Map;
+
+m a tick ()V
+m a teleport (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 yaw
+arg 5 pitch
+
+m a disconnect (Ljava/lang/String;)V
+arg 1 reason
+
+m b getBlockDataSendQueueSize ()I
+m b sendPacket (Lgt;)V
+arg 1 packet
+
+m c handleCommand (Ljava/lang/String;)V
+arg 1 message

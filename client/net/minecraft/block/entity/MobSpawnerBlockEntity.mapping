@@ -1,0 +1,15 @@
+c cy net/minecraft/block/entity/MobSpawnerBlockEntity
+
+f a spawnDelay I
+f i spawnedEntityId Ljava/lang/String;
+f b rotation D
+f c lastRotation D
+
+m <init> ()V
+
+m a getSpawnedEntityId ()Ljava/lang/String;
+m a setSpawnedEntityId (Ljava/lang/String;)V
+arg 1 spawnedEntityId
+
+m b isPlayerInRange ()Z
+m d resetDelay ()V

@@ -1,0 +1,15 @@
+c it net/minecraft/screen/CraftingScreenHandler
+
+f a input Lmq;
+f b result Llw;
+f c world Lfd;
+f h x I
+f i y I
+f j z I
+
+m <init> (Lix;Lfd;III)V
+arg 1 playerInventory
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z

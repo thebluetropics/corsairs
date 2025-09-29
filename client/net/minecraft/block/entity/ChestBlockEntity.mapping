@@ -1,0 +1,5 @@
+c js net/minecraft/block/entity/ChestBlockEntity
+
+f a inventory [Liz;
+
+m <init> ()V

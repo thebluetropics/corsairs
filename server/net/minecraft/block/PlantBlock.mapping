@@ -1,0 +1,10 @@
+c nw net/minecraft/block/PlantBlock
+
+m c canPlantOnTop (I)Z
+arg 1 id
+
+m g breakIfCannotGrow (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

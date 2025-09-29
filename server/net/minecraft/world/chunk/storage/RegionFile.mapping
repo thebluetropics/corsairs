@@ -1,0 +1,78 @@
+c jx net/minecraft/world/chunk/storage/RegionFile
+
+f a BLOCK_BUFFER [B
+f b file Ljava/io/File;
+f c randomAccessFile Ljava/io/RandomAccessFile;
+f d chunkBlockInfo [I
+f e chunkSaveTimes [I
+f f blockEmptyFlags Ljava/util/ArrayList;
+f g bytesWritten I
+f h lastModifiedTime J
+
+m a resetBytesWritten ()I
+m a getChunkInputStream (II)Ljava/io/DataInputStream;
+arg 1 chunkX
+arg 2 chunkZ
+
+m a writeChunkBlockInfo (III)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blockInfo
+
+m a writeChunkData (II[BI)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 data
+arg 4 size
+
+m a writeChunkData (I[BI)V
+arg 1 blockOffset
+arg 2 data
+arg 3 size
+
+m a print (Ljava/lang/String;)V
+arg 1 s
+
+m a print (Ljava/lang/String;IIILjava/lang/String;)V
+arg 1 action
+arg 2 chunkX
+arg 3 chunkZ
+arg 4 size
+arg 5 s
+
+m a print (Ljava/lang/String;IILjava/lang/String;)V
+arg 1 action
+arg 2 chunkX
+arg 3 chunkZ
+arg 4 s
+
+m b close ()V
+m b getChunkOutputStream (II)Ljava/io/DataOutputStream;
+arg 1 chunkX
+arg 2 chunkZ
+
+m b writeChunkSaveTime (III)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 seconds
+
+m b println (Ljava/lang/String;)V
+arg 1 s
+
+m b println (Ljava/lang/String;IILjava/lang/String;)V
+arg 1 action
+arg 2 chunkX
+arg 3 chunkZ
+arg 4 s
+
+m c hasChunkData (II)Z
+arg 1 chunkX
+arg 2 chunkZ
+
+m d isOutsideRegion (II)Z
+arg 1 chunkX
+arg 2 chunkZ
+
+m e getChunkBlockInfo (II)I
+arg 1 chunkX
+arg 2 chunkZ

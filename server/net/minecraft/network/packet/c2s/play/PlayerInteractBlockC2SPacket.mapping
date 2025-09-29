@@ -1,0 +1,7 @@
+c eo net/minecraft/network/packet/c2s/play/PlayerInteractBlockC2SPacket
+
+f a x I
+f b y I
+f c z I
+f d side I
+f e stack Lfy;

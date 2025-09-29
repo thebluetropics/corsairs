@@ -1,0 +1,6 @@
+c fp net/minecraft/util/CharacterUtils
+
+f a VALID_CHARACTERS Ljava/lang/String;
+f b INVALID_CHARS_WORLD_NAME [C
+
+m a loadValidCharacters ()Ljava/lang/String;

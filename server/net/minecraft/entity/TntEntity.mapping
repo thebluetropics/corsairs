@@ -1,0 +1,5 @@
+c kg net/minecraft/entity/TntEntity
+
+f a fuse I
+
+m h explode ()V

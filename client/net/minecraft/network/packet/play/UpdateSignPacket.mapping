@@ -1,0 +1,12 @@
+c ui net/minecraft/network/packet/play/UpdateSignPacket
+
+f a x I
+f b y I
+f c z I
+f d text [Ljava/lang/String;
+
+m <init> (III[Ljava/lang/String;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 text

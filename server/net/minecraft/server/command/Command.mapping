@@ -1,0 +1,4 @@
+c af net/minecraft/server/command/Command
+
+f a commandAndArgs Ljava/lang/String;
+f b output Lmb;

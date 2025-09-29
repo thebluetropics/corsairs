@@ -1,0 +1,27 @@
+c fh net/minecraft/client/render/entity/model/BipedEntityModel
+
+f a head Lps;
+f b hat Lps;
+f c body Lps;
+f d rightArm Lps;
+f e leftArm Lps;
+f f rightLeg Lps;
+f g leftLeg Lps;
+f h ears Lps;
+f i cape Lps;
+f j leftArmPose Z
+f k rightArmPose Z
+f l sneaking Z
+
+m <init> (F)V
+arg 1 dilation
+
+m <init> (FF)V
+arg 1 dilation
+arg 2 pivotOffsetY
+
+m a renderEars (F)V
+arg 1 scale
+
+m b renderCape (F)V
+arg 1 scale

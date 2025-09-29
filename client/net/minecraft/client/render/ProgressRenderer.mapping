@@ -1,0 +1,16 @@
+c mk net/minecraft/client/render/ProgressRenderer
+
+f a stage Ljava/lang/String;
+f b minecraft Lnet/minecraft/client/Minecraft;
+f c title Ljava/lang/String;
+f d lastTime J
+f e noAbort Z
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m a progressStart (Ljava/lang/String;)V
+arg 1 title
+
+m c start (Ljava/lang/String;)V
+arg 1 title

@@ -1,0 +1,13 @@
+c tk net/minecraft/client/network/MultiplayerClientPlayerEntity
+
+f bN networkHandler Lnb;
+
+m <init> (Lnet/minecraft/client/Minecraft;Lfd;Lgr;Lnb;)V
+arg 1 minecraft
+arg 2 world
+arg 3 session
+arg 4 networkHandler
+
+m b handleIncreaseStat (Lvr;I)V
+arg 1 stat
+arg 2 amount

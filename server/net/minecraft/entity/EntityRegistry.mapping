@@ -1,0 +1,25 @@
+c ga net/minecraft/entity/EntityRegistry
+
+f a idToClass Ljava/util/Map;
+f b classToId Ljava/util/Map;
+f c rawIdToClass Ljava/util/Map;
+f d classToRawId Ljava/util/Map;
+
+m a getEntityFromNbt (Liq;Ldj;)Llq;
+arg 1 nbt
+arg 2 world
+
+m a register (Ljava/lang/Class;Ljava/lang/String;I)V
+arg 1 entityClass
+arg 2 id
+arg 3 rawId
+
+m a create (Ljava/lang/String;Ldj;)Llq;
+arg 1 id
+arg 2 world
+
+m a getRawId (Llq;)I
+arg 1 entity
+
+m b getId (Llq;)Ljava/lang/String;
+arg 1 entity

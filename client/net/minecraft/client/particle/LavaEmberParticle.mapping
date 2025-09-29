@@ -1,0 +1,9 @@
+c fg net/minecraft/client/particle/LavaEmberParticle
+
+f a initialScale F
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

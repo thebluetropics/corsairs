@@ -1,0 +1,5 @@
+c li net/minecraft/network/packet/s2c/play/ChunkStatusUpdateS2CPacket
+
+f a x I
+f b z I
+f c load Z

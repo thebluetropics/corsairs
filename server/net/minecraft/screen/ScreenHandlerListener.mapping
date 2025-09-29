@@ -1,0 +1,15 @@
+c cp net/minecraft/screen/ScreenHandlerListener
+
+m a onPropertyUpdate (Lcl;II)V
+arg 1 handler
+arg 2 syncId
+arg 3 trackedValue
+
+m a onSlotUpdate (Lcl;ILfy;)V
+arg 1 handler
+arg 2 slot
+arg 3 stack
+
+m a onContentsUpdate (Lcl;Ljava/util/List;)V
+arg 1 handler
+arg 2 stacks

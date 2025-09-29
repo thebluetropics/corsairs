@@ -1,0 +1,46 @@
+c ki net/minecraft/network/Packet
+
+f a ID_TO_TYPE Ljava/util/Map;
+f b TYPE_TO_ID Ljava/util/Map;
+f c S2C Ljava/util/Set;
+f d C2S Ljava/util/Set;
+f e trackers Ljava/util/HashMap;
+f f incomingCount I
+f j creationTime J
+f k worldPacket Z
+
+m a size ()I
+m a create (I)Lki;
+arg 1 rawId
+
+m a register (IZZLjava/lang/Class;)V
+arg 1 rawId
+arg 2 clientBound
+arg 3 serverBound
+arg 4 type
+
+m a write (Lki;Ljava/io/DataOutputStream;)V
+arg 1 packet
+arg 2 stream
+
+m a readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+arg 1 stream
+arg 2 maxLength
+
+m a read (Ljava/io/DataInputStream;Z)Lki;
+arg 1 stream
+arg 2 server
+
+m a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+arg 1 string
+arg 2 stream
+
+m c getRawId ()I
+m a read (Ljava/io/DataInputStream;)V
+arg 1 stream
+
+m a write (Ljava/io/DataOutputStream;)V
+arg 1 stream
+
+m a apply (Lti;)V
+arg 1 networkHandler

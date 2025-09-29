@@ -1,0 +1,18 @@
+c ik net/minecraft/client/resource/pack/TexturePacks
+
+f a selected Li;
+f b availablePacks Ljava/util/List;
+f c defaultPack Li;
+f d availablePacksByKey Ljava/util/Map;
+f e minecraft Lnet/minecraft/client/Minecraft;
+f f dir Ljava/io/File;
+f g selectedName Ljava/lang/String;
+
+m <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+arg 1 minecraft
+arg 2 gameDir
+
+m b getAvailable ()Ljava/util/List;
+m a reload ()V
+m a select (Li;)Z
+arg 1 pack

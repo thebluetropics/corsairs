@@ -1,0 +1,10 @@
+c a net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket
+
+f a playerId I
+f b entityId I
+f c isLeftClick I
+
+m <init> (III)V
+arg 1 playerId
+arg 2 entityId
+arg 3 isLeftClick

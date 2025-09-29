@@ -1,0 +1,3 @@
+c on net/minecraft/client/render/entity/TntEntityRenderer
+
+f a blockRenderManager Lcv;

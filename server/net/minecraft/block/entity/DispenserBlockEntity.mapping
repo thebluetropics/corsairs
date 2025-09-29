@@ -1,0 +1,6 @@
+c ak net/minecraft/block/entity/DispenserBlockEntity
+
+f a inventory [Lfy;
+f b random Ljava/util/Random;
+
+m b getItemToDispense ()Lfy;

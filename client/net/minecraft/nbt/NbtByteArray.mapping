@@ -1,0 +1,6 @@
+c hn net/minecraft/nbt/NbtByteArray
+
+f a value [B
+
+m <init> ([B)V
+arg 1 value

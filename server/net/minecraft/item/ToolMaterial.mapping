@@ -1,0 +1,16 @@
+c bb net/minecraft/item/ToolMaterial
+
+f a WOOD Lbb;
+f b STONE Lbb;
+f c IRON Lbb;
+f d DIAMOND Lbb;
+f e GOLD Lbb;
+f f miningLevel I
+f g itemDurability I
+f h miningSpeed F
+f i attackDamage I
+
+m a getDurability ()I
+m b getMiningSpeedMultiplier ()F
+m c getAttackDamage ()I
+m d getMiningLevel ()I

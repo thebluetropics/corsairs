@@ -1,0 +1,11 @@
+c so net/minecraft/network/packet/s2c/play/EntitySpawnS2CPacket
+
+f a id I
+f b x I
+f c y I
+f d z I
+f e velocityX I
+f f velocityY I
+f g velocityZ I
+f h entityType I
+f i entityData I

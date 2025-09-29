@@ -1,0 +1,16 @@
+c pa net/minecraft/block/DispenserBlock
+
+f a random Ljava/util/Random;
+
+m b dispense (Ldj;IIILjava/util/Random;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 random
+
+m g updateDirection (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

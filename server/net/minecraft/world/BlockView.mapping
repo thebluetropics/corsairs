@@ -1,0 +1,26 @@
+c pb net/minecraft/world/BlockView
+
+m a getBlockId (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b getBlockEntity (III)Ljh;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c getBlockMeta (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d getMaterial (III)Lhj;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m e shouldSuffocate (III)Z
+arg 1 x
+arg 2 y
+arg 3 z

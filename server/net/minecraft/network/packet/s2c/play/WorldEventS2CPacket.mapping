@@ -1,0 +1,7 @@
+c ds net/minecraft/network/packet/s2c/play/WorldEventS2CPacket
+
+f a eventId I
+f b data I
+f c x I
+f d y I
+f e z I

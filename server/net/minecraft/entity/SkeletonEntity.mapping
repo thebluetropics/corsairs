@@ -1,0 +1,3 @@
+c dv net/minecraft/entity/SkeletonEntity
+
+f a heldItem Lfy;

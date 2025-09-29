@@ -1,0 +1,16 @@
+c wo net/minecraft/block/RepeaterBlock
+
+f a RENDER_OFFSET [D
+f b DELAY [I
+f c lit Z
+
+m <init> (IZ)V
+arg 1 id
+arg 2 lit
+
+m f isPowered (Lfd;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta

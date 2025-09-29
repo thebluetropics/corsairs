@@ -1,0 +1,5 @@
+c co net/minecraft/world/LightType
+
+f a SKY Lco;
+f b BLOCK Lco;
+f c lightValue I

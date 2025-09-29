@@ -1,0 +1,6 @@
+c g net/minecraft/block/PistonHeadBlock
+
+f a pistonHeadSprite I
+
+m b getFacing (I)I
+arg 1 meta

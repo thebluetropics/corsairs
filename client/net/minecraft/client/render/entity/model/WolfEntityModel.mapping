@@ -1,0 +1,10 @@
+c o net/minecraft/client/render/entity/model/WolfEntityModel
+
+f a head Lps;
+f b torso Lps;
+f c rightHindLeg Lps;
+f d leftHindLeg Lps;
+f e rightFrontLeg Lps;
+f f leftFrontLeg Lps;
+f g tail Lps;
+f h neck Lps;

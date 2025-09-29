@@ -1,0 +1,22 @@
+c ug net/minecraft/util/math/noise/OctaveSimplexNoiseSampler
+
+f a octaveSamplers [Lcc;
+f b octaves I
+
+m <init> (Ljava/util/Random;I)V
+arg 1 random
+arg 2 octaves
+
+m a sample ([DDDIIDDD)[D
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height
+
+m a sample ([DDDIIDDDD)[D
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height

@@ -1,0 +1,6 @@
+c sz net/minecraft/nbt/NbtDouble
+
+f a value D
+
+m <init> (D)V
+arg 1 value

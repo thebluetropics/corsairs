@@ -1,0 +1,27 @@
+c ij net/minecraft/nbt/NbtElement
+
+f a key Ljava/lang/String;
+
+m a createTypeFromId (B)Lij;
+arg 1 id
+
+m a writeTag (Lij;Ljava/io/DataOutput;)V
+arg 1 element
+arg 2 output
+
+m a setKey (Ljava/lang/String;)Lij;
+arg 1 key
+
+m b getKey ()Ljava/lang/String;
+m b getTypeNameFromId (B)Ljava/lang/String;
+arg 1 id
+
+m b readTag (Ljava/io/DataInput;)Lij;
+arg 1 input
+
+m a getType ()B
+m a read (Ljava/io/DataInput;)V
+arg 1 input
+
+m a write (Ljava/io/DataOutput;)V
+arg 1 output

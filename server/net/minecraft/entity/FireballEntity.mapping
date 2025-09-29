@@ -1,0 +1,14 @@
+c bj net/minecraft/entity/FireballEntity
+
+f a shake I
+f b owner Lhl;
+f c powerX D
+f d powerY D
+f e powerZ D
+f f blockX I
+f g blockY I
+f h blockZ I
+f i blockId I
+f j inGround Z
+f k removalTimer I
+f l inAirTime I

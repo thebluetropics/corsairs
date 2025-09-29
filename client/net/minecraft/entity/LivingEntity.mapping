@@ -1,0 +1,117 @@
+c ls net/minecraft/entity/LivingEntity
+
+f E maxHealth I
+f H bodyYaw F
+f I lastBodyYaw F
+f J lastWalkProgress F
+f K walkProgress F
+f O texture Ljava/lang/String;
+f Q rotationOffset F
+f R modelName Ljava/lang/String;
+f T scoreAmount I
+f U damageAmount F
+f V interpolateOnly Z
+f W lastSwingAnimationProgress F
+f a ambientSoundTimer I
+f ax forwardSpeed F
+f ay rotationSpeed F
+f az jumping Z
+f aA defaultPitch F
+f aB movementSpeed F
+f aC lookTimer I
+f X swingAnimationProgress F
+f Y health I
+f Z lastHealth I
+f aa hurtTime I
+f ab damagedTime I
+f ac damagedSwingDir F
+f ad deathTime I
+f ae attackCooldown I
+f af prevTilt F
+f ag tilt F
+f ah killedByOtherEntity Z
+f ak lastWalkAnimationSpeed F
+f al walkAnimationSpeed F
+f am walkAnimationProgress F
+f an bodyTrackingIncrements I
+f ao lerpX D
+f ap lerpY D
+f aq lerpZ D
+f ar lerpYaw D
+f as lerpPitch D
+f au prevHealth I
+f av despawnCounter I
+f aw sidewaysSpeed F
+f b lookTarget Lsn;
+
+m r_ getHeldItem ()Liz;
+m f_ tickLiving ()V
+m g getRandomSound ()Ljava/lang/String;
+m j_ getHurtSound ()Ljava/lang/String;
+m i getDeathSound ()Ljava/lang/String;
+m j getDroppedItemId ()I
+m k getSoundVolume ()F
+
+m l getLimitPerChunk ()I
+m c getItemStackTextureId (Liz;)I
+arg 1 stack
+
+m T makeSound ()V
+m V animateSpawn ()V
+m X tryDespawn ()V
+m Y hasLookTarget ()Z
+m Z getLookTarget ()Lsn;
+m aa beforeRemove ()V
+m a lookAt (Lsn;FF)V
+arg 1 target
+arg 2 maxPitch
+arg 3 maxYaw
+
+m a applyKnockback (Lsn;IDD)V
+arg 1 attacker
+arg 2 amount
+arg 3 dx
+arg 4 dz
+
+m f getLookVector (F)Lbt;
+arg 1 tickDelta
+
+m b lerpRotation (FFF)F
+arg 1 from
+arg 2 to
+arg 3 maxChange
+
+m e canSee (Lsn;)Z
+arg 1 entity
+
+m a raycast (DF)Lvf;
+arg 1 distance
+arg 2 tickDelta
+
+m d getHandSwingProgress (F)F
+m e getPosition (F)Lbt;
+arg 1 tickDelta
+
+m p isOnLadder ()Z
+m q dropItems ()V
+m d_ canBreatheInWater ()Z
+m d canSpawn ()Z
+m e getMinAmbientSoundDelay ()I
+m o tickMovement ()V
+m b onKilledBy (Lsn;)V
+arg 1 adversary
+
+m c heal (I)V
+arg 1 amount
+
+m u canDespawn ()Z
+m x getMaxLookPitchChange ()I
+m y isImmobile ()Z
+m N isSleeping ()Z
+m R jump ()V
+m a_ travel (FF)V
+arg 1 x
+arg 2 z
+
+m b applyDamage (I)V
+arg 1 amount

@@ -1,0 +1,93 @@
+c ei net/minecraft/world/WorldProperties
+
+f a seed J
+f b spawnX I
+f c spawnY I
+f d spawnZ I
+f e time J
+f f lastPlayed J
+f g sizeOnDisk J
+f h playerNbt Lnu;
+f i dimensionId I
+f j name Ljava/lang/String;
+f k version I
+f l raining Z
+f m rainTime I
+f n thundering Z
+f o thunderTime I
+
+m <init> (JLjava/lang/String;)V
+arg 1 seed
+arg 2 name
+
+m <init> (Lei;)V
+arg 1 properties
+
+m <init> (Lnu;)V
+arg 1 nbt
+
+m a asNbt ()Lnu;
+m d setVersion (I)V
+arg 1 version
+
+m a setSpawn (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a setTime (J)V
+arg 1 time
+
+m a updateProperties (Lnu;Lnu;)V
+arg 1 nbt
+arg 2 playerNbt
+
+m a setName (Ljava/lang/String;)V
+arg 1 name
+
+m a asNbt (Ljava/util/List;)Lnu;
+arg 1 players
+
+m a setThundering (Z)V
+arg 1 thundering
+
+m b getSeed ()J
+m e setThunderTime (I)V
+arg 1 thunderTime
+
+m b setSizeOnDisk (J)V
+arg 1 sizeOnDisk
+
+m b setRaining (Z)V
+arg 1 raining
+
+m c getSpawnX ()I
+m f setRainTime (I)V
+arg 1 rainTime
+
+m d getSpawnY ()I
+m e getSpawnZ ()I
+m f getTime ()J
+m g getSizeOnDisk ()J
+m i getDimensionId ()I
+m k getVersion ()I
+m m getThundering ()Z
+m n getThunderTime ()I
+m o getRaining ()Z
+m p getRainTime ()I
+
+m a setSpawnX (I)V
+arg 1 spawnX
+
+m a setPlayerNbt (Lnu;)V
+arg 1 playerNbt
+
+m b setSpawnY (I)V
+arg 1 spawnY
+
+m c setSpawnZ (I)V
+arg 1 spawnZ
+
+m h getPlayerNbt ()Lnu;
+m j getName ()Ljava/lang/String;
+m l setLastPlayed ()J

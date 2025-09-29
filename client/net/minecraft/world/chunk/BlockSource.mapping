@@ -1,0 +1,6 @@
+c vi net/minecraft/world/chunk/BlockSource
+
+f a BLOCKS [B
+
+m a fill ([B)V
+arg 1 blocks

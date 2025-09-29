@@ -1,0 +1,5 @@
+c mv net/minecraft/network/packet/s2c/play/ScreenHandlerPropertyUpdateS2CPacket
+
+f a syncId I
+f b propertyId I
+f c value I

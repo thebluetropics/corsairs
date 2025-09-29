@@ -1,0 +1,36 @@
+c ra net/minecraft/rendering/HeldItemRenderer
+
+f a minecraft Lnet/minecraft/client/Minecraft;
+f b stack Liz;
+f c height F
+f d prevHeight F
+f e blockRenderManager Lcv;
+f f mapRenderer Liy;
+f g slot I
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m a renderItem (Lls;Liz;)V
+arg 1 entity
+arg 2 stack
+
+m a render (F)V
+arg 1 tickDelta
+
+m b renderScreenOverlays (F)V
+arg 1 tickDelta
+
+m a renderTexturedOverlay (FI)V
+arg 1 height
+arg 2 textureId
+
+m c renderUnderwaterOverlay (F)V
+arg 1 delta
+
+m d renderFireOverlay (F)V
+arg 1 tickDelta
+
+m a tick ()V
+m b place ()V
+m c use ()V

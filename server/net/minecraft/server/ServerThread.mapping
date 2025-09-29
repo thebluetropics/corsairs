@@ -1,0 +1,7 @@
+c bq ServerThread
+
+f a server Lnet/minecraft/server/MinecraftServer;
+
+m <init> (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+arg 1 name
+arg 2 server

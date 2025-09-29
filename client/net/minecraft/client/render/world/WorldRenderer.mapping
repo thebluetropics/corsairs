@@ -1,0 +1,133 @@
+c n net/minecraft/client/render/WorldRenderer
+
+f A darkSkyGlList I
+f B minChunkX I
+f C minChunkY I
+f D minChunkZ I
+f E maxChunkX I
+f F maxChunkY I
+f G maxChunkZ I
+f H lastViewDistance I
+f I entityRenderCooldown I
+f J entityCount I
+f K renderedEntityCount I
+f L culledEntityCount I
+f M chunkCount I
+f N invisibleChunkCount I
+f O occludedChunkCount I
+f P compiledChunkCount I
+f Q emptyChunkCount I
+f S chunksInCurrentLayer Ljava/util/List;
+f T chunkRenderers [Ltg;
+f a globalBlockEntities Ljava/util/List;
+f c occlusionQueryBuffer Ljava/nio/IntBuffer;
+f f prevCameraX D
+f g prevCameraY D
+f h prevCameraZ D
+f i miningProgress F
+f j cullStep I
+f k world Lfd;
+f l textureManager Lji;
+f m dirtyChunks Ljava/util/List;
+f n sortedChunks [Ldk;
+f o chunks [Ldk;
+f p chunkCountX I
+f q chunkCountY I
+f r chunkCountZ I
+f s chunkGlList I
+f t client Lnet/minecraft/client/Minecraft;
+f u blockRenderManager Lcv;
+f v occlusionBuffer Ljava/nio/IntBuffer;
+f w occlusion Z
+f x ticks I
+f y starsGlList I
+f z lightSkyGlList I
+
+m <init> (Lnet/minecraft/client/Minecraft;Lji;)V
+arg 1 minecraft
+arg 2 textureManager
+
+m a reload ()V
+m a hasFog (DDDF)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 tickDelta
+
+m a renderSky (F)V
+arg 1 tickDelta
+
+m a renderLastChunks (ID)V
+arg 1 layer
+arg 2 tickDelta
+
+m a checkOcclusionQueries (II)V
+arg 1 from
+arg 2 to
+
+m a renderChunks (IIID)I
+arg 1 from
+arg 2 to
+arg 3 layer
+arg 4 tickDelta
+
+m a markDirty (IIIIII)V
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m a renderEntities (Lbt;Lyn;F)V
+arg 1 cameraPos
+arg 2 culler
+arg 3 tickDelta
+
+m a renderOutline (Leq;)V
+arg 1 box
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a renderMiningProgress (Lgs;Lvf;ILiz;F)V
+arg 1 entity
+arg 2 hit
+arg 3 handStack
+arg 4 tickDelta
+
+m a render (Lls;ID)I
+arg 1 camera
+arg 2 layer
+arg 3 tickDelta
+
+m a compileChunks (Lls;Z)Z
+arg 1 camera
+arg 2 force
+
+m a cullChunks (Lyn;F)V
+arg 1 culler
+arg 2 tickDelta
+
+m b getChunkDebugInfo ()Ljava/lang/String;
+m b renderClouds (F)V
+arg 1 tickDelta
+
+m b sortChunks (III)V
+arg 1 cameraX
+arg 2 cameraY
+arg 3 cameraZ
+
+m b renderBlockOutline (Lgs;Lvf;ILiz;F)V
+arg 1 player
+arg 2 hitResult
+arg 3 handStack
+arg 4 tickDelta
+
+m c getEntityDebugInfo ()Ljava/lang/String;
+m c renderFancyClouds (F)V
+arg 1 tickDelta
+
+m d tick ()V
+m f releaseGlLists ()V
+m g renderStars ()V

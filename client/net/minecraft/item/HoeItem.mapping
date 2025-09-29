@@ -1,0 +1,5 @@
+c la net/minecraft/item/HoeItem
+
+m <init> (ILbu;)V
+arg 1 id
+arg 2 toolMaterial

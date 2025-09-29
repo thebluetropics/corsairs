@@ -1,0 +1,28 @@
+c fq net/minecraft/util/math/MathHelper
+
+f a SINE_TABLE [F
+
+m a sqrt (D)F
+arg 1 value
+
+m a absMax (DD)D
+arg 1 a
+arg 2 b
+
+m a sin (F)F
+arg 1 value
+
+m b floor (D)I
+arg 1 value
+
+m b cos (F)F
+arg 1 value
+
+m c sqrt (F)F
+arg 1 value
+
+m d floor (F)I
+arg 1 value
+
+m e abs (F)F
+arg 1 value

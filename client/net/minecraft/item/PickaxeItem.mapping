@@ -1,0 +1,7 @@
+c au net/minecraft/item/PickaxeItem
+
+f bk pickaxeEffectiveBlocks [Luu;
+
+m <init> (ILbu;)V
+arg 1 id
+arg 2 toolMaterial

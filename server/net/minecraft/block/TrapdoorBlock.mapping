@@ -1,0 +1,14 @@
+c jd net/minecraft/block/TrapdoorBlock
+
+m a setOpen (Ldj;IIIZ)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 open
+
+m c updateBoundingBox (I)V
+arg 1 meta
+
+m d isOpen (I)Z
+arg 1 meta

@@ -1,0 +1,3 @@
+c cr net/minecraft/block/entity/JukeboxBlockEntity
+
+f a recordId I

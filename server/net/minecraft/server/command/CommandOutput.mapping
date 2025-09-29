@@ -1,0 +1,6 @@
+c mb net/minecraft/server/command/CommandOutput
+
+m b sendMessage (Ljava/lang/String;)V
+arg 1 message
+
+m d getName ()Ljava/lang/String;

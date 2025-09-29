@@ -1,0 +1,12 @@
+c ab net/minecraft/client/gui/widget/OptionButtonWidget
+
+f i option Lht;
+
+m <init> (IIILht;Ljava/lang/String;)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 option
+arg 5 text
+
+m a getOption ()Lht;

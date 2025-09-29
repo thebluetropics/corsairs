@@ -1,0 +1,3 @@
+c mj net/minecraft/item/MusicDiscItem
+
+f a sound Ljava/lang/String;

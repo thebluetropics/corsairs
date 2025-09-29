@@ -1,0 +1,3 @@
+c rw net/minecraft/block/BlockWithEntity
+
+m a_ createBlockEntity ()Low;

@@ -1,0 +1,4 @@
+c us net/minecraft/world/storage/SessionLockException
+
+m <init> (Ljava/lang/String;)V
+arg 1 message

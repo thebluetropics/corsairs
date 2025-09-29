@@ -1,0 +1,5 @@
+c jj net/minecraft/util/math/Facings
+
+f a TO_DIR [I
+f b OPPOSITE [I
+f c BED_FACINGS [[I

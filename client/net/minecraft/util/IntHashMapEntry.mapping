@@ -1,0 +1,18 @@
+c wm net/minecraft/util/IntHashMapEntry
+
+f a key I
+f b value Ljava/lang/Object;
+f c next Lwm;
+f d hash I
+
+m <init> (IILjava/lang/Object;Lwm;)V
+arg 1 hash
+arg 2 key
+arg 3 value
+arg 4 next
+
+m equals (Ljava/lang/Object;)Z
+arg 1 object
+
+m a getKey ()I
+m b getValue ()Ljava/lang/Object;

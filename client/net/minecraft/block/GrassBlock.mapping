@@ -1,0 +1,4 @@
+c wp net/minecraft/block/GrassBlock
+
+m <init> (I)V
+arg 1 id

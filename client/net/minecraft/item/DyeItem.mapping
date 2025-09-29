@@ -1,0 +1,4 @@
+c km net/minecraft/item/DyeItem
+
+f a names [Ljava/lang/String;
+f bk colors [I

@@ -1,0 +1,7 @@
+c tr net/minecraft/item/MusicDiscItem
+
+f a sound Ljava/lang/String;
+
+m <init> (ILjava/lang/String;)V
+arg 1 id
+arg 2 sound

@@ -1,0 +1,15 @@
+c nh net/minecraft/client/resource/language/TranslationStorage
+
+f a INSTANCE Lnh;
+f b translations Ljava/util/Properties;
+
+m a getInstance ()Lnh;
+m a get (Ljava/lang/String;)Ljava/lang/String;
+arg 1 key
+
+m a get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+arg 1 key
+arg 2 args
+
+m b getClientTranslation (Ljava/lang/String;)Ljava/lang/String;
+arg 1 key

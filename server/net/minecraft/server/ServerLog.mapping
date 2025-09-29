@@ -1,0 +1,5 @@
+c ev net/minecraft/server/ServerLog
+
+f a LOGGER Ljava/util/logging/Logger;
+
+m a init ()V

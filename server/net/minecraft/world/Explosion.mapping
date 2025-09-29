@@ -1,0 +1,15 @@
+c kh net/minecraft/world/Explosion
+
+f a fire Z
+f b x D
+f c y D
+f d z D
+f e source Llq;
+f f power F
+f g damagedBlocks Ljava/util/Set;
+f h random Ljava/util/Random;
+f i world Ldj;
+
+m a explode ()V
+m a playExplosionSound (Z)V
+arg 1 addParticles

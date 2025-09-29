@@ -1,0 +1,14 @@
+c gx net/minecraft/network/packet/c2s/play/PlayerInteractBlockC2SPacket
+
+f a x I
+f b y I
+f c z I
+f d side I
+f e stack Liz;
+
+m <init> (IIIILiz;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 side
+arg 5 stack

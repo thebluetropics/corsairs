@@ -1,0 +1,6 @@
+c ef net/minecraft/network/packet/s2c/play/EntityVelocityUpdateS2CPacket
+
+f a id I
+f b velocityX I
+f c velocityY I
+f d velocityZ I

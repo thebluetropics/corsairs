@@ -1,0 +1,18 @@
+c br net/minecraft/util/math/Vec3i
+
+f a x I
+f b y I
+f c z I
+
+m <init> (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m <init> (Lbr;)V
+arg 1 vec
+
+m a distanceTo (III)D
+arg 1 x
+arg 2 y
+arg 3 z

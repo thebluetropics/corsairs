@@ -1,0 +1,5 @@
+c ja net/minecraft/network/packet/play/ScreenHandlerAcknowledgementPacket
+
+f a syncId I
+f b actionType S
+f c accepted Z

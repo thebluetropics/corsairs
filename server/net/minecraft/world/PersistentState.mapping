@@ -1,0 +1,15 @@
+c fa net/minecraft/world/PersistentState
+
+f a id Ljava/lang/String;
+f b dirty Z
+
+m a markDirty ()V
+m a readNbt (Liq;)V
+arg 1 nbt
+
+m a setDirty (Z)V
+arg 1 dirty
+
+m b isDirty ()Z
+m b writeNbt (Liq;)V
+arg 1 nbt

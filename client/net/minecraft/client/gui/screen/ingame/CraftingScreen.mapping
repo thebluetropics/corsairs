@@ -1,0 +1,8 @@
+c oo net/minecraft/client/gui/screen/ingame/CraftingScreen
+
+m <init> (Lix;Lfd;III)V
+arg 1 inventory
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z

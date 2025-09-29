@@ -1,0 +1,19 @@
+c om net/minecraft/world/storage/WorldStorage
+
+m a save (Lct;)V
+arg 1 properties
+
+m a save (Lct;Ljava/util/List;)V
+arg 1 properties
+arg 2 players
+
+m a getChunkStorage (Los;)Lan;
+arg 1 dimension
+
+m b checkSessionLock ()V
+m b getWorldPropertiesFile (Ljava/lang/String;)Ljava/io/File;
+arg 1 name
+
+m c loadProperties ()Lct;
+m d getPlayerSaveHandler ()Lfl;
+m e forceSave ()V

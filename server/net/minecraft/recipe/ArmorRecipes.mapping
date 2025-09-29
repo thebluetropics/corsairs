@@ -1,0 +1,7 @@
+c n net/minecraft/recipe/ArmorRecipes
+
+f a patterns [[Ljava/lang/String;
+f b items [[Ljava/lang/Object;
+
+m a add (Ley;)V
+arg 1 recipeManager

@@ -1,0 +1,4 @@
+c jg net/minecraft/util/HitResultType
+
+f a BLOCK Ljg;
+f b ENTITY Ljg;

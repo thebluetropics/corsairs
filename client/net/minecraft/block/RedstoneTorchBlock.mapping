@@ -1,0 +1,22 @@
+c db net/minecraft/block/RedstoneTorchBlock
+
+f a lit Z
+f b burnoutEntries Ljava/util/List;
+
+m <init> (IIZ)V
+arg 1 id
+arg 2 textureId
+arg 3 lit
+
+m a isBurnedOut (Lfd;IIIZ)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 addNew
+
+m h shouldUnpower (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

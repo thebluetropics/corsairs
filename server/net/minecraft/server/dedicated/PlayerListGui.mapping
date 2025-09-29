@@ -1,0 +1,4 @@
+c i net/minecraft/server/dedicated/PlayerListGui
+
+f a server Lnet/minecraft/server/MinecraftServer;
+f b tick I

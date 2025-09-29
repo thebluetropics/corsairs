@@ -1,0 +1,12 @@
+c tn net/minecraft/block/entity/NoteBlockBlockEntity
+
+f a note B
+f b powered Z
+
+m <init> ()V
+m a cycleNote ()V
+m a playNote (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

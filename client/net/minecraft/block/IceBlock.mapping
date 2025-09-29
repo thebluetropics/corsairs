@@ -1,0 +1,5 @@
+c nk net/minecraft/block/IceBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId

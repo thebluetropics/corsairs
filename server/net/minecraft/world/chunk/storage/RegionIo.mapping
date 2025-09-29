@@ -1,0 +1,24 @@
+c kq net/minecraft/world/chunk/storage/RegionIo
+
+f a REGION_FILES Ljava/util/Map;
+
+m a flush ()V
+m a getRegionFile (Ljava/io/File;II)Ljx;
+arg 1 worldDir
+arg 2 chunkX
+arg 3 chunkZ
+
+m b getChunkSize (Ljava/io/File;II)I
+arg 1 worldDir
+arg 2 chunkX
+arg 3 chunkZ
+
+m c getChunkInputStream (Ljava/io/File;II)Ljava/io/DataInputStream;
+arg 1 worldDir
+arg 2 chunkX
+arg 3 chunkZ
+
+m d getChunkOutputStream (Ljava/io/File;II)Ljava/io/DataOutputStream;
+arg 1 worldDir
+arg 2 chunkX
+arg 3 chunkZ

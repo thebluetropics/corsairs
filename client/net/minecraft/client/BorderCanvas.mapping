@@ -1,0 +1,4 @@
+c wv net/minecraft/client/BorderCanvas
+
+m <init> (I)V
+arg 1 size

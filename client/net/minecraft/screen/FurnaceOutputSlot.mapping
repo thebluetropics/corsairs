@@ -1,0 +1,10 @@
+c vq net/minecraft/screen/FurnaceOutputSlot
+
+f d player Lgs;
+
+m <init> (Lgs;Llw;III)V
+arg 1 player
+arg 2 inventory
+arg 3 index
+arg 4 x
+arg 5 y

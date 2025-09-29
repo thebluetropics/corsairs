@@ -1,0 +1,103 @@
+c iz net/minecraft/item/ItemStack
+
+f a count I
+f b bobbingAnimationTime I
+f c itemId I
+f d damage I
+
+m <init> (III)V
+arg 1 id
+arg 2 count
+arg 3 damage
+
+m a split (I)Liz;
+arg 1 count
+
+m a getItem ()Lgm;
+m b getTextureId ()I
+m a useOnBlock (Lgs;Lfd;IIII)Z
+arg 1 player
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 side
+
+m a getMiningSpeedMultiplier (Luu;)F
+arg 1 block
+
+m a use (Lfd;Lgs;)Liz;
+arg 1 world
+arg 2 user
+
+m a writeNbt (Lnu;)Lnu;
+arg 1 nbt
+
+m b readNbt (Lnu;)V
+arg 1 nbt
+
+m c getMaxCount ()I
+m d isStackable ()Z
+m e isDamageable ()Z
+m f hasSubtypes ()Z
+m g isDamaged ()Z
+m h getDamage2 ()I
+m i getDamage ()I
+m b setDamage (I)V
+arg 1 damage
+
+m j getMaxDamage ()I
+m a damage (ILsn;)V
+arg 1 amount
+arg 2 entity
+
+m a postHit (Lls;Lgs;)V
+arg 1 target
+arg 2 attacker
+
+m a postMine (IIIILgs;)V
+arg 1 blockId
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 miner
+
+m a getAttackDamage (Lsn;)I
+arg 1 attackedEntity
+
+m b isSuitableFor (Luu;)Z
+arg 1 block
+
+m a onRemoved (Lgs;)V
+arg 1 entity
+
+m a useOnEntity (Lls;)V
+arg 1 entity
+
+m k copy ()Liz;
+m a areEqual (Liz;Liz;)Z
+arg 1 left
+arg 2 right
+
+m d equals2 (Liz;)Z
+arg 1 stack
+
+m a isItemEqual (Liz;)Z
+arg 1 stack
+
+m l getTranslationKey ()Ljava/lang/String;
+m b clone (Liz;)Liz;
+arg 1 stack
+
+m a inventoryTick (Lfd;Lsn;IZ)V
+arg 1 world
+arg 2 entity
+arg 3 slot
+arg 4 selected
+
+m b onCraft (Lfd;Lgs;)V
+arg 1 world
+arg 2 player
+
+m c equals (Liz;)Z
+arg 1 stack

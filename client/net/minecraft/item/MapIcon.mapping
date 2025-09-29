@@ -1,0 +1,12 @@
+c ax net/minecraft/item/MapIcon
+
+f a type B
+f b x B
+f c z B
+f d rotation B
+
+m <init> (Liu;BBBB)V
+arg 1 type
+arg 2 x
+arg 3 z
+arg 4 rotation

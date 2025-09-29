@@ -1,0 +1,6 @@
+c qp net/minecraft/nbt/NbtByte
+
+f a value B
+
+m <init> (B)V
+arg 1 value

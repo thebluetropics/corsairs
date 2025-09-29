@@ -1,0 +1,6 @@
+c bo net/minecraft/item/NetworkSyncedItem
+
+m b getUpdatePacket (Lfy;Ldj;Lem;)Lgt;
+arg 1 stack
+arg 2 world
+arg 3 player

@@ -1,0 +1,10 @@
+c do net/minecraft/client/resource/language/I18n
+
+f a translations Lnh;
+
+m a getTranslation (Ljava/lang/String;)Ljava/lang/String;
+arg 1 name
+
+m a getTranslation (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+arg 1 name
+arg 2 args

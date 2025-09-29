@@ -1,0 +1,38 @@
+c mo net/minecraft/entity/DataTracker
+
+f a DATA_TYPES Ljava/util/HashMap;
+f b entries Ljava/util/Map;
+f c dirty Z
+
+m a isDirty ()Z
+m a getByte (I)B
+arg 1 id
+
+m a startTracking (ILjava/lang/Object;)V
+arg 1 key
+arg 2 value
+
+m a readEntries (Ljava/io/DataInputStream;)Ljava/util/List;
+arg 1 input
+
+m a writeAllEntries (Ljava/io/DataOutputStream;)V
+arg 1 output
+
+m a writeEntry (Ljava/io/DataOutputStream;Lht;)V
+arg 1 output
+arg 2 entry
+
+m a writeEntries (Ljava/util/List;Ljava/io/DataOutputStream;)V
+arg 1 entries
+arg 2 output
+
+m b getDirtyEntries ()Ljava/util/ArrayList;
+m b getInt (I)I
+arg 1 id
+
+m b set (ILjava/lang/Object;)V
+arg 1 id
+arg 2 object
+
+m c getString (I)Ljava/lang/String;
+arg 1 id

@@ -1,0 +1,160 @@
+c me net/minecraft/network/NetworkHandler
+
+m a handleInteractEntity (La;)V
+arg 1 packet
+
+m a onPlayerInteractBlock (Leo;)V
+arg 1 packet
+
+m a onUpdateSelectedSlot (Lfd;)V
+arg 1 packet
+
+m a onPlayerMove (Lfm;)V
+arg 1 packet
+
+m a handlePlayerAction (Lgm;)V
+arg 1 packet
+
+m a onCloseScreen (Lhw;)V
+arg 1 packet
+
+m a onEntityAnimation (Lim;)V
+arg 1 packet
+
+m a onScreenHandlerAcknowledgement (Lja;)V
+arg 1 packet
+
+m a onPlayerRespawn (Lji;)V
+arg 1 packet
+
+m a onChatMessage (Ljk;)V
+arg 1 packet
+
+m a onPlayerInput (Ljz;)V
+arg 1 packet
+
+m a onClickSlot (Lke;)V
+arg 1 packet
+
+m a handleClientCommand (Lmk;)V
+arg 1 packet
+
+m a handleUpdateSign (Lms;)V
+arg 1 packet
+
+m a onDisconnect (Lpv;)V
+arg 1 packet
+
+m a onGameStateChange (Lbg;)V
+arg 1 packet
+
+m a onItemPickupAnimation (Lcc;)V
+arg 1 packet
+
+m a handleChunkData (Lcs;)V
+arg 1 packet
+
+m a onHealthUpdate (Ldb;)V
+arg 1 packet
+
+m a onLightningEntitySpawn (Ldf;)V
+arg 1 packet
+
+m a onWorldEvent (Lds;)V
+arg 1 packet
+
+m a onEntityVelocityUpdate (Lef;)V
+arg 1 packet
+
+m a onWorldTimeUpdate (Lew;)V
+arg 1 packet
+
+m a onScreenHandlerSlotUpdate (Lfe;)V
+arg 1 packet
+
+m a onOpenScreen (Lfw;)V
+arg 1 packet
+
+m a onEntityStatus (Lgc;)V
+arg 1 packet
+
+m a onLivingEntitySpawn (Lgf;)V
+arg 1 packet
+
+m a onPlayerSleepUpdate (Lgq;)V
+arg 1 packet
+
+m a onInventory (Lgr;)V
+arg 1 packet
+
+m a onPlayerSpawn (Lhu;)V
+arg 1 packet
+
+m a onScreenHandlerPropertyUpdate (Lid;)V
+arg 1 packet
+
+m a onItemEntitySpawn (Lif;)V
+arg 1 packet
+
+m a onEntityVehicleSet (Lio;)V
+arg 1 packet
+
+m a onIncreaseStat (Lix;)V
+arg 1 packet
+
+m a onPlayerSpawnPosition (Lkm;)V
+arg 1 packet
+
+m a onEntityPosition (Lkn;)V
+arg 1 packet
+
+m a onExplosion (Lkt;)V
+arg 1 packet
+
+m a onEntityEquipmentUpdate (Ll;)V
+arg 1 packet
+
+m a onEntityDestroy (Lla;)V
+arg 1 packet
+
+m a onChunkStatusUpdate (Lli;)V
+arg 1 packet
+
+m a onEntitySpawn (Lls;)V
+arg 1 packet
+
+m a onBlockUpdate (Lmn;)V
+arg 1 packet
+
+m a onEntity (Lmr;)V
+arg 1 packet
+
+m a onEntityTrackerUpdate (Lnc;)V
+arg 1 packet
+
+m a onPaintingEntitySpawn (Lnt;)V
+arg 1 packet
+
+m a onPlayNoteSound (Lnv;)V
+arg 1 packet
+
+m a onChunkDeltaUpdate (Loq;)V
+arg 1 packet
+
+m a onMapUpdate (Lw;)V
+arg 1 packet
+
+m a handle (Lgt;)V
+arg 1 packet
+
+m a onHandshake (Lhy;)V
+arg 1 packet
+
+m a onHello (Liv;)V
+arg 1 packet
+
+m a onDisconnected (Ljava/lang/String;[Ljava/lang/Object;)V
+arg 1 reason
+arg 2 objects
+
+m c isServerSide ()Z

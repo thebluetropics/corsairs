@@ -1,0 +1,31 @@
+c dp net/minecraft/world/ServerWorld
+
+f C chunkCache Lhe;
+f D bypassSpawnProtection Z
+f E savingDisabled Z
+f F server Lnet/minecraft/server/MinecraftServer;
+f G entitiesById Lgo;
+
+m <init> (Lnet/minecraft/server/MinecraftServer;Lom;Ljava/lang/String;IJ)V
+arg 1 server
+arg 2 storage
+arg 3 name
+arg 4 dimensionId
+arg 5 seed
+
+m a getEntity (I)Llq;
+arg 1 id
+
+m b tickVehicle (Llq;Z)V
+arg 1 vehicle
+arg 2 requireLoaded
+
+m d getBlockEntities (IIIIII)Ljava/util/List;
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m w forceSave ()V

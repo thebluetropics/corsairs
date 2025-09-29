@@ -1,0 +1,39 @@
+c dn net/minecraft/client/particle/ParticleManager
+
+f a world Lfd;
+f b particles [Ljava/util/List;
+f c textureManager Lji;
+f d random Ljava/util/Random;
+
+m <init> (Lfd;Lji;)V
+arg 1 world
+arg 2 textureManager
+
+m a removeDeadParticles ()V
+m a addBlockBreakingParticles (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 side
+
+m a addBlockBreakParticles (IIIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+arg 5 blockMeta
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a render (Lsn;F)V
+arg 1 entity
+arg 2 partialTicks
+
+m a addbarticle (Lxw;)V
+arg 1 particle
+
+m b toString ()Ljava/lang/String;
+m b renderLit (Lsn;F)V
+arg 1 entity
+arg 2 partialTicks

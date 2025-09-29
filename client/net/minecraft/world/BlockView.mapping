@@ -1,0 +1,44 @@
+c xp net/minecraft/world/BlockView
+
+m a getBlockId (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b getBlockEntity (III)Low;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m e getBlockMeta (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m f getMaterial (III)Lln;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m h shouldSuffocate (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a ()Lxv;
+
+m c (III)F
+arg 1 x
+arg 2 y
+arg 3 z
+
+m g (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a getNaturalBrightness (IIII)F
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockLight

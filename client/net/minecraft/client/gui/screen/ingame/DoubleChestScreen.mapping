@@ -1,0 +1,9 @@
+c hp net/minecraft/client/gui/screen/ingame/DoubleChestScreen
+
+f l playerInventory Llw;
+f m inventory Llw;
+f n rows I
+
+m <init> (Llw;Llw;)V
+arg 1 playerInventory
+arg 2 inventory

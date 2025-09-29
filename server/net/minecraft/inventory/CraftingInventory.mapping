@@ -1,0 +1,9 @@
+c hz net/minecraft/inventory/CraftingInventory
+
+f a stacks [Lfy;
+f b width I
+f c handler Lcl;
+
+m b getStack (II)Lfy;
+arg 1 x
+arg 2 y

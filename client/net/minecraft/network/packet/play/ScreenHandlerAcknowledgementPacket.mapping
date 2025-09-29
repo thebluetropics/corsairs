@@ -1,0 +1,10 @@
+c oj net/minecraft/network/packet/play/ScreenHandlerAcknowledgementPacket
+
+f a syncId I
+f b actionType S
+f c accepted Z
+
+m <init> (ISZ)V
+arg 1 syncId
+arg 2 actionType
+arg 3 accepter

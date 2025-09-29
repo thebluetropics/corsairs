@@ -1,0 +1,19 @@
+c cm net/minecraft/block/MapColor
+
+f a COLORS [Lcm;
+f b CLEAR Lcm;
+f c PALE_GREEN Lcm;
+f d PALE_YELLOW Lcm;
+f e LIGHT_GRAY Lcm;
+f f RED Lcm;
+f g LIGHT_BLUE Lcm;
+f h LIGHT_GRAY2 Lcm;
+f i GREEN Lcm;
+f j WHITE Lcm;
+f k SILVER Lcm;
+f l ORANGE Lcm;
+f m GRAY Lcm;
+f n BLUE Lcm;
+f o BROWN Lcm;
+f p color I
+f q id I

@@ -1,0 +1,14 @@
+c wr net/minecraft/item/MapItem
+
+m a update (Lfd;Lsn;Liu;)V
+arg 1 world
+arg 2 entity
+arg 3 map
+
+m a getSavedMapState (Liz;Lfd;)Liu;
+arg 1 stack
+arg 2 world
+
+m a getMapState (SLfd;)Liu;
+arg 1 mapId
+arg 2 world

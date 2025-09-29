@@ -1,0 +1,3 @@
+c oh net/minecraft/server/ConsoleFormatter
+
+f a dateFormat Ljava/text/SimpleDateFormat;

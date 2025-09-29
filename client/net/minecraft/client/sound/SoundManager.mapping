@@ -1,0 +1,56 @@
+c yo net/minecraft/client/sound/SoundManager
+
+f a soundSystem Lpaulscode/sound/SoundSystem;
+f b sounds Lhr;
+f c streamingSounds Lhr;
+f d music Lhr;
+f e soundSourceSuffix I
+f f gameOptions Lkv;
+f g started Z
+f h random Ljava/util/Random;
+f i timeUntilNextSong I
+
+m a updateMusicVolume ()V
+m a playSound (Ljava/lang/String;FF)V
+arg 1 id
+arg 2 volume
+arg 3 pitch
+
+m a playStreaming (Ljava/lang/String;FFFFF)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 volume
+arg 6 pitch
+
+m a loadSound (Ljava/lang/String;Ljava/io/File;)V
+arg 1 id
+arg 2 soundFile
+
+m a loadSounds (Lkv;)V
+arg 1 gameOptions
+
+m a updateListenerPosition (Lls;F)V
+arg 1 player
+arg 2 scale
+
+m b stop ()V
+m b playSound (Ljava/lang/String;FFFFF)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 volume
+arg 6 pitch
+
+m b loadStreaming (Ljava/lang/String;Ljava/io/File;)V
+arg 1 id
+arg 2 soundFile
+
+m c tick ()V
+m c loadMusic (Ljava/lang/String;Ljava/io/File;)V
+arg 1 id
+arg 2 soundFile
+
+m d start ()V

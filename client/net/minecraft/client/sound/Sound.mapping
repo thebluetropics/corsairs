@@ -1,0 +1,8 @@
+c bh net/minecraft/client/sound/Sound
+
+f a id Ljava/lang/String;
+f b soundFile Ljava/net/URL;
+
+m <init> (Ljava/lang/String;Ljava/net/URL;)V
+arg 1 id
+arg 2 soundFile

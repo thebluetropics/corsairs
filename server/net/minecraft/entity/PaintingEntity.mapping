@@ -1,0 +1,16 @@
+c kf net/minecraft/entity/PaintingEntity
+
+f a facing I
+f b attachmentX I
+f c attachmentY I
+f d attachmentZ I
+f e variant Lfr;
+f f obstructionCheckCounter I
+
+m b setFacing (I)V
+arg 1 facing
+
+m c getHorizontalOffset (I)F
+arg 1 width
+
+m h canStayAttached ()Z

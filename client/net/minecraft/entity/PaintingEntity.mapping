@@ -1,0 +1,31 @@
+c qv net/minecraft/entity/PaintingEntity
+
+f a facing I
+f b attachmentX I
+f c attachmentY I
+f d attachmentZ I
+f e variant Liq;
+f f obstructionCheckCounter I
+
+m <init> (Lfd;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 facing
+
+m <init> (Lfd;IIIILjava/lang/String;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 facing
+arg 6 variant
+
+m b setFacing (I)V
+arg 1 facing
+
+m c getHorizontalOffset (I)F
+arg 1 width
+
+m k canStayAttached ()Z

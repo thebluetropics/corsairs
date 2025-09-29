@@ -1,0 +1,24 @@
+c he net/minecraft/server/world/chunk/ServerChunkCache
+
+f a forceLoad Z
+f b chunksToUnload Ljava/util/Set;
+f c empty Lhi;
+f d generator Lbl;
+f e storage Lan;
+f f chunksByPos Ljava/util/Map;
+f g chunks Ljava/util/List;
+f h world Ldp;
+
+m a saveEntities (Lhi;)V
+arg 1 chunk
+
+m b saveChunk (Lhi;)V
+arg 1 chunk
+
+m d isLoaded (II)V
+arg 1 chunkX
+arg 2 chunkZ
+
+m e loadChunkFromStorage (II)Lhi;
+arg 1 chunkX
+arg 2 chunkZ

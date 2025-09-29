@@ -1,0 +1,6 @@
+c rf net/minecraft/client/render/block/entity/SignModel
+
+f a root Lps;
+f b stick Lps;
+
+m a render ()V

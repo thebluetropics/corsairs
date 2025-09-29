@@ -1,0 +1,37 @@
+c bd net/minecraft/isometric/IsometricPreviewCanvas
+
+f j offsetZ I
+f k mouseX I
+f l mouseY I
+f a frames I
+f b scale I
+f c renderDebugInfo Z
+f d world Lfd;
+f e workingDir Ljava/io/File;
+f f running Z
+f g chunksToRender Ljava/util/List;
+
+f h chunks [[Lre;
+f i offsetX I
+
+m a getWorkingDirectory ()Ljava/io/File;
+m a setAmbientDarkness (I)V
+arg 1 ambientDarkness
+
+m a getChunk (II)Lre;
+arg 1 x
+arg 2 y
+
+m a render (Ljava/awt/Graphics2D;)V
+arg 1 graphics
+
+m a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+arg 1 name
+
+m b start ()V
+m b openWorld (Ljava/lang/String;)V
+arg 1 saveName
+
+m c stop ()V
+m d update ()V
+m e getOs ()Ljn;

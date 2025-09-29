@@ -1,0 +1,6 @@
+c qc net/minecraft/world/gen/feature/NetherLavaSpringFeature
+
+f a lavaBlockId I
+
+m <init> (I)V
+arg 1 lavaBlockId

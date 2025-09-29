@@ -1,0 +1,28 @@
+c nj net/minecraft/block/BedBlock
+
+f a BED_OFFSETS [[I
+
+m a updateState (Ldj;IIIZ)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 occupied
+
+m c getDirection (I)I
+arg 1 meta
+
+m d isHeadOfBed (I)Z
+arg 1 meta
+
+m e isOccupied (I)Z
+arg 1 meta
+
+m f findWakeUpPosition (Ldj;IIII)Lay;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 skip
+
+m o setDefaultShape ()V

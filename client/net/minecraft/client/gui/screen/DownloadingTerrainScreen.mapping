@@ -1,0 +1,7 @@
+c gg net/minecraft/client/gui/screen/DownloadingTerrainScreen
+
+f a networkHandler Lnb;
+f i ticks I
+
+m <init> (Lnb;)V
+arg 1 networkHandler

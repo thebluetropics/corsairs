@@ -1,0 +1,6 @@
+c pg net/minecraft/block/RedstoneTorchBurnoutEntry
+
+f a x I
+f b y I
+f c z I
+f d time J

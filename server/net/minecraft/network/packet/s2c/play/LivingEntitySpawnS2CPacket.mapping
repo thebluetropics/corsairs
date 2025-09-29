@@ -1,0 +1,11 @@
+c gf net/minecraft/network/packet/s2c/play/LivingEntitySpawnS2CPacket
+
+f g pitch B
+f h dataTracker Lmo;
+f i trackedValues Ljava/util/List;
+f a id I
+f b entityType B
+f c x I
+f d y I
+f e z I
+f f yaw B

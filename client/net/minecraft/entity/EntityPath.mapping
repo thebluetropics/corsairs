@@ -1,0 +1,15 @@
+c dh net/minecraft/entity/EntityPath
+
+f a length I
+f b nodes [Ld;
+f c currentNodeIndex I
+
+m <init> ([Ld;)V
+arg 1 nodes
+
+m a next ()V
+m a getNodePosition (Lsn;)Lbt;
+arg 1 entity
+
+m b isFinished ()Z
+m c getEnd ()Ld;

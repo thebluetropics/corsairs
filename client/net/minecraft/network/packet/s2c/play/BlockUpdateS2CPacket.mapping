@@ -1,0 +1,7 @@
+c tv net/minecraft/network/packet/s2c/play/BlockUpdateS2CPacket
+
+f a x I
+f b y I
+f c z I
+f d blockRawId I
+f e blockMetadata I

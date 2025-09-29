@@ -1,0 +1,21 @@
+c ma net/minecraft/entity/DataTrackerEntry
+
+f a dataTypeId I
+f b id I
+f c value Ljava/lang/Object;
+f d dirty Z
+
+m <init> (IILjava/lang/Object;)V
+arg 1 dataTypeId
+arg 2 id
+arg 3 value
+
+m a getId ()I
+m a set (Ljava/lang/Object;)V
+arg 1 value
+
+m a setDirty (Z)V
+arg 1 dirty
+
+m b get ()Ljava/lang/Object;
+m c getDataTypeId ()I

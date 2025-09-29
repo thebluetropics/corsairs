@@ -1,0 +1,13 @@
+c jm net/minecraft/world/gen/feature/Feature
+
+m a generate (Ldj;Ljava/util/Random;III)Z
+arg 1 world
+arg 2 random
+arg 3 x
+arg 4 y
+arg 5 z
+
+m a prepare (DDD)V
+arg 1 d0
+arg 2 d1
+arg 3 d2

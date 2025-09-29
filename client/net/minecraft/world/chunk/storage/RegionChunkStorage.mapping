@@ -1,0 +1,6 @@
+c ld net/minecraft/world/chunk/storage/RegionChunkStorage
+
+f a dir Ljava/io/File;
+
+m <init> (Ljava/io/File;)V
+arg 1 dir

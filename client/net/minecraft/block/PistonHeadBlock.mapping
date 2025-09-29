@@ -1,0 +1,14 @@
+c h net/minecraft/block/PistonHeadBlock
+
+f a pistonHeadSprite I
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId
+
+m c getFacing (I)I
+arg 1 meta
+
+m a clearSprite ()V
+m a_ setSprite (I)V
+arg 1 sprite

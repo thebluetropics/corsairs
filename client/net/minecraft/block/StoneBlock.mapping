@@ -1,0 +1,5 @@
+c eo net/minecraft/block/StoneBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId

@@ -1,0 +1,43 @@
+c ro net/minecraft/client/gui/widget/TextFieldWidget
+
+f c textRenderer Lsj;
+f d x I
+f e y I
+f f width I
+f g height I
+f h text Ljava/lang/String;
+f i maxLength I
+f j focusedTicks I
+f a focused Z
+f b enabled Z
+f l parent Lda;
+
+m <init> (Lda;Lsj;IIIILjava/lang/String;)V
+arg 1 parent
+arg 2 textRenderer
+arg 3 x
+arg 4 y
+arg 5 width
+arg 6 height
+arg 7 text
+
+m a setText (Ljava/lang/String;)V
+arg 1 text
+
+m a getText ()Ljava/lang/String;
+m b tick ()V
+m a keyPressed (CI)V
+arg 1 character
+arg 2 keyCode
+
+m a mouseClicked (III)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 button
+
+m a setFocused (Z)V
+arg 1 focused
+
+m c render ()V
+m a setMaxLength (I)V
+arg 1 maxLength

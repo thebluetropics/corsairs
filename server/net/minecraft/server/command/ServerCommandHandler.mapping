@@ -1,0 +1,23 @@
+c mc net/minecraft/server/command/ServerCommandHandler
+
+f a logger Ljava/util/logging/Logger;
+f b server Lnet/minecraft/server/MinecraftServer;
+
+m a executeCommand (Laf;)V
+arg 1 command
+
+m a parseInt (Ljava/lang/String;I)I
+arg 1 string
+arg 2 fallback
+
+m a logCommand (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 commandUser
+arg 2 message
+
+m a executeWhitelist (Ljava/lang/String;Ljava/lang/String;Lmb;)V
+arg 1 commandUser
+arg 2 message
+arg 3 output
+
+m a displayHelp (Lmb;)V
+arg 1 output

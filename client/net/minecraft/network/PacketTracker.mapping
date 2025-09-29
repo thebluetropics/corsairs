@@ -1,0 +1,10 @@
+c nv net/minecraft/network/PacketTracker
+
+f a count I
+f b size J
+
+m <init> (Lgw;)V
+arg 1 subPacketTracker
+
+m a update (I)V
+arg 1 size

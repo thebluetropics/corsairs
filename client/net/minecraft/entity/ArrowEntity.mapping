@@ -1,0 +1,30 @@
+c sl net/minecraft/entity/ArrowEntity
+
+f a pickupAllowed Z
+f b shake I
+f c owner Lls;
+f d blockX I
+f e blockY I
+f f blockZ I
+f g blockId I
+f h blockMeta I
+f i inGround Z
+f j life I
+f k inAirTime I
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m <init> (Lfd;Lls;)V
+arg 1 world
+arg 2 owner
+
+m a setVelocity (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 speed
+arg 5 divergence

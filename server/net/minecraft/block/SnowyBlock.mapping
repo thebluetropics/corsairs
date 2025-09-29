@@ -1,0 +1,7 @@
+c gj net/minecraft/block/SnowyBlock
+
+m g breakIfCannotPlaceAt (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

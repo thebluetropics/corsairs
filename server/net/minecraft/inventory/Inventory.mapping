@@ -1,0 +1,19 @@
+c hp net/minecraft/inventory/Inventory
+
+m i markDirty ()V
+m a size ()I
+m a removeStack (II)Lfy;
+arg 1 slot
+arg 2 amount
+
+m a setStack (ILfy;)V
+arg 1 slot
+arg 2 stack
+
+m a_ canPlayerUse (Lem;)Z
+arg 1 player
+
+m c getName ()Ljava/lang/String;
+m d getMaxCountPerStack ()I
+m d_ getStack (I)Lfy;
+arg 1 slot

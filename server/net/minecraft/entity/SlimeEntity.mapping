@@ -1,0 +1,10 @@
+c nb net/minecraft/entity/SlimeEntity
+
+f a stretch F
+f b lastStretch F
+f c ticksUntilJump I
+
+m e setSize (I)V
+arg 1 size
+
+m o getSize ()I

@@ -1,0 +1,4 @@
+c iw net/minecraft/recipe/FoodRecipes
+
+m a add (Ley;)V
+arg 1 recipeManager

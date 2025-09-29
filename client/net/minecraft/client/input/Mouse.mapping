@@ -1,0 +1,14 @@
+c vy net/minecraft/client/input/Mouse
+
+f a deltaX I
+f b deltaY I
+f c parent Ljava/awt/Component;
+f d cursor Lorg/lwjgl/input/Cursor;
+f e unused I
+
+m <init> (Ljava/awt/Component;)V
+arg 1 parent
+
+m a lockCursor ()V
+m b unlockCursor ()V
+m c poll ()V

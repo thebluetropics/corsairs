@@ -1,0 +1,7 @@
+c ss net/minecraft/block/StairsBlock
+
+f a baseBlock Luu;
+
+m <init> (ILuu;)V
+arg 1 id
+arg 2 block

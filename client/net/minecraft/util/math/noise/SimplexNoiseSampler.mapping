@@ -1,0 +1,27 @@
+c cc net/minecraft/util/math/noise/SimplexNoiseSampler
+
+f a offsetX D
+f b offsetY D
+f c offsetZ D
+f d grads [[I
+f e perm [I
+f f F2 D
+f g G2 D
+
+m <init> (Ljava/util/Random;)V
+arg 1 random
+
+m a fastFloor (D)I
+arg 1 x
+
+m a create ([DDDIIDDD)V
+arg 1 map
+arg 2 x
+arg 3 z
+arg 4 width
+arg 5 depth
+
+m a dot ([IDD)D
+arg 1 grad
+arg 2 x
+arg 3 y

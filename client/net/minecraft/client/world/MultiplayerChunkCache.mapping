@@ -1,0 +1,13 @@
+c uv net/minecraft/client/world/chunk/MultiplayerChunkCache
+
+f a empty Llm;
+f b chunksByPos Ljava/util/Map;
+f c chunks Ljava/util/List;
+f d world Lfd;
+
+m <init> (Lfd;)V
+arg 1 world
+
+m d unloadChunk (II)V
+arg 1 chunkX
+arg 2 chunkY

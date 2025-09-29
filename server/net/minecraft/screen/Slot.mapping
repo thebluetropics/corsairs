@@ -1,0 +1,28 @@
+c el net/minecraft/screen/Slot
+
+f a id I
+f b x I
+f c y I
+f d index I
+f e inventory Lhp;
+
+m a getStack ()Lfy;
+m a takeStack (I)Lfy;
+arg 1 amount
+
+m a onTakeItem (Lfy;)V
+arg 1 stack
+
+m a equals (Lhp;I)Z
+arg 1 inventory
+arg 2 index
+
+m b hasStack ()Z
+m b canInsert (Lfy;)Z
+arg 1 stack
+
+m c markDirty ()V
+m c setStack (Lfy;)V
+arg 1 stack
+
+m d getMaxItemCount ()I

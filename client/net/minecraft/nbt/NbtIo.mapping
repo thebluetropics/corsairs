@@ -1,0 +1,15 @@
+c as net/minecraft/nbt/NbtIo
+
+m a write (Lnu;Ljava/io/DataOutput;)V
+arg 1 nbt
+arg 2 output
+
+m a writeCompressed (Lnu;Ljava/io/OutputStream;)V
+arg 1 nbt
+arg 2 stream
+
+m a read (Ljava/io/DataInput;)Lnu;
+arg 1 stream
+
+m a readCompressed (Ljava/io/InputStream;)Lnu;
+arg 1 stream

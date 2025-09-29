@@ -1,0 +1,10 @@
+c ia net/minecraft/client/color/GrassColors
+
+f a colorMap [I
+
+m a setColorMap ([I)V
+arg 1 colorMap
+
+m a getColor (DD)I
+arg 1 temperature
+arg 2 humidity

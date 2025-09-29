@@ -1,0 +1,19 @@
+c fv net/minecraft/world/gen/Carver
+
+f a range I
+f b random Ljava/util/Random;
+
+m a carve (Lcl;Lfd;II[B)V
+arg 1 source
+arg 2 world
+arg 3 chunkX
+arg 4 chunkZ
+arg 5 blocks
+
+m a carve (Lfd;IIII[B)V
+arg 1 world
+arg 2 startChunkX
+arg 3 startChunkZ
+arg 4 chunkX
+arg 5 chunkZ
+arg 6 blocks

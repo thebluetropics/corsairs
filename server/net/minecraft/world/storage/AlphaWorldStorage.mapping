@@ -1,0 +1,13 @@
+c dq net/minecraft/world/storage/AlphaWorldStorage
+
+f a LOGGER Ljava/util/logging/Logger;
+f b dir Ljava/io/File;
+f c playerDataDir Ljava/io/File;
+f d dataDir Ljava/io/File;
+f e startTime J
+
+m a getDirectory ()Ljava/io/File;
+m a loadPlayerData (Ljava/lang/String;)Liq;
+arg 1 playerName
+
+m f writeSessionLock ()V

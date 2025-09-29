@@ -1,0 +1,8 @@
+c mj net/minecraft/client/render/entity/SlimeEntityRenderer
+
+f a innerModel Lko;
+
+m <init> (Lko;Lko;F)V
+arg 1 model
+arg 2 innerModel
+arg 3 tickDelta

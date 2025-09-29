@@ -1,0 +1,5 @@
+c gc net/minecraft/client/gui/screen/ChatScreen
+
+f a text Ljava/lang/String;
+f i focusedTicks I
+f j VALID_CHARACTERS Ljava/lang/String;

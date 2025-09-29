@@ -1,0 +1,19 @@
+c is net/minecraft/recipe/ShapedRecipe
+
+f a outputId I
+f b width I
+f c height I
+f d input [Liz;
+f e output Liz;
+
+m <init> (II[Liz;Liz;)V
+arg 1 width
+arg 2 height
+arg 3 input
+arg 4 output
+
+m a matchesPattern (Lmq;IIZ)Z
+arg 1 inv
+arg 2 offsetX
+arg 3 offsetY
+arg 4 flipped

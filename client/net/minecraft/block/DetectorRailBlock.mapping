@@ -1,0 +1,12 @@
+c ph net/minecraft/block/DetectorRailBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId
+
+m f updatePoweredStatus (Lfd;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta

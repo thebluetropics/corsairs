@@ -1,0 +1,9 @@
+c os net/minecraft/client/SingleplayerInteractionManager
+
+f c breakingPosX I
+f d breakingPosY I
+f e breakingPosZ I
+f f blockBreakingProgress F
+f g lastBlockBreakingProgress F
+f h breakingSoundDelayTicks F
+f i breakingDelayTicks I

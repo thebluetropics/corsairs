@@ -1,0 +1,9 @@
+c uh net/minecraft/network/packet/s2c/play/EntityS2CPacket
+
+f a id I
+f b deltaX B
+f c deltaY B
+f d deltaZ B
+f e yaw B
+f f pitch B
+f g rotate Z

@@ -1,0 +1,25 @@
+c fv net/minecraft/item/MapState
+
+f b centerX I
+f c centerZ I
+f d dimension B
+f e scale B
+f f colors [B
+f g inventoryTicks I
+f h updateTrackers Ljava/util/List;
+f i icons Ljava/util/List;
+f j updateTrackersByPlayer Ljava/util/Map;
+
+m a markDirty (III)V
+arg 1 x
+arg 2 startZ
+arg 3 endZ
+
+m a update (Lem;Lfy;)V
+arg 1 player
+arg 2 stack
+
+m a getPlayerMarkerPacket (Lfy;Ldj;Lem;)[B
+arg 1 stack
+arg 2 world
+arg 3 player

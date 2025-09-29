@@ -1,0 +1,5 @@
+c o net/minecraft/screen/PlayerScreenHandler
+
+f a craftingInput Lhz;
+f b craftingResult Lhp;
+f c isLocal Z

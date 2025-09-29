@@ -1,0 +1,143 @@
+c gs net/minecraft/entity/PlayerEntity
+
+f B screenDistortion F
+f C lastScreenDistortion F
+f n playerCapeUrl Ljava/lang/String;
+f x sleepOffsetY F
+f v sleepingPos Lbr;
+f w sleepOffsetX F
+f y sleepOffsetZ F
+f z portalCooldown I
+f A inTeleportationState Z
+f D fishHook Llx;
+f a sleepTimer I
+f b spawnPos Lbr;
+f bN ridingStartPos Lbr;
+f bO damageSpill I
+f c inventory Lix;
+f d playerScreenHandler Ldw;
+f e currentScreenHandler Ldw;
+f f unused B
+f g score I
+f h prevStepBobbingAmount F
+f i stepBbbobbingAmount F
+f j handSwinging Z
+f k handSwingTicks I
+f l name Ljava/lang/String;
+f m dimensionId I
+f o prevCapeX D
+f p prevCapeY D
+f q prevCapeZ D
+f r capeX D
+f s capeY D
+f t capeZ D
+f u sleeping Z
+
+m C getScore ()I
+m M getSleepingRotation ()F
+m P getSleepTimer ()I
+m a openCraftingScreen (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a openDispenserScreen (Laz;)V
+arg 1 dispenser
+
+m a openChestScreen (Llw;)V
+arg 1 inventory
+
+m a openFurnaceScreen (Lsk;)V
+arg 1 furnace
+
+m a increaseStat (Lvr;I)V
+arg 1 stat
+arg 2 amobunt
+
+m a openEditSignScreen (Lyk;)V
+arg 1 sign
+
+m b sendMessage (Ljava/lang/String;)V
+arg 1 message
+
+m b sendPickup (Lsn;I)V
+arg 1 item
+arg 2 count
+
+m p_ respawn ()V
+m r closeHandledScreen ()V
+m v spawn ()V
+m b trySleep (III)Lcw;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b onCursorStackChanged (Liz;)V
+arg 1 stack
+
+m a wakeUp (ZZZ)V
+arg 1 resetSleepTimer
+arg 2 updateSleepingPlayers
+arg 3 setSpawnPos
+
+m F isPvpEnabled ()Z
+m E resetEyeHeight ()V
+m J swingHand ()V
+m D dropSelectedItem ()V
+m G getHand ()Liz;
+m H clearStackInHand ()V
+m O isFullyAsleep ()Z
+m Q getSpawnPos ()Lbr;
+m a setSpawnPos (Lbr;)V
+arg 1 spawnPos
+
+m a findRespawnPosition (Lfd;Lbr;)Lbr;
+arg 1 world
+arg 2 spawnPos
+
+m a spawnItem (Lhl;)V
+arg 1 itemEntity
+
+m a dropItem (Liz;Z)V
+arg 1 stack
+arg 2 throwRandomly
+
+m a commandWolvesToAttack (Lls;Z)V
+arg 1 entity
+arg 2 sitting
+
+m a getBlockBreakingSpeed (Luu;)F
+arg 1 block
+
+m a incrementStat (Lvr;)V
+arg 1 stat
+
+m a dropItem (Liz;)V
+arg 1 stack
+
+m b canHarvest (Luu;)Z
+arg 1 block
+
+m c interact (Lsn;)V
+arg 1 entity
+
+m d attack (Lsn;)V
+arg 1 target
+
+m e calculateSleepOffset (I)V
+arg 1 bedDirection
+
+m i updateMovementStats (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m j increaseRidingMotionStats (DDD)V
+arg 1 deltaX
+arg 2 deltaY
+arg 3 deltaZ
+
+m j collideWithEntity (Lsn;)V
+arg 1 entity
+
+m am isSleepingInBed ()Z

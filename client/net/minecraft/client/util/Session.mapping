@@ -1,0 +1,10 @@
+c gr net/minecraft/client/util/Session
+
+f a CREATIVE_INVENTORY Ljava/util/List;
+f b username Ljava/lang/String;
+f c sessionId Ljava/lang/String;
+f d mpPass Ljava/lang/String;
+
+m <init> (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 username
+arg 2 sessionId

@@ -1,0 +1,50 @@
+c cj net/minecraft/stat/StatsSyncer
+
+f a busy Z
+f b stats Ljava/util/Map;
+f c unsentStats Ljava/util/Map;
+f d statHandler Lxi;
+f e unsentStatsFile Ljava/io/File;
+f f statsFile Ljava/io/File;
+f g tempUnsentStatsFile Ljava/io/File;
+f h tempStatsFile Ljava/io/File;
+f i oldUnsentStatsFile Ljava/io/File;
+f j oldStatsFile Ljava/io/File;
+f k session Lgr;
+f l saveCooldown I
+f m saveUnsentCooldown I
+
+m <init> (Lgr;Lxi;Ljava/io/File;)V
+arg 1 session
+arg 2 stats
+arg 3 dir
+
+m a load ()V
+
+m a loadStats (Ljava/io/File;)Ljava/util/Map;
+arg 1 file
+
+m a loadStats (Ljava/io/File;Ljava/io/File;Ljava/io/File;)Ljava/util/Map;
+arg 1 file
+arg 2 tempFile
+arg 3 oldFile
+
+m a renameFile (Ljava/io/File;Ljava/lang/String;Ljava/io/File;)V
+arg 1 dir
+arg 2 name
+arg 3 to
+
+m a save (Ljava/util/Map;)V
+arg 1 stats
+
+m a save (Ljava/util/Map;Ljava/io/File;Ljava/io/File;Ljava/io/File;)V
+arg 1 stats
+arg 2 file
+arg 3 tempFile
+arg 4 oldFile
+
+m b canSave ()Z
+m b saveUnsent (Ljava/util/Map;)V
+arg 1 stats
+
+m c tick ()V

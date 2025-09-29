@@ -1,0 +1,23 @@
+c mz net/minecraft/block/PistonExtensionBlock
+
+m a createPistonBlockEntity (IIIZZ)Ljh;
+arg 1 blockId
+arg 2 blockMeta
+arg 3 facing
+arg 4 extending
+arg 5 source
+
+m a getPushedBlockCollisionShape (Ldj;IIIIFI)Lcz;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 blockId
+arg 6 sizeMultiplier
+arg 7 facing
+
+m b getPistonBlockEntity (Lpb;III)Lmu;
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z

@@ -1,0 +1,29 @@
+c d net/minecraft/entity/EntityPathNode
+
+f a x I
+f b y I
+f c z I
+f d heapIndex I
+f e penalizedPathLength F
+f f distanceToNearestTarget F
+f g heapWeight F
+f h previous Ld;
+f i visited Z
+f j hashCode I
+
+m <init> (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m equals (Ljava/lang/Object;)Z
+arg 1 object
+
+m a isInHeap ()Z
+m a hash (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a getDistance (Ld;)F
+arg 1 node

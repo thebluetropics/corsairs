@@ -1,0 +1,9 @@
+c uj net/minecraft/block/SignBlock
+
+f a blockEntityClazz Ljava/lang/Class;
+f b standing Z
+
+m <init> (ILjava/lang/Class;Z)V
+arg 1 id
+arg 2 blockEntityClazz
+arg 3 standing

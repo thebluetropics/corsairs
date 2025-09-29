@@ -1,0 +1,49 @@
+c xi net/minecraft/stat/PlayerStats
+
+f a stats Ljava/util/Map;
+f b unsentStats Ljava/util/Map;
+f c dirty Z
+f d syncer Lcj;
+
+m <init> (Lgr;Ljava/io/File;)V
+arg 1 session
+arg 2 parentDir
+
+m a doIncrement ()Ljava/util/Map;
+m a deserialize (Ljava/lang/String;)Ljava/util/Map;
+arg 1 data
+
+m a serialize (Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
+arg 1 playerName
+arg 2 sessionId
+arg 3 stats
+
+m a increment (Ljava/util/Map;)V
+arg 1 amounts
+
+m a doIncrement (Ljava/util/Map;Lvr;I)V
+arg 1 stats
+arg 2 stat
+arg 3 amount
+
+m a hasAchievement (Lny;)Z
+arg 1 achievement
+
+m a get (Lvr;)I
+arg 1 stat
+
+m a increment (Lvr;I)V
+arg 1 stat
+arg 2 amount
+
+m b tick (Ljava/util/Map;)V
+arg 1 stats
+
+m b hasParentAchievement (Lny;)Z
+arg 1 achievement
+
+m c save ()V
+m c tickUnsent (Ljava/util/Map;)V
+arg 1 stats
+
+m d tick ()V

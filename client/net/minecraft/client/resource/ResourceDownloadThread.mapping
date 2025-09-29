@@ -1,0 +1,27 @@
+c cz net/minecraft/client/resource/ResourceDownloadThread
+
+f a resourcesDirectory Ljava/io/File;
+f b minecraft Lnet/minecraft/client/Minecraft;
+f c cancelled Z
+
+m <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+arg 1 runDirectory
+arg 2 minecraft
+
+m a reload ()V
+m a loadFromDirectory (Ljava/io/File;Ljava/lang/String;)V
+arg 1 directory
+arg 2 type
+
+m a downloadFile (Ljava/net/URL;Ljava/io/File;J)V
+arg 1 url
+arg 2 destinationFile
+arg 3 size
+
+m a loadFromUrl (Ljava/net/URL;Ljava/lang/String;JI)V
+arg 1 url
+arg 2 path
+arg 3 size
+arg 4 type
+
+m b cancel ()V

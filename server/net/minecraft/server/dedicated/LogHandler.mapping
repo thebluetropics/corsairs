@@ -1,0 +1,4 @@
+c ci net/minecraft/server/dedicated/LogHandler
+
+f a formatter Ljava/util/logging/Formatter;
+f d textArea Ljavax/swing/JTextArea;

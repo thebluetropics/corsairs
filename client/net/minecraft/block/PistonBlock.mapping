@@ -1,0 +1,59 @@
+c jq net/minecraft/block/PistonBlock
+
+f a sticky Z
+f b deaf Z
+
+m <init> (IIZ)V
+arg 1 id
+arg 2 textureId
+arg 3 sticky
+
+m a canMoveBlock (ILfd;IIIZ)Z
+arg 1 id
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 allowBreaking
+
+m d getFacing (I)I
+arg 1 meta
+
+m c getFacingForPlacement (Lfd;IIILgs;)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 player
+
+m e isExtended (I)Z
+arg 1 meta
+
+m f shouldExtend (Lfd;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 facing
+
+m h checkExtended (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h canExtend (Lfd;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 dir
+
+m i push (Lfd;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 dir
+
+m i getTopTexture ()I

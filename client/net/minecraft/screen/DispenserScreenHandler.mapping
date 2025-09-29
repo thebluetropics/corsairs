@@ -1,0 +1,7 @@
+c sh net/minecraft/screen/DispenserScreenHandler
+
+f a dispenserBlockEntity Laz;
+
+m <init> (Llw;Laz;)V
+arg 1 playerInventory
+arg 2 dispenserBlockEntity

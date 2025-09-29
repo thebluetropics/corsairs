@@ -1,0 +1,51 @@
+c pu net/minecraft/server/network/ServerPlayerInteractionManager
+
+f a player Lem;
+f b world Ldp;
+f c blockBreakProgress F
+f d failedMiningStartTime I
+f e failedMiningX I
+f f failedMiningY I
+f g failedMiningZ I
+f h tickCounter I
+f i mining Z
+f j miningX I
+f k miningY I
+f l miningZ I
+f m startMiningTime I
+
+m a update ()V
+m a continueMining (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a onBlockBreakingAction (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 direction
+
+m a interactItem (Lem;Ldj;Lfy;)Z
+arg 1 player
+arg 2 world
+arg 3 stack
+
+m a interactBlock (Lem;Ldj;Lfy;IIII)Z
+arg 1 player
+arg 2 world
+arg 3 stack
+arg 4 x
+arg 5 y
+arg 6 z
+arg 7 side
+
+m b finishMining (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c tryBreakBlock (III)Z
+arg 1 x
+arg 2 y
+arg 3 z

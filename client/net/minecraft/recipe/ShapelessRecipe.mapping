@@ -1,0 +1,8 @@
+c tt net/minecraft/recipe/ShapelessRecipe
+
+f a output Liz;
+f b input Ljava/util/List;
+
+m <init> (Liz;Ljava/util/List;)V
+arg 1 output
+arg 2 input

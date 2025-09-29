@@ -1,0 +1,9 @@
+c pq net/minecraft/block/entity/SignBlockEntity
+
+f a texts [Ljava/lang/String;
+f b currentRow I
+f c editable Z
+
+m a isEditable ()Z
+m a setEditable (Z)V
+arg 1 editable

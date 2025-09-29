@@ -1,0 +1,9 @@
+c kd net/minecraft/util/LongObjectHashMapEntry
+
+f a key J
+f b value Ljava/lang/Object;
+f c next Lkd;
+f d hash I
+
+m a getKey ()J
+m b getValue ()Ljava/lang/Object;

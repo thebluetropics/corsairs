@@ -1,0 +1,25 @@
+c cy net/minecraft/achievement/AchievementRegistry
+
+f a minColumn I
+f b minRow I
+f c maxColumn I
+f d maxRow I
+f e ACHIEVEMENTS Ljava/util/List;
+f f OPEN_INVENTORY Lit;
+f g MINE_WOOD Lit;
+f h CRAFT_WORKBENCH Lit;
+f i CRAFT_PICKAXE Lit;
+f j CRAFT_FURNACE Lit;
+f k ACQUIRE_IRON Lit;
+f l CRAFT_HOE Lit;
+f m CRAFT_BREAD Lit;
+f n CRAFT_CAKE Lit;
+f o CRAFT_STONE_PICKAXE Lit;
+f p COOK_FISH Lit;
+f q CRAFT_RAIL Lit;
+f r CRAFT_SWORD Lit;
+f s KILL_ENEMY Lit;
+f t KILL_COW Lit;
+f u FLY_PIG Lit;
+
+m a initialize ()V

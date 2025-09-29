@@ -1,0 +1,16 @@
+c qs net/minecraft/network/packet/c2s/play/ClickSlotC2SPacket
+
+f a syncId I
+f b slot I
+f c button I
+f d actionType S
+f e stack Liz;
+f f holdingShift Z
+
+m <init> (IIIZLiz;S)V
+arg 1 syncId
+arg 2 slot
+arg 3 button
+arg 4 holdingShift
+arg 5 stack
+arg 6 actionType

@@ -1,0 +1,54 @@
+c fn net/minecraft/world/gen/feature/LargeOakTreeFeature
+
+f a MINOR_AXES [B
+f b random Ljava/util/Random;
+f c world Ldj;
+f d origin [I
+f e height I
+f f trunkHeight I
+f g trunkScale D
+f h branchDensity D
+f i branchSlope D
+f j branchLengthScale D
+f k foliageDensity D
+f l trunkWidth I
+f m maxTrunkHeight I
+f n foliageClusterHeight I
+f o branches [[I
+
+m e canPlace ()Z
+m a makeBranches ()V
+m a getTreeShape (I)F
+arg 1 height
+
+m a placeFoliageCluster (III)V
+arg 1 x
+arg 2 baseY
+arg 3 z
+
+m a placeCluster (IIIFBI)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 shape
+arg 5 majorAxis
+arg 6 clusterBlock
+
+m a tryBranch ([I[I)I
+arg 1 from
+arg 2 to
+
+m a placeBranch ([I[II)V
+arg 1 from
+arg 2 to
+arg 3 log
+
+m b placeFoliage ()V
+m b getClusterShape (I)F
+arg 1 layer
+
+m c PlaceTrunk ()V
+m c shouldPlaceBranch (I)Z
+arg 1 height
+
+m d placeBranches ()V

@@ -1,0 +1,65 @@
+c dk net/minecraft/client/render/chunk/ChunkBuilder
+
+f A hasSkyLight Z
+f B blockEntities Ljava/util/List;
+f C baseRenderList I
+f D tessellator Lnw;
+f E built Z
+f F currentBlockEntities Ljava/util/List;
+f a world Lfd;
+f b chunkUpdates I
+f c x I
+f d y I
+f e z I
+f f sizeX I
+f g sizeY I
+f h sizeZ I
+f i cameraOffsetX I
+f j cameraOffsetY I
+f k cameraOffsetZ I
+f l renderX I
+f m renderY I
+f n renderZ I
+f o inFrustum Z
+f p renderLayerEmpty [Z
+f q centerX I
+f r centerY I
+f s centerZ I
+f t radius F
+f u dirty Z
+f v cullingBox Leq;
+f w id I
+f x unoccluded Z
+f y occlusionQueryReady Z
+f z occlusionQueryId I
+
+m <init> (Lfd;Ljava/util/List;IIIII)V
+arg 1 world
+arg 2 blockEntitiesUpdateList
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 size
+arg 7 baseRenderListId
+
+m a rebuild ()V
+m a getRenderListId (I)I
+arg 1 layerId
+
+m a setPosition (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a squaredDistanceTo (Lsn;)F
+arg 1 entity
+
+m a updateFrustum (Lyn;)V
+arg 1 culler
+
+m b reset ()V
+m c close ()V
+m d renderOcclusionBox ()V
+m e hasNoGeometry ()Z
+m f invalidate ()V
+m g translateToRenderPosition ()V

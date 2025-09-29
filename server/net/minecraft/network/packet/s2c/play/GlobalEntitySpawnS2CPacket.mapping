@@ -1,0 +1,7 @@
+c df net/minecraft/network/packet/s2c/play/GlobalEntitySpawnS2CPacket
+
+f a id I
+f b x I
+f c y I
+f d z I
+f e type I

@@ -1,0 +1,41 @@
+c rp net/minecraft/block/LiquidBlock
+
+m c getLiquidDepth (Lxp;III)I
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+
+m d getFluidHeightFromMeta (I)F
+arg 1 meta
+
+m e getFlow (Lxp;III)Lbt;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h getLiquidState (Lfd;III)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m i fizz (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m j checkBlockCollisions (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a getFlowingAngle (Lxp;IIILln;)D
+arg 1 view
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 material

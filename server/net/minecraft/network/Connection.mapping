@@ -1,0 +1,48 @@
+c jl net/minecraft/network/Connection
+
+f a LOCK Ljava/lang/Object;
+f b READ_THREAD_COUNTER I
+f c WRITE_THREAD_COUNTER I
+f d TOTAL_READ_SIZE [I
+f e TOTAL_SEND_SIZE [I
+f f lag I
+f g lock Ljava/lang/Object;
+f h socket Ljava/net/Socket;
+f i address Ljava/net/SocketAddress;
+f j inputStream Ljava/io/DataInputStream;
+f k outputStream Ljava/io/DataOutputStream;
+f l open Z
+f m readQueue Ljava/util/List;
+f n sendQueue Ljava/util/List;
+f o delayedSendQueue Ljava/util/List;
+f p networkHandler Lme;
+f q closed Z
+f r writer Ljava/lang/Thread;
+f s reader Ljava/lang/Thread;
+f t disconnected Z
+f u disconnectReason Ljava/lang/String;
+f v disconnectReasonArgs [Ljava/lang/Object;
+f w timeout I
+f x sendQueueSize I
+f y delay I
+
+m a interrupt ()V
+m a sendPacket (Lgt;)V
+arg 1 packet
+
+m a disconnect (Ljava/lang/Exception;)V
+arg 1 exception
+
+m a disconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+arg 1 reason
+arg 2 args
+
+m a setNetworkHandler (Lme;)V
+arg 1 networkHandler
+
+m b tick ()V
+m c getAddress ()Ljava/net/SocketAddress;
+m d disconnect ()V
+m e getDelayedSendQueueSize ()I
+m f write ()Z
+m g read ()Z

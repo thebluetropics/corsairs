@@ -1,0 +1,4 @@
+c bh net/minecraft/screen/GenericContainerScreenHandler
+
+f a inventory Lhp;
+f b rows I

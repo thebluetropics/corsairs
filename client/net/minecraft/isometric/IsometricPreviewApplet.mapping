@@ -1,0 +1,3 @@
+c net/minecraft/isom/IsomPreviewApplet net/minecraft/isometric/IsometricPreviewApplet
+
+f a canvas Lbd;

@@ -1,0 +1,58 @@
+c pm net/minecraft/world/event/GameEventListener
+
+m e notifyAmbientDarknessChanged ()V
+m a blockUpdate (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b setBlocksDirty (IIIIII)V
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m a updateBlockEntity (IIILow;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockEntity
+
+m a worldEvent (Lgs;IIIII)V
+arg 1 player
+arg 2 event
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 data
+
+m a addParticle (Ljava/lang/String;DDDDDD)V
+arg 1 particle
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+
+m a playSound (Ljava/lang/String;DDDFF)V
+arg 1 sound
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 volume
+arg 6  pitch
+
+m a playStreaming (Ljava/lang/String;III)V
+arg 1 stream
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a notifyEntityAdded (Lsn;)V
+arg 1 entity
+
+m b notifyEntityRemoved (Lsn;)V
+arg 1 entity

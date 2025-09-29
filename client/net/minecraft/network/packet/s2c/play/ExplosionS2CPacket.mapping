@@ -1,0 +1,7 @@
+c rm net/minecraft/network/packet/s2c/play/ExplosionS2CPacket
+
+f a x D
+f b y D
+f c z D
+f d radius F
+f e affectedBlocks Ljava/util/Set;

@@ -1,0 +1,6 @@
+c kt net/minecraft/world/gen/feature/DeadBushPatchFeature
+
+f a deadBushBlockId I
+
+m <init> (I)V
+arg 1 deadBushBlockId

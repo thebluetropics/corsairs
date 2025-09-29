@@ -1,0 +1,15 @@
+c hl net/minecraft/entity/ItemEntity
+
+f a stack Liz;
+f b itemAge I
+f c pickupDelay I
+f d initialRotationAngle F
+f e itemTicks I
+f f health I
+
+m <init> (Lfd;DDDLiz;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 stack

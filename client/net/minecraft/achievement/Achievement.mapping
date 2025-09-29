@@ -1,0 +1,40 @@
+c ny net/minecraft/achievement/Achievement
+
+f a column I
+f b row I
+f c parent Lny;
+f l translationKey Ljava/lang/String;
+f m translationHelper Lgt;
+f d icon Liz;
+f n isChallenge Z
+
+m <init> (ILjava/lang/String;IILgm;Lny;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 displayItem
+arg 6 parent
+
+m <init> (ILjava/lang/String;IILuu;Lny;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 displayBlock
+arg 6 parent
+
+m <init> (ILjava/lang/String;IILiz;Lny;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 icon
+arg 6 parent
+
+m b challenge ()Lny;
+m e getTranslatedDescription ()Ljava/lang/String;
+m a setTranslationHelper (Lgt;)Lny;
+arg 1 translationHelper
+
+m f isChallenge ()Z

@@ -1,0 +1,9 @@
+c nr net/minecraft/block/TransparentBlock
+
+f b renderSides Z
+
+m <init> (IILln;Z)V
+arg 1 id
+arg 2 textureId
+arg 3 material
+arg 4 renderSides

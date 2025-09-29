@@ -1,0 +1,38 @@
+c lo net/minecraft/block/RedstoneWireBlock
+
+f a powered Z
+f b neighborsToUpdate Ljava/util/Set;
+
+m a doUpdatePower (Ldj;IIIIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 sourceX
+arg 6 sourceY
+arg 7 sourceZ
+
+m c shouldConnectTo (Lpb;IIII)Z
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+
+m f getHighestPowerWire (Ldj;IIII)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 power
+
+m g updatePower (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h updateNeighborsOfWire (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

@@ -1,0 +1,3 @@
+c rv net/minecraft/network/packet/s2c/play/EntityDestroyS2CPacket
+
+f a id I

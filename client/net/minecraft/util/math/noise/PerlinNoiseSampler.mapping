@@ -1,0 +1,41 @@
+c am net/minecraft/util/math/noise/PerlinNoiseSampler
+
+f d perm [I
+f a offsetX D
+f b offsetY D
+f c offsetZ D
+
+m <init> (Ljava/util/Random;)V
+arg 1 random
+
+m a sample (DDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a gradCoord (IDD)D
+arg 1 x
+arg 2 y
+
+m a gradCoord (IDDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a create ([DDDDIIIDDDD)V
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 width
+arg 6 height
+arg 7 depth
+
+m b lerp (DDD)D
+arg 1 x
+arg 2 y
+arg 3 t
+
+m a sample (DD)D
+arg 1 x
+arg 2 y

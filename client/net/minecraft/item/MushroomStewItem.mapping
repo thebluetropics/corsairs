@@ -1,0 +1,5 @@
+c bz net/minecraft/item/MushroomStewItem
+
+m <init> (II)V
+arg 1 id
+arg 2 healthRestored

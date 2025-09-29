@@ -1,0 +1,5 @@
+c ae net/minecraft/client/particle/NoteParticle
+
+f a startScale F
+
+m <init> (Lfd;DDDDDDF)V

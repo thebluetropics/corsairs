@@ -1,0 +1,3 @@
+c ji net/minecraft/network/packet/play/PlayerRespawnPacket
+
+f a dimensionRawId B

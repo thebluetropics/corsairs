@@ -1,0 +1,8 @@
+c pi net/minecraft/entity/PigZombieEntity
+
+f a anger I
+f b angrySoundDelay I
+f f heldItem Lfy;
+
+m d makeAngry (Llq;)V
+arg 1 target

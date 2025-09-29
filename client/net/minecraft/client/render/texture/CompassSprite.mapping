@@ -1,0 +1,9 @@
+c av net/minecraft/client/render/texture/CompassSprite
+
+f g minecraft Lnet/minecraft/client/Minecraft;
+f h compass [I
+f i angle D
+f j angleDelta D
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft

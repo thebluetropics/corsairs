@@ -1,0 +1,34 @@
+c it net/minecraft/achievement/Achievement
+
+f a column I
+f b row I
+f c parent Lit;
+f d icon Lfy;
+f l translationKey Ljava/lang/String;
+f m isChallenge Z
+
+m <init> (ILjava/lang/String;IILej;Lit;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 displayItem
+arg 6 parent
+
+m <init> (ILjava/lang/String;IILna;Lit;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 displayBlock
+arg 6 parent
+
+m <init> (ILjava/lang/String;IILfy;Lit;)V
+arg 1 id
+arg 2 key
+arg 3 column
+arg 4 row
+arg 5 icon
+arg 6 parent
+
+m b challenge ()Lit;

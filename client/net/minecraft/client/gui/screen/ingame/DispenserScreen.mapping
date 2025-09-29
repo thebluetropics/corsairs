@@ -1,0 +1,5 @@
+c gq net/minecraft/client/gui/screen/ingame/DispenserScreen
+
+m <init> (Lix;Laz;)V
+arg 1 inventory
+arg 2 blockEntity

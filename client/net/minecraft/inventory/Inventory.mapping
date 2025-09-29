@@ -1,0 +1,19 @@
+c lw net/minecraft/inventory/Inventory
+
+m y_ markDirty ()V
+m a size ()I
+m a removeStack (II)Liz;
+arg 1 slot
+arg 2 amount
+
+m a setStack (ILiz;)V
+arg 1 slot
+arg 2 stack
+
+m a_ canPlayerUse (Lgs;)Z
+arg 1 player
+
+m c getName ()Ljava/lang/String;
+m d getMaxCountPerStack ()I
+m f_ getStack (I)Liz;
+arg 1 slot

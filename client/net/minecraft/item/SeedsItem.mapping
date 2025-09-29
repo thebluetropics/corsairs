@@ -1,0 +1,7 @@
+c rk net/minecraft/item/SeedsItem
+
+f a cropBlockId I
+
+m <init> (II)V
+arg 1 id
+arg 2 cropBlockId

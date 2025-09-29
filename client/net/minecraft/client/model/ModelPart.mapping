@@ -1,0 +1,55 @@
+c ps net/minecraft/client/model/ModelPart
+
+f j corners [Lib;
+f k faces [Ltz;
+f l u I
+f m v I
+f a pivotX F
+f b pivotY F
+f c pivotZ F
+f d pitch F
+f e yaw F
+f f roll F
+f n compiled Z
+f o list I
+f g mirror Z
+f h visible Z
+f i hidden Z
+
+m <init> (II)V
+arg 1 u
+arg 2 v
+
+m a addCuboid (FFFIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 sizeX
+arg 5 sizeY
+arg 6 sizeZ
+
+m a addCuboid (FFFIIIF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 sizeX
+arg 5 sizeY
+arg 6 sizeZ
+arg 7 dilation
+
+m a setPivot (FFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a render (F)V
+arg 1 scale
+
+m b renderForceTransform (F)V
+arg 1 scale
+
+m c transform (F)V
+arg 1 scale
+
+m d compileList (F)V
+arg 1 scale

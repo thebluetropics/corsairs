@@ -1,0 +1,7 @@
+c lv net/minecraft/item/SecondaryBlockItem
+
+f a blockId I
+
+m <init> (ILuu;)V
+arg 1 id
+arg 2 block

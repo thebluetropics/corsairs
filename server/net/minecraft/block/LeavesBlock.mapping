@@ -1,0 +1,10 @@
+c ar net/minecraft/block/LeavesBlock
+
+f a decayRegion [I
+f c spriteIndex I
+
+m g breakLeaves (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

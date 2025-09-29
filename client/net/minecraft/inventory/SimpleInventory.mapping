@@ -1,0 +1,10 @@
+c qo net/minecraft/inventory/SimpleInventory
+
+f a name Ljava/lang/String;
+f b size I
+f c stacks [Liz;
+f d listeners Ljava/util/List;
+
+m <init> (Ljava/lang/String;I)V
+arg 1 name
+arg 2 size

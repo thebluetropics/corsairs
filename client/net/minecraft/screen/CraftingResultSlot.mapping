@@ -1,0 +1,12 @@
+c yv net/minecraft/screen/CraftingResultSlot
+
+f d input Llw;
+f e player Lgs;
+
+m <init> (Lgs;Llw;Llw;III)V
+arg 1 player
+arg 2 input
+arg 3 inventory
+arg 4 index
+arg 5 x
+arg 6 y

@@ -1,0 +1,7 @@
+c px net/minecraft/item/FoodItem
+
+f a healthRestored I
+f bk meat Z
+
+m k getHealthRestored ()I
+m l isMeat ()Z

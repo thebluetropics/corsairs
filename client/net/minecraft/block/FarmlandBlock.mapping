@@ -1,0 +1,16 @@
+c vl net/minecraft/block/FarmlandBlock
+
+m <init> (I)V
+arg 1 id
+
+m h hasCrop (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m i isWaterNearby (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

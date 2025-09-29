@@ -1,0 +1,8 @@
+c pb net/minecraft/client/particle/ItemParticle
+
+m <init> (Lfd;DDDLgm;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 item

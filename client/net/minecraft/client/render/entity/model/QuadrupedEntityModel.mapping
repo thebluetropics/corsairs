@@ -1,0 +1,12 @@
+c nn net/minecraft/client/render/entity/model/QuadrupedEntityModel
+
+f d head Lps;
+f e body Lps;
+f f rightHindLeg Lps;
+f g leftHindLeg Lps;
+f h rightFrontLeg Lps;
+f i leftFrontLeg Lps;
+
+m <init> (IF)V
+arg 1 stanceWidth
+arg 2 dilation

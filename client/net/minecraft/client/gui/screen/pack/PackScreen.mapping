@@ -1,0 +1,9 @@
+c ft net/minecraft/client/gui/screen/pack/PackScreen
+
+f a parent Lda;
+f i cooldown I
+f j texturePacksDir Ljava/lang/String;
+f l texturePacks Lde;
+
+m <init> (Lda;)V
+arg 1 parent

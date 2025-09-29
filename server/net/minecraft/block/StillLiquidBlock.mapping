@@ -1,0 +1,13 @@
+c is net/minecraft/block/StillLiquidBlock
+
+m i convertToFlowing (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m j isFlammable (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

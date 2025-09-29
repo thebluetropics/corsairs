@@ -1,0 +1,20 @@
+c lk net/minecraft/entity/SpawnGroup
+
+f a MONSTER Llk;
+f b CREATURE Llk;
+f c WATER_CREATURE Llk;
+f d creatureClass Ljava/lang/Class;
+f e capacity I
+f f spawnMaterial Lln;
+f g peaceful Z
+
+m <init> (Ljava/lang/String;ILjava/lang/Class;ILln;Z)V
+arg 1 creatureClass
+arg 2 spawnCap
+arg 3 spawnMaterial
+arg 4 peaceful
+
+m a getCreatureClass ()Ljava/lang/Class;
+m b getCapacity ()I
+m c getSpawnMaterial ()Lln;
+m d isPeaceful ()Z

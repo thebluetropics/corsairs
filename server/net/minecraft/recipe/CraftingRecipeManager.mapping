@@ -1,0 +1,17 @@
+c ey net/minecraft/recipe/CraftingRecipeManager
+
+f a INSTANCE Ley;
+f b recipes Ljava/util/List;
+
+m a getInstance ()Ley;
+m a addShapedRecipe (Lfy;[Ljava/lang/Object;)V
+arg 1 output
+arg 2 input
+
+m a craft (Lhz;)Lfy;
+arg 1 craftingInventory
+
+m b getRecipes ()Ljava/util/List;
+m b addShapelessRecipe (Lfy;[Ljava/lang/Object;)V
+arg 1 output
+arg 2 input

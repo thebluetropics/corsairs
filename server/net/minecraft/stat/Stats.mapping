@@ -1,0 +1,67 @@
+c gg net/minecraft/stat/Stats
+
+f A PLAYER_KILLS Lns;
+f B FISH_CAUGHT Lns;
+f C MINE_BLOCK [Lns;
+f D CRAFTED [Lns;
+f E USED [Lns;
+f F BROKEN [Lns;
+f G hasBasicItemStatsInitialized Z
+f H hasExtendedItemStatsInitialized Z
+f a ID_TO_STAT Ljava/util/Map;
+f b ALL_STATS Ljava/util/List;
+f c GENERAL_STATS Ljava/util/List;
+f d ITEM_STATS Ljava/util/List;
+f e BLOCK_MINED_STATS Ljava/util/List;
+f f START_GAME Lns;
+f g CREATE_WORLD Lns;
+f h LOAD_WORLD Lns;
+f i JOIN_MULTIPLAYER Lns;
+f j LEAVE_GAME Lns;
+f k PLAY_ONE_MINUTE Lns;
+f l WALK_ONE_CM Lns;
+f m SWIM_ONE_CM Lns;
+f n FALL_ONE_CM Lns;
+f o CLIMB_ONE_CM Lns;
+f p FLY_ONE_CM Lns;
+f q DIVE_ONE_CM Lns;
+f r MINECART_ONE_CM Lns;
+f s BOAT_ONE_CM Lns;
+f t PIG_ONE_CM Lns;
+f u JUMP Lns;
+f v DROP Lns;
+f w DAMAGE_DEALT Lns;
+f x DAMAGE_TAKEN Lns;
+f y DEATHS Lns;
+f z MOB_KILLS Lns;
+
+m a initialize ()V
+m a initBlocksMined (Ljava/lang/String;I)[Lns;
+arg 1 name
+arg 2 id
+
+m a linkAlternateBlockStats ([Lns;)V
+arg 1 statsArray
+
+m a linkBlocks ([Lns;II)V
+arg 1 statsArray
+arg 2 sourceId
+arg 3 targetId
+
+m a initItemsUsedStats ([Lns;Ljava/lang/String;III)[Lns;
+arg 1 stats
+arg 2 name
+arg 3 id
+arg 4 minId
+arg 5 maxId
+
+m b initializeItemStats ()V
+m b initializeBrokenItemStats ([Lns;Ljava/lang/String;III)[Lns;
+arg 1 statsArray
+arg 2 translationKey
+arg 3 offset
+arg 4 start
+arg 5 end
+
+m c initializeExtendedItemStats ()V
+m d initializeCraftedItemStats ()V

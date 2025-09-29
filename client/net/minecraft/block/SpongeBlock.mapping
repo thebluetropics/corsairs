@@ -1,0 +1,4 @@
+c xf net/minecraft/block/SpongeBlock
+
+m <init> (I)V
+arg 1 id

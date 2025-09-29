@@ -1,0 +1,8 @@
+c jo net/minecraft/client/render/world/DistanceChunkSorter
+
+f a cameraX D
+f b cameraY D
+f c cameraZ D
+
+m <init> (Lsn;)V
+arg 1 camera

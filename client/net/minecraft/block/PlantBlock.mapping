@@ -1,0 +1,14 @@
+c wb net/minecraft/block/PlantBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId
+
+m d canPlantOnTop (I)Z
+arg 1 id
+
+m h breakIfCannotGrow (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

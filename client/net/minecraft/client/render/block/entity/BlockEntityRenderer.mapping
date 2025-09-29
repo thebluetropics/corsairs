@@ -1,0 +1,20 @@
+c je net/minecraft/client/render/block/entity/BlockEntityRenderer
+
+f a dispatcher Lll;
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a getTextRenderer ()Lsj;
+m a bindTexture (Ljava/lang/String;)V
+arg 1 path
+
+m a setDispatcher (Lll;)V
+arg 1 dispatcher
+
+m a render (Low;DDDF)V
+arg 1 blockEntity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 tickDelta

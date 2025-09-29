@@ -1,0 +1,13 @@
+c em net/minecraft/client/particle/PickupParticle
+
+f a entity Lsn;
+f o collector Lsn;
+f p pickupAge I
+f q lifetime I
+f r offsetY F
+
+m <init> (Lfd;Lsn;Lsn;F)V
+arg 1 world
+arg 2 entity
+arg 3 collector
+arg 4 offsetY

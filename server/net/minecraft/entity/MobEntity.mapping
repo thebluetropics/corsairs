@@ -1,0 +1,29 @@
+c fp net/minecraft/entity/MobEntity
+
+f a path Lcb;
+f d target Llq;
+f e movementBlocked Z
+
+m B pathingUpdate ()V
+m C hasPath ()Z
+m F getTarget ()Llq;
+m a setPath (Lcb;)V
+arg 1 path
+
+m c setTarget (Llq;)V
+arg 1 target
+
+m a attack (Llq;F)V
+arg 1 other
+arg 2 distance
+
+m o getTargetInRange ()Llq;
+m b resetAttack (Llq;F)V
+arg 1 other
+arg 2 distance
+
+m w isMovementBlocked ()Z
+m a getPathfindingFavor (III)F
+arg 1 x
+arg 2 y
+arg 3 z

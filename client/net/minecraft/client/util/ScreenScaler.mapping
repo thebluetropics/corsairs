@@ -1,0 +1,15 @@
+c qq net/minecraft/client/util/ScreenScaler
+
+f a rawScaledWidth D
+f b rawScaledHeight D
+f c scaleFactor I
+f d scaledWidth I
+f e scaledHeight I
+
+m <init> (Lkv;II)V
+arg 1 options
+arg 2 framebufferWidth
+arg 3 framebufferHeight
+
+m a getScaledWidth ()I
+m b getScaledHeight ()I

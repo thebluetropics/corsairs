@@ -1,0 +1,5 @@
+c hh net/minecraft/client/render/entity/model/CowEntityModel
+
+f a udder Lps;
+f b rightHorn Lps;
+f c leftHorn Lps;

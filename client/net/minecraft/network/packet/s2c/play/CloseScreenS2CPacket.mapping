@@ -1,0 +1,6 @@
+c mn net/minecraft/network/packet/s2c/play/CloseScreenS2CPacket
+
+f a syncId I
+
+m <init> (I)V
+arg 1 syncId

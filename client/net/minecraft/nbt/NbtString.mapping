@@ -1,0 +1,6 @@
+c xb net/minecraft/nbt/NbtString
+
+f a value Ljava/lang/String;
+
+m <init> (Ljava/lang/String;)V
+arg 1 value

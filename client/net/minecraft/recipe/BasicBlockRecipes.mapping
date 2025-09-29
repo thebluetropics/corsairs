@@ -1,0 +1,4 @@
+c jy net/minecraft/recipe/BasicBlockRecipes
+
+m a add (Lhk;)V
+arg 1 recipeManager

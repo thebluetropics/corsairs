@@ -1,0 +1,4 @@
+c ks net/minecraft/block/LockedChestBlock
+
+m <init> (I)V
+arg 1 id

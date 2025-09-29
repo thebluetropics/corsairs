@@ -1,0 +1,10 @@
+c og net/minecraft/inventory/DoubleInventory
+
+f a name Ljava/lang/String;
+f b first Llw;
+f c second Llw;
+
+m <init> (Ljava/lang/String;Llw;Llw;)V
+arg 1 name
+arg 2 first
+arg 3 second

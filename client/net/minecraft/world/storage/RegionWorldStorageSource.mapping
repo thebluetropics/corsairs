@@ -1,0 +1,19 @@
+c hi net/minecraft/world/storage/RegionWorldStorageSource
+
+m a writeDimensionData (Ljava/io/File;Ljava/util/ArrayList;IILyb;)V
+arg 1 dir
+arg 2 datafiles
+arg 3 index
+arg 4 total
+arg 5 display
+
+m a collectData (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+arg 1 dir
+arg 2 dimensions
+arg 3 data
+
+m a deleteData (Ljava/util/ArrayList;IILyb;)V
+arg 1 files
+arg 2 index
+arg 3 total
+arg 4 display

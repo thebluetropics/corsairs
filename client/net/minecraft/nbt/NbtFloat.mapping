@@ -1,0 +1,6 @@
+c p net/minecraft/nbt/NbtFloat
+
+f a value F
+
+m <init> (F)V
+arg 1 value

@@ -1,0 +1,33 @@
+c eh net/minecraft/entity/WolfEntity
+
+f a begging Z
+f b begAnimationProgress F
+f c lastBegAnimationProcess F
+f f furWet Z
+f g shakingWaterOff Z
+f h shakeProgress F
+f i lastShakeProgress F
+
+m A isTamed ()Z
+m a setOwnerName (Ljava/lang/String;)V
+arg 1 owner
+
+m a showFeedParticles (Z)V
+arg 1 hearts
+
+m b setSitting (Z)V
+arg 1 inSittingPose
+
+m c damage (Llq;F)V
+arg 1 source
+arg 2 amount
+
+m c setAngry (Z)V
+arg 1 angry
+
+m d setTamed (Z)V
+arg 1 tamed
+
+m x getOwnerName ()Ljava/lang/String;
+m y isInSittingPose ()Z
+m z isAngry ()Z

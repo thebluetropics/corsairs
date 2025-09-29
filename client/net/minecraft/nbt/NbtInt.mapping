@@ -1,0 +1,6 @@
+c pp net/minecraft/nbt/NbtInt
+
+f a value I
+
+m <init> (I)V
+arg 1 value

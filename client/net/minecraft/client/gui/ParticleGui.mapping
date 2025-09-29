@@ -1,0 +1,11 @@
+c du net/minecraft/client/gui/ParticlesGui
+
+f a particles Ljava/util/List;
+f b minecraft Lnet/minecraft/client/Minecraft;
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m a tick ()V
+m a render (F)V
+arg 1 tickDelta

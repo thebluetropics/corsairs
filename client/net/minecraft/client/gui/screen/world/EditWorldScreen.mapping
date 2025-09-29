@@ -1,0 +1,9 @@
+c jk net/minecraft/client/gui/screen/world/EditWorldScreen
+
+f a parent Lda;
+f i levelNameTextField Lro;
+f j worldName Ljava/lang/String;
+
+m <init> (Lda;Ljava/lang/String;)V
+arg 1 parent
+arg 2 worldName

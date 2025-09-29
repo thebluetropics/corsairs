@@ -1,0 +1,15 @@
+c aw net/minecraft/client/render/texture/DynamicTexture
+
+f a pixels [B
+f b sprite I
+f c anaglyph Z
+f d copyTo I
+f e replicate I
+f f atlas I
+
+m <init> (I)V
+arg 1 sprite
+
+m a tick ()V
+m a bind (Lji;)V
+arg 1 textureManager

@@ -1,0 +1,17 @@
+c mg net/minecraft/world/chunk/storage/AlphaChunkStorage
+
+f a dir Ljava/io/File;
+f b make Z
+
+m a getChunkFile (II)Ljava/io/File;
+arg 1 chunkX
+arg 2 chunkZ
+
+m a loadChunkFromNbt (Ldj;Liq;)Lhi;
+arg 1 world
+arg 2 nbt
+
+m a saveChunkToNbt (Lhi;Ldj;Liq;)V
+arg 1 chunk
+arg 2 world
+arg 3 nbt

@@ -1,0 +1,40 @@
+c iq net/minecraft/entity/PaintingVariants
+
+f A id Ljava/lang/String;
+f B width I
+f C height I
+f D textureOffsetX I
+f E textureOffsetY I
+f a KEBAB Liq;
+f b AZTEC Liq;
+f c ALBAN Liq;
+f d AZTEC2 Liq;
+f e BOMB Liq;
+f f PLANT Liq;
+f g WASTELAND Liq;
+f h POOL Liq;
+f i COURBET Liq;
+f j SEA Liq;
+f k SUNSET Liq;
+f l CREEBET Liq;
+f m WANDERER Liq;
+f n GRAHAM Liq;
+f o MATCH Liq;
+f p BUST Liq;
+f q STAGE Liq;
+f r VOID Liq;
+f s SKULL_AND_ROSES Liq;
+f t FIGHTERS Liq;
+f u POINTER Liq;
+f v PIGSCENE Liq;
+f w BURNING_SKULL Liq;
+f x SKELETON Liq;
+f y DONKEY_KONG Liq;
+f z LONGEST_NAME_LENGTH I
+
+m <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+arg 1 id
+arg 2 width
+arg 3 height
+arg 4 textureOffsetX
+arg 5 textureOffsetY

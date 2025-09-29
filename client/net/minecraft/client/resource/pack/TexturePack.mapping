@@ -1,0 +1,20 @@
+c i net/minecraft/client/resource/pack/TexturePack
+
+f a name Ljava/lang/String;
+f b descriptionLine1 Ljava/lang/String;
+f c descriptionLine2 Ljava/lang/String;
+f d key Ljava/lang/String;
+
+m a open ()V
+m a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+arg 1 path
+
+m a load (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m b close ()V
+m b unload (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m c bindIcon (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft

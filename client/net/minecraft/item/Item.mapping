@@ -1,0 +1,222 @@
+c gm net/minecraft/item/Item
+
+f b random Ljava/util/Random;
+f c ITEMS [Lgm;
+f d IRON_SHOVEL Lgm;
+f e IRON_PICKAXE Lgm;
+f f IRON_AXE Lgm;
+f g FLINT_AND_STEEL Lgm;
+f h APPLE Lgm;
+f i BOW Lgm;
+f j ARROW Lgm;
+f k COAL Lgm;
+f l DIAMOND Lgm;
+f m IRON_INGOT Lgm;
+f n GOLD_INGOT Lgm;
+f o IRON_SWORD Lgm;
+f p WOODEN_SWORD Lgm;
+f q WOODEN_SHOVEL Lgm;
+f r WOODEN_PICKAXE Lgm;
+f s WOODEN_AXE Lgm;
+f t STONE_SWORD Lgm;
+f u STONE_SHOVEL Lgm;
+f v STONE_PICKAXE Lgm;
+f w STONE_AXE Lgm;
+f x DIAMOND_SWORD Lgm;
+f y DIAMOND_SHOVEL Lgm;
+f z Diamond_Pickaxe Lgm;
+f A Diamond_Axe Lgm;
+f B STICK Lgm;
+f C BOWL Lgm;
+f D MUSHROOM_STEW Lgm;
+f E GOLDEN_SWORD Lgm;
+f F GOLDEN_SHOVEL Lgm;
+f G GOLDEN_PICKAXE Lgm;
+f H GOLDEN_AXE Lgm;
+f I STRING Lgm;
+f J FEATHER Lgm;
+f K GUNPOWDER Lgm;
+f L WOODEN_HOE Lgm;
+f M STONE_HOE Lgm;
+f N IRON_HOE Lgm;
+f O DIAMOND_HOE Lgm;
+f P GOLDEN_HOE Lgm;
+f Q SEEDS Lgm;
+f R WHEAT Lgm;
+f S BREAD Lgm;
+f T LEATHER_HELMET Lgm;
+f U LEATHER_CHESTPLATE Lgm;
+f V LEATHER_LEGGINGS Lgm;
+f W LEATHER_BOOTS Lgm;
+f X CHAIN_HELMET Lgm;
+f Y CHAIN_CHESTPLATE Lgm;
+f Z CHAIN_LEGGINGS Lgm;
+f aa CHAIN_BOOTS Lgm;
+f ab IRON_HELMET Lgm;
+f ac IRON_CHESTPLATE Lgm;
+f ad IRON_LEGGINGS Lgm;
+f ae IRON_BOOTS Lgm;
+f af DIAMOND_HELMET Lgm;
+f ag DIAMOND_CHESTPLATE Lgm;
+f ah DIAMOND_LEGGINGS Lgm;
+f ai DIAMOND_BOOTS Lgm;
+f aj GOLDEN_HELMET Lgm;
+f ak GOLDEN_CHESTPLATE Lgm;
+f al GOLDEN_LEGGINGS Lgm;
+f am GOLDEN_BOOTS Lgm;
+f an FLINT Lgm;
+f ao RAW_PORKCHOP Lgm;
+f ap COOKED_PORKCHOP Lgm;
+f aq PAINTING Lgm;
+f ar GOLDEN_APPLE Lgm;
+f as SIGN Lgm;
+f at WOODEN_DOOR Lgm;
+f au BUCKET Lgm;
+f av WATER_BUCKET Lgm;
+f aw LAVA_BUCKET Lgm;
+f ax MINECART Lgm;
+f ay SADDLE Lgm;
+f az IRON_DOOR Lgm;
+f aA REDSTONE Lgm;
+f aB SNOWBALL Lgm;
+f aC BOAT Lgm;
+f aD LEATHER Lgm;
+f aE MILK_BUCKET Lgm;
+f aF BRICK Lgm;
+f aG CLAY Lgm;
+f aH SUGAR_CANE Lgm;
+f aI PAPER Lgm;
+f aJ BOOK Lgm;
+f aK SLIMEBALL Lgm;
+f aL CHEST_MINECART Lgm;
+f aM FURNACE_MINECART Lgm;
+f aN EGG Lgm;
+f aO COMPASS Lgm;
+f aP FISHING_ROD Lgm;
+f aQ CLOCK Lgm;
+f aR GLOWSTONE_DUST Lgm;
+f aS RAW_FISH Lgm;
+f aT COOKED_FISH Lgm;
+f aU DYE Lgm;
+f aV BONE Lgm;
+f aW SUGAR Lgm;
+f aX CAKE Lgm;
+f aY BED Lgm;
+f aZ REPEATER Lgm;
+f ba COOKIE Lgm;
+f bb MAP Lwr;
+f bc SHEARS Lbl;
+f bd RECORD_THIRTEEN Lgm;
+f be RECORD_CAT Lgm;
+f bf id I
+f bg maxCount I
+f a maxDamage I
+f bh textureId I
+f bi handheld Z
+f bj hasSubtypes Z
+f bk craftingReturnItem Lgm;
+f bl translationKey Ljava/lang/String;
+
+m <init> (I)V
+arg 1 id
+
+m c setTextureId (I)Lgm;
+arg 1 textureId
+
+m d setMaxCount (I)Lgm;
+arg 1 maxCount
+
+m a setTexturePosition (II)Lgm;
+arg 1 x
+arg 2 y
+
+m a getTextureId (I)I
+arg 1 damage
+
+m b getTextureId (Liz;)I
+arg 1 itemStack
+
+m a useOnBlock (Liz;Lgs;Lfd;IIII)Z
+arg 1 stack
+arg 2 user
+arg 3 world
+arg 4 x
+arg 5 y
+arg 6 z
+arg 7 side
+
+m a getMiningSpeedMultiplier (Liz;Luu;)F
+arg 1 stack
+arg 2 block
+
+m a use (Liz;Lfd;Lgs;)Liz;
+arg 1 stack
+arg 2 world
+arg 3 user
+
+m d getMaxCount ()I
+m b getPlacementMetadata (I)I
+arg 1 meta
+
+m e hasSubtypes ()Z
+m a setHasSubtypes (Z)Lgm;
+arg 1 hasSubtypes
+
+m f getMaxDamage ()I
+m e setMaxDamage (I)Lgm;
+arg 1 maxDamage
+
+m g isDamageable ()Z
+m a postHit (Liz;Lls;Lls;)Z
+arg 1 stack
+arg 2 target
+arg 3 attacker
+
+m a postMine (Liz;IIIILls;)Z
+arg 1 stack
+arg 2 blockId
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 miner
+
+m a getAttackDamage (Lsn;)I
+arg 1 attackedEntity
+
+m a isSuitableFor (Luu;)Z
+arg 1 block
+
+m a useOnEntity (Liz;Lls;)V
+arg 1 stack
+arg 2 entity
+
+m h setHandheld ()Lgm;
+m b isNetworkSynced ()Z
+m c isHandheldRod ()Z
+m a setTranslationKey (Ljava/lang/String;)Lgm;
+arg 1 key
+
+m a getTranslationKey ()Ljava/lang/String;
+m a getTranslationKey (Liz;)Ljava/lang/String;
+arg 1 stack
+
+m a setCraftingReturnItem (Lgm;)Lgm;
+arg 1 item
+
+m i getCraftingReturnItem ()Lgm;
+m j hasCraftingReturnItem ()Z
+m k getTranslatedName ()Ljava/lang/String;
+m f getColorMultiplier (I)I
+arg 1 color
+
+m a inventoryTick (Liz;Lfd;Lsn;IZ)V
+arg 1 stack
+arg 2 world
+arg 3 entity
+arg 4 slot
+arg 5 selected
+
+m b onCraft (Liz;Lfd;Lgs;)V
+arg 1 stack
+arg 2 world
+arg 3 player

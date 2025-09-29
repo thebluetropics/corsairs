@@ -1,0 +1,9 @@
+c vx net/minecraft/client/gui/screen/ConnectScreen
+
+f a networkHandler Lnb;
+f i connectingCancelled Z
+
+m <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+arg 1 minecraft
+arg 2 address
+arg 3 port

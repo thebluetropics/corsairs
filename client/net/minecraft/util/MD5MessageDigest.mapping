@@ -1,0 +1,9 @@
+c hf net/minecraft/util/MD5MessageDigest
+
+f a salt Ljava/lang/String;
+
+m <init> (Ljava/lang/String;)V
+arg 1 salt
+
+m a digest (Ljava/lang/String;)Ljava/lang/String;
+arg 1 s

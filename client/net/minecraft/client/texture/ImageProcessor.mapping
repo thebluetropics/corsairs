@@ -1,0 +1,4 @@
+c nf net/minecraft/client/texture/ImageProcessor
+
+m a process (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+arg 1 image

@@ -1,0 +1,158 @@
+c hi net/minecraft/world/chunk/Chunk
+
+f a hasSkyLight Z
+f b blocks [B
+f c loaded Z
+f d world Ldj;
+f e meta Lob;
+f f skyLight Lob;
+f g blockLight Lob;
+f h heightmap [B
+f i minHeightmapValue I
+f j x I
+f k z I
+f l blockEntities Ljava/util/Map;
+f m entities [Ljava/util/List;
+f n terrainPopulated Z
+f o dirty Z
+f p empty Z
+f q lastSaveHadEntities Z
+f r lastSaveTime J
+
+m a chunkPosEquals (II)Z
+arg 1 x
+arg 2 z
+
+m a getBlockId (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a setBlock (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 rawId
+
+m a setBlock (IIIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 rawId
+arg 5 meta
+
+m a setBlockEntity (IIILjh;)V
+arg 1 localX
+arg 2 y
+arg 3 localZ
+arg 4 blockEntity
+
+m a getSlimeRandom (J)Ljava/util/Random;
+arg 1 scrambler
+
+m a getLight (Lco;III)I
+arg 1 lightType
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a setLight (Lco;IIII)V
+arg 1 lightType
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 value
+
+m a collectEntitiesByClass (Ljava/lang/Class;Lcz;Ljava/util/List;)V
+arg 1 entityClass
+arg 2 box
+arg 3 result
+
+m a addBlockEntity (Ljh;)V
+arg 1 blockEntity
+
+m a addEntity (Llq;)V
+arg 1 entity
+
+m a removeEntity (Llq;I)V
+arg 1 entity
+arg 2 chunkSlice
+
+m a collectOtherEntities (Llq;Lcz;Ljava/util/List;)V
+arg 1 except
+arg 2 box
+arg 3 result
+
+m a shouldSave (Z)Z
+arg 1 saveEntities
+
+m a toPacket ([BIIIIIII)I
+arg 1 bytes
+arg 2 minX
+arg 3 minY
+arg 4 minZ
+arg 5 maxX
+arg 6 maxY
+arg 7 maxZ
+arg 8 offset
+
+m b populateHeightMap ()V
+m b getHeight (II)I
+arg 1 x
+arg 2 z
+
+m b getBlockMeta (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b setBlockMeta (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 meta
+
+m b removeEntity (Llq;)V
+arg 1 entity
+
+m c populateBlockLight ()V
+m c isAboveMaxHeight (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c getLight (IIII)I
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 ambientDarkness
+
+m d load ()V
+m d getBlockEntity (III)Ljh;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m e unload ()V
+m e removeBlockEntityAt (III)V
+arg 1 localX
+arg 2 y
+arg 3 localZ
+
+m f markDirty ()V
+m g isEmpty ()Z
+m c lightGaps (II)V
+arg 1 x
+arg 2 z
+
+m f lightGap (III)V
+arg 1 x
+arg 2 z
+arg 3 y
+
+m g updateHeightMap (III)V
+arg 1 localX
+arg 2 y
+arg 3 localZ
+
+m h fill ()V

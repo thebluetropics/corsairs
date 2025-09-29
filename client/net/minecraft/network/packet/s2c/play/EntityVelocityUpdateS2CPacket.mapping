@@ -1,0 +1,15 @@
+c gj net/minecraft/network/packet/s2c/play/EntityVelocityUpdateS2CPacket
+
+f a id I
+f b velocityX I
+f c velocityY I
+f d velocityZ I
+
+m <init> (IDDD)V
+arg 1 id
+arg 2 velocityX
+arg 3 velocityY
+arg 4 velocityZ
+
+m <init> (Lsn;)V
+arg 1 entity

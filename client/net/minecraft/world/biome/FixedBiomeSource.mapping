@@ -1,0 +1,10 @@
+c hd net/minecraft/world/biome/FixedBiomeSource
+
+f e biome Lkd;
+f f temperature D
+f g downfall D
+
+m <init> (Lkd;DD)V
+arg 1 biome
+arg 2 temperature
+arg 3 downfall

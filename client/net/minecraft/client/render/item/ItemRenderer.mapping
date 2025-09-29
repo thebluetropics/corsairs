@@ -1,0 +1,44 @@
+c bb net/minecraft/client/render/ItemRenderer
+
+f e blockRenderer Lcv;
+f f random Ljava/util/Random;
+f a useCustomDisplayColor Z
+
+m a renderGuiItem (Lsj;Lji;IIIII)V
+arg 1 textRenderer
+arg 2 textureManager
+arg 3 item
+arg 4 meta
+arg 5 sprite
+arg 6 x
+arg 7 y
+
+m a renderGuiItem (Lsj;Lji;Liz;II)V
+arg 1 textRenderer
+arg 2 textureManager
+arg 3 stack
+arg 4 x
+arg 5 y
+
+m b renderGuiItemDecoration (Lsj;Lji;Liz;II)V
+arg 1 textrenderer
+arg 2 textureManager
+arg 3 stack
+arg 4 x
+arg 5 y
+
+m a fillRect (Lnw;IIIII)V
+arg 1 tessellator
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height
+arg 6 color
+
+m a drawTexture (IIIIII)V
+arg 1 x
+arg 2 y
+arg 3 u
+arg 4 v
+arg 5 width
+arg 6 height

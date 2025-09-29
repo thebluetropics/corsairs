@@ -1,0 +1,3 @@
+c ll net/minecraft/screen/DispenserScreenHandler
+
+f a dispenserBlockEntity Lak;

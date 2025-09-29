@@ -1,0 +1,6 @@
+c oc net/minecraft/entity/PigEntity
+
+m a setSaddled (Z)V
+arg 1 saddled
+
+m x isSaddled ()Z

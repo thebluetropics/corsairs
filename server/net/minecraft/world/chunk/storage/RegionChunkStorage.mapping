@@ -1,0 +1,3 @@
+c hb net/minecraft/world/chunk/storage/RegionChunkStorage
+
+f a dir Ljava/io/File;

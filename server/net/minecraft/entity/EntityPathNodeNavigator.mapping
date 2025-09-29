@@ -1,0 +1,63 @@
+c dz net/minecraft/entity/EntityPathNodeNavigator
+
+f a blockView Lpb;
+f b minHeap Lhd;
+f c pathNodeCache Lgo;
+f d successors [Ld;
+
+m a getNode (III)Ld;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a createPath (Ld;Ld;)Lcb;
+arg 1 unused
+arg 2 startNode
+
+m a findPath (Llq;DDDF)Lcb;
+arg 1 startEntity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 distance
+
+m a findPath (Llq;IIIF)Lcb;
+arg 1 startEntity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 distance
+
+m a isPassable (Llq;IIILd;)I
+arg 1 entity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 node
+
+m a getNode (Llq;IIILd;I)Ld;
+arg 1 entity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 endNode
+arg 6 stepHeight
+
+m a findPath (Llq;Ld;Ld;Ld;F)Lcb;
+arg 1 startEntity
+arg 2 startNode
+arg 3 endNode
+arg 4 position
+arg 5 distance
+
+m a findPath (Llq;Llq;F)Lcb;
+arg 1 startEntity
+arg 2 endEntity
+arg 3 distance
+
+m b getSuccessors (Llq;Ld;Ld;Ld;F)I
+arg 1 startEntity
+arg 2 startNode
+arg 3 endNode
+arg 4 position
+arg 5 distance

@@ -1,0 +1,5 @@
+c c net/minecraft/entity/LightningEntity
+
+f a seed J
+f b ambientTick I
+f c remainingActions I

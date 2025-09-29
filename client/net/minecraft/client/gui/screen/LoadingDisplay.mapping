@@ -1,0 +1,10 @@
+c yb net/minecraft/client/gui/screen/LoadingDisplay
+
+m a progressStagePercentage (I)V
+arg 1 percentage
+
+m b progressStartNoAbort (Ljava/lang/String;)V
+arg 1 title
+
+m d progressStage (Ljava/lang/String;)V
+arg 1 stage

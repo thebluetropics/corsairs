@@ -1,0 +1,8 @@
+c eb net/minecraft/world/LightType
+
+f a SKY Leb;
+f b BLOCK Leb;
+f c lightValue I
+
+m <init> (Ljava/lang/String;II)V
+arg 1 lightValue

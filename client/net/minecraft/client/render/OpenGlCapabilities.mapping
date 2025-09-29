@@ -1,0 +1,5 @@
+c cx net/minecraft/client/render/OpenGlCapabilities
+
+f a USE_OCCLUSION_QUERY Z
+
+m a glArbOcclusionQuery ()Z

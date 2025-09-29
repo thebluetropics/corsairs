@@ -1,0 +1,9 @@
+c ex net/minecraft/client/gui/screen/DisconnectedScreen
+
+f a title Ljava/lang/String;
+f i reason Ljava/lang/String;
+
+m <init> (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+arg 1 title
+arg 2 reason
+arg 3 args

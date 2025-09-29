@@ -1,0 +1,7 @@
+c rl net/minecraft/item/MinecartItem
+
+f a type I
+
+m <init> (II)V
+arg 1 id
+arg 2 type

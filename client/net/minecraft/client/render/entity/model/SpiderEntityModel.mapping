@@ -1,0 +1,13 @@
+c sc net/minecraft/client/render/entity/model/SpiderEntityModel
+
+f a head Lps;
+f b body0 Lps;
+f c body1 Lps;
+f d rightHindLeg Lps;
+f e leftHindLeg Lps;
+f f rightMiddleHindLeg Lps;
+f g leftMiddleHindLeg Lps;
+f h rightMiddleFrontLeg Lps;
+f i leftMiddleFrontLeg Lps;
+f j rightFrontLeg Lps;
+f k leftFrontLeg Lps;

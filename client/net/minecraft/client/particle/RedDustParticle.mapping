@@ -1,0 +1,22 @@
+c im net/minecraft/client/particle/RedDustParticle
+
+f a startScale F
+
+m <init> (Lfd;DDDFFF)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+
+m <init> (Lfd;DDDFFFF)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 scale
+arg 6 red
+arg 7 green
+arg 8 blue

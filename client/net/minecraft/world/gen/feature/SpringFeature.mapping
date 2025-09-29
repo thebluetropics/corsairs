@@ -1,0 +1,6 @@
+c xo net/minecraft/world/gen/feature/SpringFeature
+
+f a liquidBlockId I
+
+m <init> (I)V
+arg 1 liquidBlockId

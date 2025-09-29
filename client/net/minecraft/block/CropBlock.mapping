@@ -1,0 +1,13 @@
+c ni net/minecraft/block/CropBlock
+
+m d_ applyFullGrowth (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m i getAvailableMoisture (Lfd;III)F
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

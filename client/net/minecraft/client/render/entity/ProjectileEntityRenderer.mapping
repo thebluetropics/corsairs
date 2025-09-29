@@ -1,0 +1,6 @@
+c dg net/minecraft/client/render/entity/ProjectileEntityRenderer
+
+f a itemTextureId I
+
+m <init> (I)V
+arg 1 itemTextureId

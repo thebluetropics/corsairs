@@ -1,0 +1,6 @@
+c dj net/minecraft/world/gen/feature/LakeFeature
+
+f a waterBlockId I
+
+m <init> (I)V
+arg 1 waterBlockId

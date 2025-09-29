@@ -1,0 +1,8 @@
+c cd net/minecraft/screen/GenericContainerScreenHandler
+
+f a inventory Llw;
+f b rows I
+
+m <init> (Llw;Llw;)V
+arg 1 playerInventory
+arg 2 inventory

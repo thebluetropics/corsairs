@@ -1,0 +1,8 @@
+c ez net/minecraft/entity/ItemEntity
+
+f a stack Lfy;
+f b itemAge I
+f c pickupDelay I
+f d initialRotationAngle F
+f e itemTicks I
+f f health I

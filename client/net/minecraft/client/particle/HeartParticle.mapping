@@ -1,0 +1,13 @@
+c kc net/minecraft/client/particle/HeartParticle
+
+f a initialScale F
+
+m <init> (Lfd;DDDDDDF)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+arg 8 scale

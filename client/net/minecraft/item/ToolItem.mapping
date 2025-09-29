@@ -1,0 +1,12 @@
+c dq net/minecraft/item/ToolItem
+
+f a toolMaterial Lbu;
+f bk effectiveOnBlocks [Luu;
+f bl miningSpeed F
+f bm damage I
+
+m <init> (IILbu;[Luu;)V
+arg 1 id
+arg 2 damageBoost
+arg 3 toolMaterial
+arg 4 effectiveOn

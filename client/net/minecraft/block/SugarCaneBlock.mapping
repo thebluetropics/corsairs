@@ -1,0 +1,11 @@
+c ri net/minecraft/block/SugarCaneBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId
+
+m h breakIfCannotGrow (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

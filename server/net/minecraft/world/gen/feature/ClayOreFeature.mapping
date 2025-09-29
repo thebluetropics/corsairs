@@ -1,0 +1,4 @@
+c ib net/minecraft/world/gen/feature/ClayOreFeature
+
+f a clayBlockId I
+f b blockCount I

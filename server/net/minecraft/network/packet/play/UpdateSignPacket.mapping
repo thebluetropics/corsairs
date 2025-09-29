@@ -1,0 +1,6 @@
+c ms net/minecraft/network/packet/play/UpdateSignPacket
+
+f a x I
+f b y I
+f c z I
+f d text [Ljava/lang/String;

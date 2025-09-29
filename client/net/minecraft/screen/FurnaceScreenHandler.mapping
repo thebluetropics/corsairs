@@ -1,0 +1,10 @@
+c bm net/minecraft/screen/FurnaceScreenHandler
+
+f a furnaceBlockEntity Lsk;
+f b cookTime I
+f c burnTime I
+f h fuelTime I
+
+m <init> (Lix;Lsk;)V
+arg 1 playerInventory
+arg 2 furnaceBlockEntity

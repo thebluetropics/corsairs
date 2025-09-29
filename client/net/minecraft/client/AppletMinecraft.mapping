@@ -1,0 +1,6 @@
+c q net/minecraft/client/AppletMinecraft
+
+m <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+arg 1 component
+arg 2 canvas
+arg 3 applet

@@ -1,0 +1,3 @@
+c tb net/minecraft/client/render/entity/MinecartEntityRenderer
+
+f a model Lko;

@@ -1,0 +1,37 @@
+c oo net/minecraft/server/ChunkMap
+
+f a players Ljava/util/List;
+f b chunkMapping Ldx;
+f c chunksToUpdate Ljava/util/List;
+f d server Lnet/minecraft/server/MinecraftServer;
+f e dimensionId I
+f f viewDistance I
+f g DIRECTIONS [[I
+
+m a getWorld ()Ldp;
+m a markBlockForUpdate (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a isWithinViewDistance (IIII)Z
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 centerX
+arg 4 centerZ
+
+m a getOrCreateChunk (IIZ)Ly;
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 createIfAbsent
+
+m a addPlayer (Ldl;)V
+arg 1 player
+
+m b updateChunks ()V
+m b removePlayer (Ldl;)V
+arg 1 player
+
+m c getBlockViewDistance ()I
+m c updatePlayerChunks (Ldl;)V
+arg 1 player

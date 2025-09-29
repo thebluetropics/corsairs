@@ -1,0 +1,5 @@
+c w net/minecraft/network/packet/s2c/play/MapUpdateS2CPacket
+
+f a itemRawId S
+f b id S
+f c updateData [B

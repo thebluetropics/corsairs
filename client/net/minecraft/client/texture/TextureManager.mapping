@@ -1,0 +1,81 @@
+c ji net/minecraft/client/texture/TextureManager
+
+f a MIPMAP Z
+f b textures Ljava/util/HashMap;
+f c colors Ljava/util/HashMap;
+f d images Ljava/util/HashMap;
+f e idBuffer Ljava/nio/IntBuffer;
+f f imageBuffer Ljava/nio/ByteBuffer;
+f g dynamicTextures Ljava/util/List;
+f h downloadedImages Ljava/util/Map;
+f i gameOptions Lkv;
+f j clamp Z
+f k blur Z
+f l texturePacks Lik;
+f m image Ljava/awt/image/BufferedImage;
+
+m <init> (Lik;Lkv;)V
+arg 1 texturePacks
+arg 2 options
+
+m a tick ()V
+m a delete (I)V
+arg 1 textureId
+
+m a smoothBlend (II)I
+arg 1 color1
+arg 2 color2
+
+m a addDynamicTexture (Law;)V
+arg 1 texture
+
+m a load (Ljava/awt/image/BufferedImage;)I
+arg 1 image
+
+m a load (Ljava/awt/image/BufferedImage;I)V
+arg 1 image
+arg 2 id
+
+m a readColors (Ljava/awt/image/BufferedImage;[I)[I
+arg 1 image
+arg 2 colors
+
+m a readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+arg 1 stream
+
+m a getColors (Ljava/lang/String;)[I
+arg 1 path
+
+m a downloadTexture (Ljava/lang/String;Ljava/lang/String;)I
+arg 1 url
+arg 2 backup
+
+m a downloadImage (Ljava/lang/String;Lnf;)Lek;
+arg 1 url
+arg 2 processor
+
+m a bind ([IIII)V
+arg 1 colors
+arg 2 width
+arg 3 height
+arg 4 id
+
+m b reload ()V
+m b bindTexture (I)V
+arg 1 id
+
+m b crispBlend (II)I
+arg 1 color1
+arg 2 color2
+
+m b readColors (Ljava/awt/image/BufferedImage;)[I
+arg 1 image
+
+m b getTextureId (Ljava/lang/String;)I
+arg 1 path
+
+m c rescale (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+arg 1 image
+
+m c releaseImage (Ljava/lang/String;)V
+arg 1 url

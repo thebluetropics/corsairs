@@ -1,0 +1,16 @@
+c aw net/minecraft/entity/GhastEntity
+
+f a floatDuration I
+f b targetX D
+f c targetY D
+f d targetZ D
+f e lastChargeTime I
+f f chargeTime I
+f g target Llq;
+f h angerCooldown I
+
+m a canReach (DDDD)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 steps

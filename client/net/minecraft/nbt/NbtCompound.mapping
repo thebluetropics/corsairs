@@ -1,0 +1,84 @@
+c nu net/minecraft/nbt/NbtCompound
+
+f a entries Ljava/util/Map;
+
+m a putByte (Ljava/lang/String;B)V
+arg 1 key
+arg 2 value
+
+m a putDouble (Ljava/lang/String;D)V
+arg 1 key
+arg 2 value
+
+m a putFloat (Ljava/lang/String;F)V
+arg 1 key
+arg 2 value
+
+m a putInt (Ljava/lang/String;I)V
+arg 1 key
+arg 2 value
+
+m a putLong (Ljava/lang/String;J)V
+arg 1 key
+arg 2 value
+
+m a put (Ljava/lang/String;Lij;)V
+arg 1 key
+arg 2 value
+
+m a put (Ljava/lang/String;Lnu;)V
+arg 1 key
+arg 2 value
+
+m a putString (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 key
+arg 2 value
+
+m a putShort (Ljava/lang/String;S)V
+arg 1 key
+arg 2 value
+
+m a putBoolean (Ljava/lang/String;Z)V
+arg 1 key
+arg 2 value
+
+m a putByteArray (Ljava/lang/String;[B)V
+arg 1 key
+arg 2 value
+
+m b contains (Ljava/lang/String;)Z
+arg 1 key
+
+m c values ()Ljava/util/Collection;
+m c getByte (Ljava/lang/String;)B
+arg 1 key
+
+m d getShort (Ljava/lang/String;)S
+arg 1 key
+
+m e getInt (Ljava/lang/String;)I
+arg 1 key
+
+m f getLong (Ljava/lang/String;)J
+arg 1 key
+
+m g getFloat (Ljava/lang/String;)F
+arg 1 key
+
+m h getDouble (Ljava/lang/String;)D
+arg 1 key
+
+m i getString (Ljava/lang/String;)Ljava/lang/String;
+arg 1 key
+
+m j getByteArray (Ljava/lang/String;)[B
+arg 1 key
+
+m k getCompound (Ljava/lang/String;)Lnu;
+arg 1 key
+
+m l getList (Ljava/lang/String;)Lsp;
+arg 1 key
+
+m m getBoolean (Ljava/lang/String;)Z
+arg 1 key

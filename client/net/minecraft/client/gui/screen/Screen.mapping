@@ -1,0 +1,58 @@
+c da net/minecraft/client/gui/screen/Screen
+
+f b minecraft Lnet/minecraft/client/Minecraft;
+f c width I
+f d height I
+f e buttons Ljava/util/List;
+f f passEvents Z
+f g textRenderer Lsj;
+f h particlesGui Ldu;
+f a selectedButton Lke;
+
+m a render (IIF)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 delta
+
+m a keyPressed (CI)V
+arg 1 character
+arg 2 keyCode
+
+m d getClipboard ()Ljava/lang/String;
+m a mouseClicked (III)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 button
+
+m b mouseReleased (III)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 button
+
+m a buttonClicked (Lke;)V
+arg 1 button
+
+m a init (Lnet/minecraft/client/Minecraft;II)V
+arg 1 minecraft
+arg 2 width
+arg 3 height
+
+m b init ()V
+m e tickInput ()V
+m f onMouseEvent ()V
+m g onKeyboardEvent ()V
+m a tick ()V
+m h removed ()V
+m i renderBackground ()V
+m a renderBackground (I)V
+arg 1 vOffset
+
+m b renderBackgroundTexture (I)V
+arg 1 vOffset
+
+m c shouldPause ()Z
+m a confirmed (ZI)V
+arg 1 confirmed
+arg 2 id
+
+m j handleTab ()V

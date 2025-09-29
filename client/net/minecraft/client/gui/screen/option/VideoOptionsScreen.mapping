@@ -1,0 +1,10 @@
+c nj net/minecraft/client/gui/screen/option/VideoOptionsScreen
+
+f a title Ljava/lang/String;
+f i parent Lda;
+f j options Lkv;
+f l VIDEO_OPTIONS [Lht;
+
+m <init> (Lda;Lkv;)V
+arg 1 parent
+arg 2 options

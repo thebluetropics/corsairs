@@ -1,0 +1,27 @@
+c kw net/minecraft/client/gui/GuiParticle
+
+f s RANDOM Ljava/util/Random;
+f a x D
+f b y D
+f c lastX D
+f d lastY D
+f e velocityX D
+f f velocityY D
+f g velocityChange D
+f h removed Z
+f i age I
+f j lifetime I
+f k r D
+f l g D
+f m b D
+f n a D
+f o lastR D
+f p lastG D
+f q lastB D
+f r lastA D
+
+m a tickPosition (Ldu;)V
+arg 1 gui
+
+m a tickColor ()V
+m b remove ()V

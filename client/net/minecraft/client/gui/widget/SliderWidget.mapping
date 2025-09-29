@@ -1,0 +1,13 @@
+c vz net/minecraft/client/gui/widget/SliderWidget
+
+f i value F
+f j dragging Z
+f l option Lht;
+
+m <init> (IIILht;Ljava/lang/String;F)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 option
+arg 5 message
+arg 6 value

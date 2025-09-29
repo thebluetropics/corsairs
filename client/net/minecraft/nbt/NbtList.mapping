@@ -1,0 +1,12 @@
+c sp net/minecraft/nbt/NbtList
+
+f a value Ljava/util/List;
+f b type B
+
+m a get (I)Lij;
+arg 1 index
+
+m a add (Lij;)V
+arg 1 element
+
+m c size ()I

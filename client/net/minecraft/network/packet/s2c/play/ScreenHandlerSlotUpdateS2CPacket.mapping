@@ -1,0 +1,5 @@
+c hq net/minecraft/network/packet/s2c/play/ScreenHandlerSlotUpdateS2CPacket
+
+f a syncId I
+f b slot I
+f c stack Liz;

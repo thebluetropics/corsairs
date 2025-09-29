@@ -1,0 +1,8 @@
+c ke net/minecraft/network/packet/c2s/play/ClickSlotC2SPacket
+
+f a syncId I
+f b slot I
+f c button I
+f d actionType S
+f e stack Lfy;
+f f holdingShift Z

@@ -1,0 +1,14 @@
+c dt net/minecraft/block/JukeboxBlock
+
+m b_ tryEjectRecord (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m f insertRecord (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 id

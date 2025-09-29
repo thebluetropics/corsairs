@@ -1,0 +1,18 @@
+c fo net/minecraft/block/JukeboxBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId
+
+m b_ tryEjectRecord (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m f insertRecord (Lfd;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 id

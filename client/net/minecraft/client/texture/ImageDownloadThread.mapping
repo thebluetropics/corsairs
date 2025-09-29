@@ -1,0 +1,5 @@
+c tj net/minecraft/client/texture/ImageDownloadThread
+
+f a url Ljava/lang/String;
+f b processor Lnf;
+f c data Lek;

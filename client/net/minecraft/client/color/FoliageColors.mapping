@@ -1,0 +1,14 @@
+c jh net/minecraft/client/color/FoliageColors
+
+f a colorMap [I
+
+m a setColorMap ([I)V
+arg 1 colorMap
+
+m a getColor (DD)I
+arg 1 temperature
+arg 2 humidity
+
+m a getSpruceColor ()I
+m b getBirchColor ()I
+m c getDefaultColor ()I

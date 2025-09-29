@@ -1,0 +1,291 @@
+c sn net/minecraft/entity/Entity
+
+f a nextId I
+f aD id I
+f aE renderDistanceMultiplier D
+f aF blocksSameBlockSpawning Z
+f aG passenger Lsn;
+f aH vehicle Lsn;
+f aI world Lfd;
+f aJ prevX D
+f aK prevY D
+f aL prevZ D
+f aM x D
+f aN y D
+f aO z D
+f aP velocityX D
+f aQ velocityY D
+f aR velocityZ D
+f aS yaw F
+f aT pitch F
+f aU prevYaw F
+f aV prevPitch F
+f aW boundingBox Leq;
+f b nextStepSoundDistance I
+f bx submergedInWater Z
+f by hearts I
+f bz air I
+f bC fireImmune Z
+f bD dataTracker Lud;
+f bE minBrightness F
+f bF isPersistent Z
+f bG chunkX I
+f bH chunkSlice I
+f bI chunkZ I
+f bM ignoreFrustumCull Z
+f aX onGround Z
+f aY horizontalCollision Z
+f aZ verticalCollision Z
+f ba hasCollided Z
+f bb velocityModified Z
+f bc slowed Z
+f bd keepVelocityOnCollision Z
+f be dead Z
+f bf standingEyeHeight F
+f bg width F
+f bh height F
+f bi prevHorizontalSpeed F
+f bj horizontalSpeed F
+f bk fallDistance F
+f bl lastTickX D
+f bm lastTickY D
+f bn lastTickZ D
+f bo cameraOffset F
+f bp stepHeight F
+f bq noClip Z
+f br pushSpeedReduction F
+f bs random Ljava/util/Random;
+f bt age I
+f bu fireImmunityTicks I
+f bv fireTicks I
+f bw maxAir I
+f c firstTick Z
+f d vehiclePitchDelta D
+f e vehicleYawDelta D
+f bA skinUrl Ljava/lang/String;
+f bB capeUrl Ljava/lang/String;
+f bJ trackedPosX I
+f bK trackedPosY I
+f bL trackedPosZ I
+
+m <init> (Lfd;)V
+arg 1 world
+
+m b initDataTracker ()V
+m a setPositionAndAnglesAvoidEntities (DDDFFI)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 pitch
+arg 5 yaw
+arg 6 interpolationSteps
+
+m h animateHurt ()V
+m a processServerEntityStatus (B)V
+arg 1 status
+
+m q_ getTexture ()Ljava/lang/String;
+m t_ teleportTop ()V
+m u_ updateCapeUrl ()V
+m U baseTick ()V
+m W isAlive ()Z
+m ab tickInVoid ()V
+m ac getLookVector ()Lbt;
+m b setBoundingBoxSpacing (FF)V
+arg 1 spacingXZ
+arg 2 spacingY
+
+m d addVelocity (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a interact (Lgs;)Z
+arg 1 player
+
+m a moveNonSolid (FFF)V
+m a dropItem (IIF)Lhl;
+arg 1 id
+arg 2 amount
+arg 3 yOffset
+
+m b setFlag (IZ)V
+arg 1 index
+arg 2 value
+
+m a dropItem (Liz;F)Lhl;
+arg 1 itemStack
+arg 2 yOffset
+
+m a isInFluid (Lln;)Z
+arg 1 material
+
+m a toNbtList ([D)Lsp;
+arg 1 values
+
+m a toNbtList ([F)Lsp;
+arg 1 values
+
+m ad getDataTracker ()Lud;
+m ae setOnFire ()V
+m af isWet ()Z
+m ag isSubmergedInWater ()Z
+m ah isTouchingLava ()Z
+m ai scheduleVelocityUpdate ()V
+m aj getRegistryEntry ()Ljava/lang/String;
+m b setPositionAndAngles (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 yaw
+arg 5 pitch
+
+m b dropItem (II)Lhl;
+arg 1 id
+arg 2 amount
+
+m e setPosition (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c setPositionAndAnglesKeepPrevAngles (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 yaw
+arg 5 pitch
+
+m c setRotation (FF)V
+arg 1 yaw
+arg 2 pitch
+
+m c saveSelfNbt (Lnu;)Z
+arg 1 nbt
+
+m f getEntitiesInside (DDD)Z
+arg 1 offsetX
+arg 2 offsetY
+arg 3 offsetZ
+
+m d getFlag (I)Z
+arg 1 index
+
+m d write (Lnu;)V
+arg 1 nbt
+
+m g getSquaredDistance (DDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m e read (Lnu;)V
+arg 1 nbt
+
+m h getDistance (DDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m f getDistance (Lsn;)F
+arg 1 entity
+
+m g getSquaredDistance (Lsn;)D
+arg 1 entity
+
+m h onCollision (Lsn;)V
+arg 1 otherEntity
+
+m b onPlayerInteraction (Lgs;)V
+arg 1 player
+
+m a damage (Lsn;I)Z
+arg 1 damageSource
+arg 2 amount
+
+m h_ isCollidable ()Z
+m m getPassengerRidingHeight ()D
+m n bypassesSteppingEffects ()Z
+m ak isOnFire ()Z
+m al hasVehicle ()Z
+m c setEquipmentStack (III)V
+arg 1 armorSlot
+arg 2 itemId
+arg 3 meta
+
+m d changeLookDirection (FF)V
+arg 1 cursorDeltaX
+arg 2 cursorDeltaY
+
+m a readNbt (Lnu;)V
+arg 1 nbt
+
+m a shouldRender (D)Z
+arg 1 distance
+
+m a setVelocityClient (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m x_ getShadowRadius ()F
+m a shouldRender (Lbt;)Z
+arg 1 pos
+
+m b writeNbt (Lnu;)V
+arg 1 nbt
+
+m m_ getTargetingMargin ()F
+m w_ tick ()V
+m b move (DDD)V
+arg 1 dx
+arg 2 dy
+arg 3 dz
+
+m c pushOutOfBlock (DDD)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m t isSneaking ()Z
+m a fall (DZ)V
+arg 1 heightDifference
+arg 2 onGround
+
+m a setWorld (Lfd;)V
+arg 1 world
+
+m i setVehicle (Lsn;)V
+arg 1 entity
+
+m w getEyeHeight ()F
+m a getCollisionAgainstShape (Lsn;)Leq;
+arg 1 other
+
+m i_ isPushable ()Z
+m f getBoundingBox ()Leq;
+m l_ updatePassengerPosition ()V
+m a onStruckByLightning (Lc;)V
+arg 1 lightning
+
+m s_ tickRiding ()V
+m I getStandingEyeHeight ()D
+m K markDead ()V
+m L isInsideWall ()Z
+m S tickPortalCooldown ()V
+m b onLanding (F)V
+arg 1 fallDistance
+
+m a onKilledOther (Lls;)V
+arg 1 other
+
+m c updateKilledAchievement (Lsn;I)V
+arg 1 entityKilled
+arg 2 score
+
+m a damage (I)V
+arg 1 amount
+
+m k_ checkWaterCollisions ()Z
+m a getBrightnessAtEyes (F)F
+arg 1 tickDelta

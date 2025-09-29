@@ -1,0 +1,4 @@
+c cb net/minecraft/client/CrashReportPanel
+
+m <init> (Lmh;)V
+arg 1 report

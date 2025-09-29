@@ -1,0 +1,9 @@
+c no net/minecraft/client/render/entity/model/SlimeEntityModel
+
+f a cube Lps;
+f b rightEye Lps;
+f c leftEye Lps;
+f d mouth Lps;
+
+m <init> (I)V
+arg 1 v

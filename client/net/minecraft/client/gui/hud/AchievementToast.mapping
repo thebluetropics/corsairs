@@ -1,0 +1,23 @@
+c vu net/minecraft/client/gui/hud/AchievementToast
+
+f a client Lnet/minecraft/client/Minecraft;
+f b width I
+f c height I
+f d title Ljava/lang/String;
+f e description Ljava/lang/String;
+f f achievement Lny;
+f g startTime J
+f h itemRenderer Lbb;
+f i tutorial Z
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 client
+
+m a set (Lny;)V
+arg 1 achievement
+
+m b setTutorial (Lny;)V
+arg 1 achievement
+
+m b render ()V
+m a tick ()V

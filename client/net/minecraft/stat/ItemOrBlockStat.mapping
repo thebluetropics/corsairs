@@ -1,0 +1,10 @@
+c tw net/minecraft/stat/ItemOrBlockStat
+
+f a itemOrBlockId I
+
+m <init> (ILjava/lang/String;I)V
+arg 1 statId
+arg 2 translationKey
+arg 3 itemIdOrBlockId
+
+m a getItemOrBlockId ()I

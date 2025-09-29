@@ -1,0 +1,11 @@
+c nf net/minecraft/server/dedicated/DedicatedServerGui
+
+f a LOGGER Ljava/util/logging/Logger;
+f b server Lnet/minecraft/server/MinecraftServer;
+
+m a createStatsPanel ()Ljavax/swing/JComponent;
+m a create (Lnet/minecraft/server/MinecraftServer;)V
+arg 1 server
+
+m b createPlaysPanel ()Ljavax/swing/JComponent;
+m c createLogPanel ()Ljavax/swing/JComponent;

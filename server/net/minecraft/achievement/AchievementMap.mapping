@@ -1,0 +1,7 @@
+c b net/minecraft/achievement/AchievementMap
+
+f a INSTANCE Lb;
+f b uuids Ljava/util/Map;
+
+m a getUuid (I)Ljava/lang/String;
+arg 1 id

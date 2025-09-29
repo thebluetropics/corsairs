@@ -1,0 +1,77 @@
+c kv net/minecraft/client/option/GameOptions
+
+f A thirdPerson Z
+f B debugHud Z
+f C lastServer Ljava/lang/String;
+f D discreteScroll Z
+f E cinematicMode Z
+f F debugCamera Z
+f G totalDiscreteScroll F
+f I guiScale I
+f J RENDER_DISTANCE_KEYS [Ljava/lang/String;
+f K DIFFICULTY_KEYS [Ljava/lang/String;
+f L GUI_SCALE_KEYS [Ljava/lang/String;
+f M PERFORMANCE_KEYS [Ljava/lang/String;
+f N file Ljava/io/File;
+f a musicVolume F
+f b soundVolume F
+f c mouseSensitivity F
+f d invertYMouse Z
+f e viewDistance I
+f f bobView Z
+f g anaglyph3d Z
+f h advancedOpengl Z
+f i fpsLimit I
+f j fancyGraphics Z
+f k ao Z
+f l skin Ljava/lang/String;
+f m forwardKey Lqb;
+f n leftKey Lqb;
+f o backKey Lqb;
+f p rightKey Lqb;
+f q jumpKey Lqb;
+f r inventoryKey Lqb;
+f s dropKey Lqb;
+f t chatKey Lqb;
+f u fogKey Lqb;
+f v sneakKey Lqb;
+f w allKeys [Lqb;
+f x minecraft Lnet/minecraft/client/Minecraft;
+f y difficulty I
+f z hideHud Z
+
+m <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+arg 1 minecraft
+arg 2 file
+
+m a load ()V
+m a getKeybindName (I)Ljava/lang/String;
+arg 1 index
+
+m a setKeybindKey (II)V
+arg 1 index
+arg 2 keyCode
+
+m a getFloat (Lht;)F
+arg 1 option
+
+m a setFloat (Lht;F)V
+arg 1 option
+arg 2 value
+
+m a setInt (Lht;I)V
+arg 1 option
+arg 2 value
+
+m a parseFloat (Ljava/lang/String;)F
+arg 1 string
+
+m b save ()V
+m b getKeybindKey (I)Ljava/lang/String;
+arg 1 index
+
+m b getBoolean (Lht;)Z
+arg 1 option
+
+m c getString (Lht;)Ljava/lang/String;
+arg 1 option

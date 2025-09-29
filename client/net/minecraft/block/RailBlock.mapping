@@ -1,0 +1,43 @@
+c pc net/minecraft/block/RailBlock
+
+f a alwaysStraight Z
+
+m <init> (IIZ)V
+arg 1 id
+arg 2 textureId
+arg 3 alwaysStraight
+
+m a isPoweredByConnectedRails (Lfd;IIIIZI)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta
+arg 6 towardsNegative
+arg 7 depth
+
+m a updateShape (Lfd;IIIZ)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 force
+
+m a isPoweredByRail (Lfd;IIIZII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 towardsNegative
+arg 6 depth
+arg 7 shape
+
+m d isRail (I)Z
+arg 1 id
+
+m i isAlwaysStraight ()Z
+m h isRail (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

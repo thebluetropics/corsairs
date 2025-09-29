@@ -1,0 +1,15 @@
+c ur net/minecraft/world/dimension/PortalForcer
+
+f a random Ljava/util/Random;
+
+m a moveToPortal (Lfd;Lsn;)V
+arg 1 world
+arg 2 entity
+
+m b teleportToValidPortal (Lfd;Lsn;)Z
+arg 1 world
+arg 2 entity
+
+m c createPortal (Lfd;Lsn;)Z
+arg 1 world
+arg 2 entity

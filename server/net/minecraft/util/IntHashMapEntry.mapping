@@ -1,0 +1,9 @@
+c og net/minecraft/util/IntHashMapEntry
+
+f a key I
+f b value Ljava/lang/Object;
+f c next Log;
+f d hash I
+
+m a getKey ()I
+m b getValue ()Ljava/lang/Object;

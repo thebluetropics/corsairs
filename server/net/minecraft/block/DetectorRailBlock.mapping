@@ -1,0 +1,8 @@
+c jn net/minecraft/block/DetectorRailBlock
+
+m f updatePoweredStatus (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta

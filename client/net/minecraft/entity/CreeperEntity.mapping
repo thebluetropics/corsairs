@@ -1,0 +1,13 @@
+c gb net/minecraft/entity/CreeperEntity
+
+f a fuseTime I
+f b lastFuseTime I
+
+m a_ getScale (F)F
+arg 1 delta
+
+m e setFuseSpeed (I)V
+arg 1 fuseSpeed
+
+m s isCharged ()Z
+m v getFuseSpeed ()I

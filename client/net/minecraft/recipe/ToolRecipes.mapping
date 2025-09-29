@@ -1,0 +1,7 @@
+c ha net/minecraft/recipe/ToolRecipes
+
+f a patterns [[Ljava/lang/String;
+f b items [[Ljava/lang/Object;
+
+m a add (Lhk;)V
+arg 1 recipeManager

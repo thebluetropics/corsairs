@@ -1,0 +1,4 @@
+c aq net/minecraft/world/biome/EntitySpawnGroup
+
+f a clazz Ljava/lang/Class;
+f b amount I

@@ -1,0 +1,26 @@
+c ew net/minecraft/world/WorldRegion
+
+f a chunkX I
+f b chunkZ I
+f c chunks [[Llm;
+f d world Lfd;
+
+m <init> (Lfd;IIIIII)V
+arg 1 world
+arg 2 minX
+arg 3 minY
+arg 4 minZ
+arg 5 maxX
+arg 6 maxY
+arg 7 maxZ
+
+m a getRawBrightness (IIIZ)I
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 useNeighborLight
+
+m d getRawBrightness (III)I
+arg 1 x
+arg 2 y
+arg 3 z

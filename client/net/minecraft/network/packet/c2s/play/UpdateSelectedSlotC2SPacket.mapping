@@ -1,0 +1,6 @@
+c ho net/minecraft/network/packet/c2s/play/UpdateSelectedSlotC2SPacket
+
+f a selectedSlot I
+
+m <init> (I)V
+arg 1 selectedSlot

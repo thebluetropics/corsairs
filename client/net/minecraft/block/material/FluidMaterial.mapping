@@ -1,0 +1,4 @@
+c sg net/minecraft/block/material/FluidMaterial
+
+m <init> (Ldx;)V
+arg 1 mapColor

@@ -1,0 +1,30 @@
+c jh net/minecraft/block/entity/BlockEntity
+
+f a idToClass Ljava/util/Map;
+f b classToId Ljava/util/Map;
+f d world Ldj;
+f e x I
+f f y I
+f g z I
+f h removed Z
+
+m a create (Ljava/lang/Class;Ljava/lang/String;)V
+arg 1 blockEntityClass
+arg 2 id
+
+m c createFromNbt (Liq;)Ljh;
+arg 1 nbt
+
+m e getPushedBlockData ()I
+m f createUpdatePacket ()Lgt;
+m g isRemoved ()Z
+m h markRemoved ()V
+m j cancelRemoval ()V
+m g_ tick ()V
+m a readNbt (Liq;)V
+arg 1 nbt
+
+m b writeNbt (Liq;)V
+arg 1 nbt
+
+m i markDirty ()V

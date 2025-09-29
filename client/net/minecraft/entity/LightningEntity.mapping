@@ -1,0 +1,11 @@
+c c net/minecraft/entity/LightningEntity
+
+f a seed J
+f b ambientTick I
+f c remainingActions I
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

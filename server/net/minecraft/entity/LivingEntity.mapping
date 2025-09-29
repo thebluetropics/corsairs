@@ -1,0 +1,104 @@
+c hl net/minecraft/entity/LivingEntity
+
+f H maxHealth I
+f K bodyYaw F
+f L lastBodyYaw F
+f M lastWalkProgress F
+f N walkProgress F
+f R texture Ljava/lang/String;
+f T rotationOffset F
+f U modelName Ljava/lang/String;
+f W scoreAmount I
+f X damageAmount F
+f Y interpolateOnly Z
+f Z lastSwingAnimationProgress F
+f a ambientSoundTimer I
+f aA forwardSpeed F
+f aB rotationSpeed F
+f aC jumping Z
+f aD defaultPitch F
+f aE movementSpeed F
+f aF lookTimer I
+f aa swingAnimationProgress F
+f ab health I
+f ac lastHealth I
+f ad hurtTime I
+f ae damagedTime I
+f af damagedSwingDir F
+f ag deathTime I
+f ah attackCooldown I
+f ai prevTilt F
+f aj tilt F
+f ak killedByOtherEntity Z
+f an lastWalkAnimationSpeed F
+f ao walkAnimationSpeed F
+f ap walkAnimationProgress F
+f aq bodyTrackingIncrements I
+f ar lerpX D
+f as lerpY D
+f at lerpZ D
+f au lerpYaw D
+f av lerpPitch D
+f ax prevHealth I
+f ay despawnCounter I
+f az sidewaysSpeed F
+f b lookTarget Llq;
+
+m c_ tickLiving ()V
+m g getRandomSound ()Ljava/lang/String;
+m h getHurtSound ()Ljava/lang/String;
+m i getDeathSound ()Ljava/lang/String;
+m j getDroppedItemId ()I
+m k getSoundVolume ()F
+m l getLimitPerChunk ()I
+m Q makeSound ()V
+m S animateSpawn ()V
+m U tryDespawn ()V
+m V hasLookTarget ()Z
+m W getLookTarget ()Llq;
+m X beforeRemove ()V
+m a lookAt (Llq;FF)V
+arg 1 target
+arg 2 maxPitch
+arg 3 maxYaw
+
+m a applyKnockback (Llq;IDD)V
+arg 1 attacker
+arg 2 amount
+arg 3 dx
+arg 4 dz
+
+m b getLookVector (F)Lba;
+arg 1 tickDelta
+
+m b lerpRotation (FFF)F
+arg 1 from
+arg 2 to
+arg 3 maxChange
+
+m e canSee (Llq;)Z
+arg 1 entity
+
+m p isOnLadder ()Z
+m q dropItems ()V
+m b_ canBreatheInWater ()Z
+m d canSpawn ()Z
+m e getMinAmbientSoundDelay ()I
+m v tickMovement ()V
+m a onKilledBy (Llq;)V
+arg 1 adversary
+
+m b heal (I)V
+arg 1 amount
+
+m h_ canDespawn ()Z
+m u getMaxLookPitchChange ()I
+m D isImmobile ()Z
+m L isSleeping ()Z
+m O jump ()V
+m a travel (FF)V
+arg 1 x
+arg 2 z
+
+m c applyDamage (I)V
+arg 1 amount

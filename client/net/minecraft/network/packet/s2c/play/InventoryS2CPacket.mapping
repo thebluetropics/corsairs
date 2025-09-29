@@ -1,0 +1,4 @@
+c kb net/minecraft/network/packet/s2c/play/InventoryS2CPacket
+
+f a syncId I
+f b contents [Liz;

@@ -1,0 +1,4 @@
+c ih net/minecraft/recipe/DyeRecipes
+
+m a add (Ley;)V
+arg 1 recipeManager

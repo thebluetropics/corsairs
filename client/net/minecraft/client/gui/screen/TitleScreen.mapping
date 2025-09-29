@@ -1,0 +1,6 @@
+c fu net/minecraft/client/gui/screen/TitleScreen
+
+f a RANDOM Ljava/util/Random;
+f i ticks F
+f j splashText Ljava/lang/String;
+f l multiplayerButton Lke;

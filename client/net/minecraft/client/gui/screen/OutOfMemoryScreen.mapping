@@ -1,0 +1,3 @@
+c x net/minecraft/client/gui/screen/OutOfMemoryScreen
+
+f a ticksRan I

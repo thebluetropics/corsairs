@@ -1,0 +1,7 @@
+c sw net/minecraft/client/gui/hud/ChatHudLine
+
+f a text Ljava/lang/String;
+f b age I
+
+m <init> (Ljava/lang/String;)V
+arg 1 text

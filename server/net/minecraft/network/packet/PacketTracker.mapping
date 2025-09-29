@@ -1,0 +1,7 @@
+c ir net/minecraft/network/packet/PacketTracker
+
+f a count I
+f b size J
+
+m a update (I)V
+arg 1 size

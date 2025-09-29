@@ -1,0 +1,4 @@
+c im net/minecraft/network/packet/play/EntityAnimationPacket
+
+f a id I
+f b animationId I

@@ -1,0 +1,16 @@
+c fj net/minecraft/client/gui/screen/world/CreateWorldScreen
+
+f a parent Lda;
+f i worldNameField Lro;
+f j seedField Lro;
+f l worldSaveName Ljava/lang/String;
+f m creatingLevel Z
+
+m <init> (Lda;)V
+arg 1 parent
+
+m a getWorldSaveName (Lnl;Ljava/lang/String;)Ljava/lang/String;
+arg 1 storageSource
+arg 2 worldName
+
+m k getSaveDirectoryNames ()V

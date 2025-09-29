@@ -1,0 +1,15 @@
+c ob net/minecraft/world/chunk/ChunkNibbleArray
+
+f a bytes [B
+
+m a isArrayInitialized ()Z
+m a get (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a set (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 value

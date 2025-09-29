@@ -1,0 +1,7 @@
+c bc net/minecraft/item/BucketItem
+
+f a fluidBlockId I
+
+m <init> (II)V
+arg 1 id
+arg 2 fluidBlockId

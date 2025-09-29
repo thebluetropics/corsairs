@@ -1,0 +1,6 @@
+c hw net/minecraft/client/color/WaterColors
+
+f a colorMap [I
+
+m a setColorMap ([I)V
+arg 1 colorMap

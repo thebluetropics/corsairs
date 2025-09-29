@@ -1,0 +1,49 @@
+c go net/minecraft/util/IntHashMap
+
+f a table [Log;
+f b size I
+f c threshold I
+f d loadFactor F
+f e modCount I
+
+m a clear ()V
+m a get (I)Ljava/lang/Object;
+arg 1 key
+
+m a indexOf (II)I
+arg 1 hash
+arg 2 arrayLength
+
+m a addEntry (IILjava/lang/Object;I)V
+arg 1 hash
+arg 2 key
+arg 3 value
+arg 4 index
+
+m a put (ILjava/lang/Object;)V
+arg 1 key
+arg 2 value
+
+m a transfer ([Log;)V
+arg 1 entryArray
+
+m b containsKey (I)Z
+arg 1 key
+
+m c getEntry (I)Log;
+arg 1 key
+
+m d remove (I)Ljava/lang/Object;
+arg 1 key
+
+m e removeEntry (I)Log;
+arg 1 key
+
+m f synthHash (I)I
+arg 1 key
+
+m g hash (I)I
+arg 1 key
+
+m h resize (I)V
+arg 1 size

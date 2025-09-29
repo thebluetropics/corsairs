@@ -1,0 +1,10 @@
+c si net/minecraft/item/PlayerUpdateTracker
+
+f a player Lgs;
+f b startZ [I
+f c endZ [I
+f e nextDirtyPixel I
+f f colorsUpdateInterval I
+
+m <init> (Liu;Lgs;)V
+arg 1 player

@@ -1,0 +1,29 @@
+c st net/minecraft/world/chunk/LightUpdate
+
+f a lightType Leb;
+f b minX I
+f c minY I
+f d minZ I
+f e maxX I
+f f maxY I
+f g maxZ I
+
+m <init> (Leb;IIIIII)V
+arg 1 lightType
+arg 2 minX
+arg 3 minY
+arg 4 minZ
+arg 5 maxX
+arg 6 maxY
+arg 7 maxZ
+
+m a expand (IIIIII)Z
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m a updateLight (Lfd;)V
+arg 1 world

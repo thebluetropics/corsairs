@@ -1,0 +1,4 @@
+c dm net/minecraft/server/world/ServerWorldEventListener
+
+f a server Lnet/minecraft/server/MinecraftServer;
+f b world Ldp;

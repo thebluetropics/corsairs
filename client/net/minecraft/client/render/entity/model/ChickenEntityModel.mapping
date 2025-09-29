@@ -1,0 +1,10 @@
+c td net/minecraft/client/render/entity/model/ChickenEntityModel
+
+f a head Lps;
+f b body Lps;
+f c rightLeg Lps;
+f d leftLeg Lps;
+f e rightWing Lps;
+f f leftWing Lps;
+f g beak Lps;
+f h wattle Lps;

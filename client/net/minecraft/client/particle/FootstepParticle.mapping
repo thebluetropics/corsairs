@@ -1,0 +1,12 @@
+c gl net/minecraft/client/particle/FootstepParticle
+
+f a footstepAge I
+f o footstepMaxAge I
+f p textureManager Lji;
+
+m <init> (Lji;Lfd;DDD)V
+arg 1 textureManager
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z

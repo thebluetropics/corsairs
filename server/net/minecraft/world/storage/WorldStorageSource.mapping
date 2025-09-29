@@ -1,0 +1,8 @@
+c il net/minecraft/world/storage/WorldStorageSource
+
+m a needsConversion (Ljava/lang/String;)Z
+arg 1 saveName
+
+m a convert (Ljava/lang/String;Lpj;)Z
+arg 1 saveName
+arg 2 display

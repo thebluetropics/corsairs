@@ -1,0 +1,55 @@
+c ln net/minecraft/block/material/Material
+
+f a AIR Lln;
+f b SOLID_ORGANIC Lln;
+f c SOIL Lln;
+f d WOOD Lln;
+f e STONE Lln;
+f f METAL Lln;
+f g WATER Lln;
+f h LAVA Lln;
+f i LEAVES Lln;
+f j PLANT Lln;
+f k SPONGE Lln;
+f l WOOL Lln;
+f m FIRE Lln;
+f n SAND Lln;
+f o PISTON_BREAKABLE Lln;
+f p GLASS Lln;
+f q TNT Lln;
+f r UNUSED Lln;
+f s ICE Lln;
+f t SNOW_LAYER Lln;
+f u SNOW_BLOCK Lln;
+f v CACTUS Lln;
+f w CLAY Lln;
+f x PUMPKIN Lln;
+f y NETHER_PORTAL Lln;
+f z CAKE Lln;
+f A COBWEB Lln;
+f B PISTON Lln;
+f D burnable Z
+f E replaceable Z
+f F transparent Z
+f C mapColor Ldx;
+f G handHarvestable Z
+f H pistonBehavior I
+
+m <init> (Ldx;)V
+arg 1 mapColor
+
+m d isFluid ()Z
+m a isSolid ()Z
+m b blocksVision ()Z
+m c blocksMovement ()Z
+m m setTransparent ()Lln;
+m n setRequiresTool ()Lln;
+m o setBurnable ()Lln;
+m e isBurnable ()Z
+m f setReplaceable ()Lln;
+m g isReplaceable ()Z
+m h suffocates ()Z
+m i isHandHarvestable ()Z
+m j getPistonBehavior ()I
+m k setDestroyPistonBehavior ()Lln;
+m l setUnpushablePistonBehavior ()Lln;

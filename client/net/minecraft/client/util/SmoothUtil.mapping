@@ -1,0 +1,9 @@
+c cu net/minecraft/client/util/SmoothUtil
+
+f a actualSum F
+f b smoothSum F
+f c movementLatency F
+
+m a smooth (FF)F
+arg 1 original
+arg 2 smoother

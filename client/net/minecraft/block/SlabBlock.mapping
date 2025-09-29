@@ -1,0 +1,8 @@
+c ys net/minecraft/block/SlabBlock
+
+f a names [Ljava/lang/String;
+f b doubleSlab Z
+
+m <init> (IZ)V
+arg 1 id
+arg 2 doubleSlab

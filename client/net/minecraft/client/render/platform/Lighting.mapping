@@ -1,0 +1,18 @@
+c u net/minecraft/client/render/platform/Lighting
+
+f a BUFFER Ljava/nio/FloatBuffer;
+
+m a turnOff ()V
+m a getBuffer (DDDD)Ljava/nio/FloatBuffer;
+arg 1 r
+arg 2 g
+arg 3 b
+arg 4 a
+
+m a getBuffer (FFFF)Ljava/nio/FloatBuffer;
+arg 1 r
+arg 2 g
+arg 3 b
+arg 4 a
+
+m b turnOn ()V

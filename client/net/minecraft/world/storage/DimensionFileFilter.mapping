@@ -1,0 +1,6 @@
+c cm net/minecraft/world/storage/DimensionFileFilter
+
+f a PATTERN Ljava/util/regex/Pattern;
+
+m <init> (Lic;)V
+arg 1 subclass

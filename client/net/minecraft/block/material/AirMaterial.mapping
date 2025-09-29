@@ -1,0 +1,4 @@
+c lu net/minecraft/block/material/AirMaterial
+
+m <init> (Ldx;)V
+arg 1 mapColor

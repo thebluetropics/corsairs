@@ -1,0 +1,6 @@
+c mp net/minecraft/network/packet/HandshakePacket
+
+f a name Ljava/lang/String;
+
+m <init> (Ljava/lang/String;)V
+arg 1 name

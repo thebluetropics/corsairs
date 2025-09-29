@@ -1,0 +1,4 @@
+c di net/minecraft/network/packet/s2c/play/ItemPickupAnimationS2CPacket
+
+f a entityId I
+f b collectorEntityId I

@@ -1,0 +1,5 @@
+c ac net/minecraft/block/SnowBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId

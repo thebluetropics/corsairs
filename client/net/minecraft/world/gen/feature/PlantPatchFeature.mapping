@@ -1,0 +1,6 @@
+c be net/minecraft/world/gen/feature/PlantPatchFeature
+
+f a plantBlockId I
+
+m <init> (I)V
+arg 1 plantBlockId

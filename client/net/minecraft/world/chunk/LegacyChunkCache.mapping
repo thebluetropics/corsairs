@@ -1,0 +1,30 @@
+c kx net/minecraft/world/chunk/LegacyChunkCache
+
+f a cachedChunkX I
+f b cachedChunkZ I
+f c empty Llm;
+f d generator Lcl;
+f e storage Lbf;
+f f chunks [Llm;
+f g world Lfd;
+f h cachedChunk Llm;
+f i spawnChunkX I
+f j spawnChunkZ I
+
+m a saveEntities (Llm;)V
+arg 1 chunk
+
+m b saveChunk (Llm;)V
+arg 1 chunk
+
+m d setSpawnPoint (II)V
+arg 1 chunkX
+arg 2 chunkZ
+
+m e isSpawnChunk (II)Z
+arg 1 chunkX
+arg 2 chunkZ
+
+m f loadChunkFromStorage (II)Llm;
+arg 1 chunkX
+arg 2 chunkZ

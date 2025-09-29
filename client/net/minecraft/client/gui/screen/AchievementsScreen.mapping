@@ -1,0 +1,28 @@
+c xm net/minecraft/client/gui/screen/AchievementsScreen
+
+f a iconWidth I
+f i iconHeight I
+f j prevMouseX I
+f l prevMouseY I
+f m mouseX D
+f n mouseY D
+f o scaledMouseDx D
+f p scaledMouseDy D
+f q scrollX D
+f r scrollY D
+f s MIN_COLUMN I
+f t MIN_ROW I
+f u MAX_COLUMN I
+f v MAX_ROW I
+f w scroll I
+f x stats Lxi;
+
+m <init> (Lxi;)V
+arg 1 stats
+
+m b renderIcons (IIF)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 tickDelta
+
+m k setTitle ()V

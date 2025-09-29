@@ -1,0 +1,14 @@
+c de net/minecraft/recipe/SmeltingRecipeManager
+
+f a INSTANCE Lde;
+f b recipes Ljava/util/Map;
+
+m a getInstance ()Lde;
+m a craft (I)Lfy;
+arg 1 inputId
+
+m a addRecipe (ILfy;)V
+arg 1 inputId
+arg 2 output
+
+m b getRecipes ()Ljava/util/Map;

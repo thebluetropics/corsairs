@@ -1,0 +1,44 @@
+c qn net/minecraft/world/gen/NetherChunkGenerator
+
+f a scaleNoise Luf;
+f b depthNoise Luf;
+f c perlinNoiseBuffer [D
+f d minLimitPerlinNoiseBuffer [D
+f e maxLimitPerlinNoiseBuffer [D
+f f scaleNoiseBuffer [D
+f g depthNoiseBuffer [D
+f h random Ljava/util/Random;
+f i minLimitPerlinNoise Luf;
+f j maxLimitPerlinNoise Luf;
+f k perlinNoise1 Luf;
+f l perlinNoise2 Luf;
+f m perlinNoise3 Luf;
+f n world Lfd;
+f o heightMap [D
+f p sandBuffer [D
+f q gravelBuffer [D
+f r depthBuffer [D
+f s cave Lfv;
+
+m <init> (Lfd;J)V
+arg 1 world
+arg 2 seed
+
+m a buildTerrain (II[B)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+
+m a generateHeightMap ([DIIIIII)[D
+arg 1 heightMap
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 sizeX
+arg 6 sizeY
+arg 7 sizeZ
+
+m b buildSurfaces (II[B)V
+arg 1 chunkX
+arg 2 chunkY
+arg 3 blocks

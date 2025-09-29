@@ -1,0 +1,15 @@
+c jz net/minecraft/network/packet/c2s/play/PlayerInputC2SPacket
+
+f a sideways F
+f b forward F
+f c jumping Z
+f d sneaking Z
+f e pitch F
+f f yaw F
+
+m c getSideways ()F
+m d getPitch ()F
+m e getForward ()F
+m f getYaw ()F
+m g isJumping ()Z
+m h isSneaking ()Z

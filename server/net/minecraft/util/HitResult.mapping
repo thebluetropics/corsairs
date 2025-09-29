@@ -1,0 +1,9 @@
+c nh net/minecraft/util/HitResult
+
+f a type Lgd;
+f b blockX I
+f c blockY I
+f d blockZ I
+f e side I
+f f pos Lba;
+f g entity Llq;

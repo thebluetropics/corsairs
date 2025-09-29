@@ -1,0 +1,3 @@
+c gh net/minecraft/client/gui/screen/SleepingChatScreen
+
+m k stopSleeping ()V

@@ -1,0 +1,4 @@
+c od net/minecraft/recipe/FoodRecipes
+
+m a add (Lhk;)V
+arg 1 recipeManager

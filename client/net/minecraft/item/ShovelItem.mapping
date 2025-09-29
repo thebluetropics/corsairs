@@ -1,0 +1,7 @@
+c wc net/minecraft/item/ShovelItem
+
+f bk shovelEffectiveBlocks [Luu;
+
+m <init> (ILbu;)V
+arg 1 id
+arg 2 toolMaterial

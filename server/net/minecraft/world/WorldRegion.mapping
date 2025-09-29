@@ -1,0 +1,6 @@
+c dd net/minecraft/world/WorldRegion
+
+f a chunkX I
+f b chunkZ I
+f c chunks [[Lhi;
+f d world Ldj;

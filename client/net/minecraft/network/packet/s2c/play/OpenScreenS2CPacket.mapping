@@ -1,0 +1,6 @@
+c iw net/minecraft/network/packet/s2c/play/OpenScreenS2CPacket
+
+f a syncId I
+f b screenHandlerId I
+f c name Ljava/lang/String;
+f d size I

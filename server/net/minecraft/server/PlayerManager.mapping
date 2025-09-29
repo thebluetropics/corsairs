@@ -1,0 +1,151 @@
+c fc net/minecraft/server/PlayerManager
+
+f a LOGGER Ljava/util/logging/Logger;
+f b players Ljava/util/List;
+f c server Lnet/minecraft/server/MinecraftServer;
+f d chunkMaps [Loo;
+f e maxPlayerCount I
+f f bannedPlayers Ljava/util/Set;
+f g bannedIps Ljava/util/Set;
+f h ops Ljava/util/Set;
+f i whitelist Ljava/util/Set;
+f j BANNED_PLAYERS_FILE Ljava/io/File;
+f k BANNED_IPS_FILE Ljava/io/File;
+f l OPERATORS_FILE Ljava/io/File;
+f m WHITELIST_FILE Ljava/io/File;
+f n saveHandler Lfl;
+f o whitelistEnabled Z
+
+m a getBlockViewDistance ()I
+m a sendToAround (DDDDILgt;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 range
+arg 5 dimensionId
+arg 6 packet
+
+m a getChunkMap (I)Loo;
+arg 1 dimensionId
+
+m a markDirty (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 dimensionId
+
+m a updateBlockEntity (IIILjh;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockentity
+
+m a updatePlayerAfterDimensionChange (Ldl;)V
+arg 1 player
+
+m a respawnPlayer (Ldl;I)Ldl;
+arg 1 player
+arg 2 dimensionId
+
+m a sendWorldInfo (Ldl;Ldp;)V
+arg 1 player
+arg 2 world
+
+m a connectPlayer (Lee;Ljava/lang/String;)Ldl;
+arg 1 loginNetworkHandler
+arg 2 name
+
+m a sendToAround (Lem;DDDDILgt;)V
+arg 1 player
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 range
+arg 6 dimensionId
+arg 7 packet
+
+m a sendToAll (Lgt;)V
+arg 1 packet
+
+m a sendToDimension (Lgt;I)V
+arg 1 packet
+arg 2 dimensionId
+
+m a banPlayer (Ljava/lang/String;)V
+arg 1 name
+
+m a sendPacket (Ljava/lang/String;Lgt;)Z
+arg 1 player
+arg 2 packet
+
+m a messagePlayer (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 name
+arg 2 message
+
+m a saveAllPlayers ([Ldp;)V
+arg 1 world
+
+m b updateAllChunks ()V
+m b loadPlayerData (Ldl;)V
+arg 1 player
+
+m b unbanPlayer (Ljava/lang/String;)V
+arg 1 name
+
+m c getPlayerList ()Ljava/lang/String;
+m c addPlayer (Ldl;)V
+arg 1 player
+
+m c banIp (Ljava/lang/String;)V
+arg 1 ip
+
+m d savePlayers ()V
+m d updatePlayerChunks (Ldl;)V
+arg 1 player
+
+m d unbanIp (Ljava/lang/String;)V
+arg 1 ip
+
+m e getWhitelist ()Ljava/util/Set;
+m e disconnect (Ldl;)V
+arg 1 player
+
+m e addToOperators (Ljava/lang/String;)V
+arg 1 name
+
+m f reloadWhitelist ()V
+m f changePlayerDimension (Ldl;)V
+arg 1 player
+
+m f removeFromOperators (Ljava/lang/String;)V
+arg 1 name
+
+m g loadBannedPlayers ()V
+m g sendPlayerStatus (Ldl;)V
+arg 1 player
+
+m g isWhitelisted (Ljava/lang/String;)Z
+arg 1 name
+
+m h saveBannedPlayers ()V
+m h isOperator (Ljava/lang/String;)Z
+arg 1 name
+
+m i loadBannedIps ()V
+m i getPlayer (Ljava/lang/String;)Ldl;
+arg 1 name
+
+m j saveBannedIps ()V
+m j broadcast (Ljava/lang/String;)V
+arg 1 message
+
+m k loadOperators ()V
+m k addToWhitelist (Ljava/lang/String;)V
+arg 1 name
+
+m l saveOperators ()V
+m l removeFromWhitelist (Ljava/lang/String;)V
+arg 1 name
+
+m m loadWhitelist ()V
+m n saveWhitelist ()V

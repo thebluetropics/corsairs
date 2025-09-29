@@ -1,0 +1,15 @@
+c dy net/minecraft/client/render/entity/PaintingEntityRenderer
+
+f a random Ljava/util/Random;
+
+m a applyBrightness (Lqv;FF)V
+arg 1 painting
+arg 2 u
+arg 3 v
+
+m a renderPainting (Lqv;IIII)V
+arg 1 painting
+arg 2 width
+arg 3 height
+arg 4 u
+arg 5 v

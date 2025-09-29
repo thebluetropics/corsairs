@@ -1,0 +1,8 @@
+c bj net/minecraft/world/biome/EntitySpawnGroup
+
+f a entityClass Ljava/lang/Class;
+f b amount I
+
+m <init> (Ljava/lang/Class;I)V
+arg 1 entityClass
+arg 2 amount

@@ -1,0 +1,8 @@
+c yg net/minecraft/client/render/entity/GiantEntityRenderer
+
+f a scale F
+
+m <init> (Lko;FF)V
+arg 1 model
+arg 2 shadowSize
+arg 3 scale

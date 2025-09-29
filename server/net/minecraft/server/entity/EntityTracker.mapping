@@ -1,0 +1,36 @@
+c nl net/minecraft/server/entity/EntityTracker
+
+f a entries Ljava/util/Set;
+f b entriesById Lgo;
+f c world Lnet/minecraft/server/MinecraftServer;
+f d viewDistance I
+f e dimensionId I
+
+m a tick ()V
+m a removeListener (Ldl;)V
+arg 1 player
+
+m a onEntityAdded (Llq;)V
+arg 1 entity
+
+m a startTracking (Llq;II)V
+arg 1 entity
+arg 2 trackedDistance
+arg 3 tracingFrequency
+
+m a startTracking (Llq;IIZ)V
+arg 1 entity
+arg 2 trackedDistance
+arg 3 tracingFrequency
+arg 4 alwaysUpdateVelocity
+
+m a sendToListeners (Llq;Lgt;)V
+arg 1 entity
+arg 2 packet
+
+m b onEntityRemoved (Llq;)V
+arg 1 entity
+
+m b sendToAround (Llq;Lgt;)V
+arg 1 entity
+arg 2 packet

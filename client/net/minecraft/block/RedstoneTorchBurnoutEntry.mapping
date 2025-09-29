@@ -1,0 +1,12 @@
+c xu net/minecraft/block/RedstoneTorchBurnoutEntry
+
+f a x I
+f b y I
+f c z I
+f d time J
+
+m <init> (IIIJ)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 time

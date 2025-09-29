@@ -1,0 +1,28 @@
+c by net/minecraft/entity/SnowballEntity
+
+f a shake I
+f b blockX I
+f c blockY I
+f d blockZ I
+f e blockId I
+f f inGround Z
+f g owner Lls;
+f h removalTimer I
+f i inAirTime I
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m <init> (Lfd;Lls;)V
+arg 1 world
+arg 2 owner
+
+m a setVelocity (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 speed
+arg 5 divergence

@@ -1,0 +1,11 @@
+c ec net/minecraft/screen/ScreenHandlerListener
+
+m a onPropertyUpdate (Ldw;II)V
+arg 1 handler
+arg 2 syncId
+arg 3 trackedValue
+
+m a onSlotUpdate (Ldw;ILiz;)V
+arg 1 handler
+arg 2 slot
+arg 3 stack

@@ -1,0 +1,52 @@
+c ub net/minecraft/client/gui/DrawContext
+
+f k zOffset F
+
+m a drawHorizontalLine (IIII)V
+arg 1 x1
+arg 2 x2
+arg 3 y
+arg 4 color
+
+m b drawVerticalLine (IIII)V
+arg 1 x
+arg 2 y1
+arg 3 y2
+arg 4 color
+
+m a fill (IIIII)V
+arg 1 x1
+arg 2 y1
+arg 3 x2
+arg 4 y2
+arg 5 color
+
+m a fillGradient (IIIIII)V
+arg 1 startX
+arg 2 startY
+arg 3 endX
+arg 4 endY
+arg 5 colorStart
+arg 6 colorEnd
+
+m a drawCenteredTextWithShadow (Lsj;Ljava/lang/String;III)V
+arg 1 textRenderer
+arg 2 text
+arg 3 centerX
+arg 4 y
+arg 5 color
+
+m b drawTextWithShadow (Lsj;Ljava/lang/String;III)V
+arg 1 textRenderer
+arg 2 text
+arg 3 x
+arg 4 y
+arg 5 color
+
+m b drawTexture (IIIIII)V
+arg 1 x
+arg 2 y
+arg 3 u
+arg 4 v
+arg 5 width
+arg 6 height

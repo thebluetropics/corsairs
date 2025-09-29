@@ -1,0 +1,3 @@
+c ep net/minecraft/entity/MonsterEntity
+
+f c attackDamage I

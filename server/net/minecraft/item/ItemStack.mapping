@@ -1,0 +1,97 @@
+c fy net/minecraft/item/ItemStack
+
+f a count I
+f b bobbingAnimationTime I
+f c itemId I
+f d damage I
+
+m a getItem ()Lej;
+m a split (I)Lfy;
+arg 1 count
+
+m a postMine (IIIILem;)V
+arg 1 blockId
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 miner
+
+m a damage (ILlq;)V
+arg 1 amount
+arg 2 entity
+
+m a use (Ldj;Lem;)Lfy;
+arg 1 world
+arg 2 user
+
+m a inventoryTick (Ldj;Llq;IZ)V
+arg 1 world
+arg 2 entity
+arg 3 slot
+arg 4 selected
+
+m a onRemoved (Lem;)V
+arg 1 entity
+
+m a useOnBlock (Lem;Ldj;IIII)Z
+arg 1 player
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 side
+
+m a isItemEqual (Lfy;)Z
+arg 1 stack
+
+m a areEqual (Lfy;Lfy;)Z
+arg 1 left
+arg 2 right
+
+m a useOnEntity (Lhl;)V
+arg 1 entity
+
+m a postHit (Lhl;Lem;)V
+arg 1 target
+arg 2 attacker
+
+m a writeNbt (Liq;)Liq;
+arg 1 nbt
+
+m a getAttackDamage (Llq;)I
+arg 1 attackedEntity
+
+m a getMiningSpeedMultiplier (Lna;)F
+arg 1 block
+
+m b getMaxCount ()I
+m b setDamage (I)V
+arg 1 damage
+
+m b onCraft (Ldj;Lem;)V
+arg 1 world
+arg 2 player
+
+m b clone (Lfy;)Lfy;
+arg 1 stack
+
+m b readNbt (Liq;)V
+arg 1 nbt
+
+m b isSuitableFor (Lna;)Z
+arg 1 block
+
+m c isStackable ()Z
+m c equals (Lfy;)Z
+arg 1 stack
+
+m d isDamageable ()Z
+m d equals2 (Lfy;)Z
+arg 1 stack
+
+m e hasSubtypes ()Z
+m f isDamaged ()Z
+m g getDamage2 ()I
+m h getDamage ()I
+m i getMaxDamage ()I
+m j copy ()Lfy;

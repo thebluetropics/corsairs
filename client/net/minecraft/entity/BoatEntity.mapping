@@ -1,0 +1,20 @@
+c fz net/minecraft/entity/BoatEntity
+
+f a damageWobbleStrength I
+f b damageWobbleTicks I
+f c damageWobbleSide I
+f d clientInterpolationSteps I
+f e clientX D
+f f clientY D
+f g clientZ D
+f h clientPitch D
+f i clientYaw D
+f j clientVelocityX D
+f k clientVelocityY D
+f l clientVelocityZ D
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

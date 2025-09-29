@@ -1,0 +1,21 @@
+c lf net/minecraft/entity/EntityPathMinHeap
+
+f a pathNodes [Ld;
+f b count I
+
+m a clear ()V
+m a shiftUp (I)V
+arg 1 index
+
+m a push (Ld;)Ld;
+arg 1 node
+
+m a setNodeWeight (Ld;F)V
+arg 1 node
+arg 2 weight
+
+m b pop ()Ld;
+m b shiftDown (I)V
+arg 1 index
+
+m c isEmpty ()Z

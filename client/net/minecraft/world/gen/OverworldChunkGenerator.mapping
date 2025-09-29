@@ -1,0 +1,51 @@
+c yf net/minecraft/world/gen/OverworldChunkGenerator
+
+f a floatingIslandScale Luf;
+f b floatingIslandNoise Luf;
+f c forestNoise Luf;
+f d perlinNoiseBuffer [D
+f e minLimitPerlinNoiseBuffer [D
+f f maxLimitPerlinNoiseBuffer [D
+f g scaleNoiseBuffer [D
+f h depthNoiseBuffer [D
+f i waterDepths [[I
+f j random Ljava/util/Random;
+f k minLimitPerlinNoise Luf;
+f l maxLimitPerlinNoise Luf;
+f m perlinNoise1 Luf;
+f n perlinNoise2 Luf;
+f o perlinNoise3 Luf;
+f p world Lfd;
+f q heightMap [D
+f r sandBuffer [D
+f s gravelBuffer [D
+f t depthBuffer [D
+f u cave Lfv;
+f v biomes [Lkd;
+f w temperatures [D
+
+m <init> (Lfd;J)V
+arg 1 world
+arg 2 seed
+
+m a buildSurfaces (II[B[Lkd;)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 biomes
+
+m a buildTerrain (II[B[Lkd;[D)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 biomes
+arg 5 temperatures
+
+m a generateHeightMap ([DIIIIII)[D
+arg 1 heightMap
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 sizeX
+arg 6 sizeY
+arg 7 sizeZ

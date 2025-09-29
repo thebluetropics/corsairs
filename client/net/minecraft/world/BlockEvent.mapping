@@ -1,0 +1,18 @@
+c qy net/minecraft/world/BlockEvent
+
+f a x I
+f b y I
+f c z I
+f d blockId I
+f e ticks J
+f f counter J
+f g globalId J
+
+m <init> (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m a get (J)Lqy;
+arg 1 ticks

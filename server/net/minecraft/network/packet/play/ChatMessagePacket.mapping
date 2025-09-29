@@ -1,0 +1,3 @@
+c jk net/minecraft/network/packet/play/ChatMessagePacket
+
+f a chatMessage Ljava/lang/String;

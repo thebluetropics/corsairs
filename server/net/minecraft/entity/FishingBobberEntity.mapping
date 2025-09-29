@@ -1,0 +1,28 @@
+c hq net/minecraft/entity/FishingBobberEntity
+
+f a shake I
+f b owner Lem;
+f c hookedEntity Llq;
+f d blockX I
+f e blockY I
+f f blockZ I
+f g blockId I
+f h inGround Z
+f i removalTimer I
+f j inAirTime I
+f k hookCountdown I
+f l clientInterpolationSteps I
+f m clientX D
+f n clientY D
+f o clientZ D
+f p clientPitch D
+f q clientYaw D
+
+m a setVelocity (DDDFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 speed
+arg 5 divergence
+
+m h use ()I

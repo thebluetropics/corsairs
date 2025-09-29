@@ -1,0 +1,10 @@
+c ek net/minecraft/client/texture/ImageDownload
+
+f a image Ljava/awt/image/BufferedImage;
+f b requestCount I
+f c textureId I
+f d uploaded Z
+
+m <init> (Ljava/lang/String;Lnf;)V
+arg 1 url
+arg 2 textureProcessor

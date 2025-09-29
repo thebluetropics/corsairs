@@ -1,0 +1,6 @@
+c yr net/minecraft/network/packet/play/DisconnectPacket
+
+f a reason Ljava/lang/String;
+
+m <init> (Ljava/lang/String;)V
+arg 1 reason

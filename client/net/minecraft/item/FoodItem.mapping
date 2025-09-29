@@ -1,0 +1,12 @@
+c yw net/minecraft/item/FoodItem
+
+f a healthRestored I
+f bk meat Z
+
+m <init> (IIZ)V
+arg 1 id
+arg 2 healthRestored
+arg 3 meat
+
+m l getHealthRestored ()I
+m m isMeat ()Z

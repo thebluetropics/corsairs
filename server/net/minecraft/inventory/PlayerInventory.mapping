@@ -1,0 +1,55 @@
+c fx net/minecraft/inventory/PlayerInventory
+
+f a main [Lfy;
+f b armor [Lfy;
+f c selectedSlot I
+f d player Lem;
+f e dirty Z
+f f cursorStack Lfy;
+
+m a addStack (Lfy;)Z
+arg 1 stack
+
+m a getAttackDamage (Llq;)I
+arg 1 entity
+
+m a writeNbt (Llr;)Llr;
+arg 1 nbt
+
+m a getStrengthOnBlock (Lna;)F
+arg 1 block
+
+m b getSelectedItem ()Lfy;
+m b remove (I)Z
+arg 1 itemId
+
+m b setCursorStack (Lfy;)V
+arg 1 cursorStack
+
+m b readNbt (Llr;)V
+arg 1 nbt
+
+m b isUsingEffectiveTool (Lna;)Z
+arg 1 block
+
+m c damageArmor (I)V
+arg 1 amount
+
+m c contains (Lfy;)Z
+arg 1 stack
+
+m d indexOf (I)I
+arg 1 itemId
+
+m d indexOf (Lfy;)I
+arg 1 stack
+
+m e getHotbarSize ()I
+m e combineStacks (Lfy;)I
+arg 1 stack
+
+m f inventoryTick ()V
+m g getTotalArmorDurability ()I
+m h dropInventory ()V
+m j getCursorStack ()Lfy;
+m k getEmptySlot ()I

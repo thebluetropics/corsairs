@@ -1,0 +1,206 @@
+c ej net/minecraft/item/Item
+
+f A DIAMOND_AXE Lej;
+f B STICK Lej;
+f C BOWL Lej;
+f D MUSHROOM_STEW Lej;
+f E GOLDEN_SWORD Lej;
+f F GOLDEN_SHOVEL Lej;
+f G GOLDEN_PICKAXE Lej;
+f H GOLDEN_AXE Lej;
+f I STRING Lej;
+f J FEATHER Lej;
+f K GUNPOWDER Lej;
+f L WOODEN_HOE Lej;
+f M STONE_HOE Lej;
+f N IRON_HOE Lej;
+f O DIAMOND_HOE Lej;
+f P GOLDEN_HOE Lej;
+f Q SEEDS Lej;
+f R WHEAT Lej;
+f S BREAD Lej;
+f T LEATHER_HELMET Lej;
+f U LEATHER_CHESTPLATE Lej;
+f V LEATHER_LEGGINGS Lej;
+f W LEATHER_BOOTS Lej;
+f X CHAIN_HELMET Lej;
+f Y CHAIN_CHESTPLATE Lej;
+f Z CHAIN_LEGGINGS Lej;
+f a maxDamage I
+f aA REDSTONE Lej;
+f aB SNOWBALL Lej;
+f aC BOAT Lej;
+f aD LEATHER Lej;
+f aE MILK_BUCKET Lej;
+f aF BRICK Lej;
+f aG CLAY Lej;
+f aH SUGAR_CANE Lej;
+f aI PAPER Lej;
+f aJ BOOK Lej;
+f aK SLIMEBALL Lej;
+f aL CHEST_MINECART Lej;
+f aM FURNACE_MINECART Lej;
+f aN EGG Lej;
+f aO COMPASS Lej;
+f aP FISHING_ROD Lej;
+f aQ CLOCK Lej;
+f aR GLOWSTONE_DUST Lej;
+f aS RAW_FISH Lej;
+f aT COOKED_FISH Lej;
+f aU DYE Lej;
+f aV BONE Lej;
+f aW SUGAR Lej;
+f aX CAKE Lej;
+f aY BED Lej;
+f aZ REPEATER Lej;
+f aa CHAIN_BOOTS Lej;
+f ab IRON_HELMET Lej;
+f ac IRON_CHESTPLATE Lej;
+f ad IRON_LEGGINGS Lej;
+f ae IRON_BOOTS Lej;
+f af DIAMOND_HELMET Lej;
+f ag DIAMOND_CHESTPLATE Lej;
+f ah DIAMOND_LEGGINGS Lej;
+f ai DIAMOND_BOOTS Lej;
+f aj GOLDEN_HELMET Lej;
+f ak GOLDEN_CHESTPLATE Lej;
+f al GOLDEN_LEGGINGS Lej;
+f am GOLDEN_BOOTS Lej;
+f an FLINT Lej;
+f ao RAW_PORKCHOP Lej;
+f ap COOKED_PORKCHOP Lej;
+f aq PAINTING Lej;
+f ar GOLDEN_APPLE Lej;
+f as SIGN Lej;
+f at WOODEN_DOOR Lej;
+f au BUCKET Lej;
+f av WATER_BUCKET Lej;
+f aw LAVA_BUCKET Lej;
+f ax MINECART Lej;
+f ay SADDLE Lej;
+f az IRON_DOOR Lej;
+f b random Ljava/util/Random;
+f ba COOKIE Lej;
+f bb MAP Lol;
+f bc SHEARS Las;
+f bd RECORD_THIRTEEN Lej;
+f be RECORD_CAT Lej;
+f bf id I
+f bg maxCount I
+f bh textureId I
+f bi handheld Z
+f bj hasSubtypes Z
+f bk craftingReturnItem Lej;
+f bl translationKey Ljava/lang/String;
+f c ITEMS [Lej;
+f d IRON_SHOVEL Lej;
+f e IRON_PICKAXE Lej;
+f f IRON_AXE Lej;
+f g FLINT_AND_STEEL Lej;
+f h APPLE Lej;
+f i BOW Lej;
+f j ARROW Lej;
+f k COAL Lej;
+f l DIAMOND Lej;
+f m IRON_INGOT Lej;
+f n GOLD_INGOT Lej;
+f o IRON_SWORD Lej;
+f p WOODEN_SWORD Lej;
+f q WOODEN_SHOVEL Lej;
+f r WOODEN_PICKAXE Lej;
+f s WOODEN_AXE Lej;
+f t STONE_SWORD Lej;
+f u STONE_SHOVEL Lej;
+f v STONE_PICKAXE Lej;
+f w STONE_AXE Lej;
+f x DIAMOND_SWORD Lej;
+f y DIAMOND_SHOVEL Lej;
+f z DIAMOND_PICKAXE Lej;
+
+m a postMine (Lfy;IIIILhl;)Z
+arg 1 stack
+arg 2 blockId
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 miner
+
+m a getMiningSpeedMultiplier (Lfy;Lna;)F
+arg 1 stack
+arg 2 block
+
+m a getTranslationKey ()Ljava/lang/String;
+m a useOnBlock (Lfy;Lem;Ldj;IIII)Z
+arg 1 stack
+arg 2 user
+arg 3 world
+arg 4 x
+arg 5 y
+arg 6 z
+arg 7 side
+
+m b isNetworkSynced ()Z
+m a postHit (Lfy;Lhl;Lhl;)Z
+arg 1 stack
+arg 2 target
+arg 3 attacker
+
+m a getAttackDamage (Llq;)I
+arg 1 attackedEntity
+
+m a isSuitableFor (Lna;)Z
+arg 1 block
+
+m a use (Lfy;Ldj;Lem;)Lfy;
+arg 1 stack
+arg 2 world
+arg 3 user
+
+m a setTexturePosition (II)Lej;
+arg 1 x
+arg 2 y
+
+m a setCraftingReturnItem (Lej;)Lej;
+arg 1 item
+
+m a inventoryTick (Lfy;Ldj;Llq;IZ)V
+arg 1 stack
+arg 2 world
+arg 3 entity
+arg 4 slot
+arg 5 selected
+
+m a useOnEntity (Lfy;Lhl;)V
+arg 1 stack
+arg 2 entity
+
+m a setTranslationKey (Ljava/lang/String;)Lej;
+arg 1 key
+
+m a setHasSubtypes (Z)Lej;
+arg 1 hasSubtypes
+
+m b setTextureId (I)Lej;
+arg 1 textureId
+
+m c getMaxCount ()I
+m c setMaxCount (I)Lej;
+arg 1 maxCount
+
+m c onCraft (Lfy;Ldj;Lem;)V
+arg 1 stack
+arg 2 world
+arg 3 player
+
+m d hasSubtypes ()Z
+m d setMaxDamage (I)Lej;
+arg 1 maxDamage
+
+m e getMaxDamage ()I
+m f isDamageable ()Z
+m g setHandheld ()Lej;
+m h getCraftingReturnItem ()Lej;
+m i hasCraftingReturnItem ()Z
+m j getTranslatedName ()Ljava/lang/String;
+m a getPlacementMetadata (I)I
+arg 1 meta

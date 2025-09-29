@@ -1,0 +1,54 @@
+c cl net/minecraft/screen/ScreenHandler
+
+f a revision S
+f b players Ljava/util/Set;
+f d trackedStacks Ljava/util/List;
+f e slots Ljava/util/List;
+f f syncId I
+f g listeners Ljava/util/List;
+
+m a sendContentUpdates ()V
+m a addListener (Lcp;)V
+arg 1 listener
+
+m a onSlotClick (IIZLem;)Lfy;
+arg 1 index
+arg 2 button
+arg 3 shift
+arg 4 player
+
+m a addSlot (Lel;)V
+arg 1 slot
+
+m a updatePlayerList (Lem;Z)V
+arg 1 player
+arg 2 remove
+
+m a insertItem (Lfy;IIZ)V
+arg 1 stack
+arg 2 startIndex
+arg 3 endIndex
+arg 4 fromLast
+
+m a getSlot (Lhp;I)Lel;
+arg 1 inventory
+arg 2 index
+
+m b getStacks ()Ljava/util/List;
+m b getSlot (I)Lel;
+arg 1 index
+
+m c canOpen (Lem;)Z
+arg 1 player
+
+m a quickMove (I)Lfy;
+arg 1 slot
+
+m a onClosed (Lem;)V
+arg 1 player
+
+m a onSlotUpdate (Lhp;)V
+arg 1 inventory
+
+m b canUse (Lem;)Z
+arg 1 player

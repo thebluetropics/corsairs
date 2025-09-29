@@ -1,0 +1,16 @@
+c iy net/minecraft/client/render/MapRenderer
+
+f a colors [I
+f b texture I
+f c options Lkv;
+f d textRenderer Lsj;
+
+m <init> (Lsj;Lkv;Lji;)V
+arg 1 textRenderer
+arg 2 options
+arg 3 textureManager
+
+m a render (Lgs;Lji;Liu;)V
+arg 1 player
+arg 2 textureManager
+arg 3 mapState

@@ -1,0 +1,4 @@
+c ou net/minecraft/block/material/PortalMaterial
+
+m <init> (Ldx;)V
+arg 1 mapColor

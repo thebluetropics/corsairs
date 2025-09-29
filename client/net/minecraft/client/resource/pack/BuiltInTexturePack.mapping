@@ -1,0 +1,4 @@
+c pa net/minecraft/client/resource/pack/BuiltInTexturePack
+
+f e iconId I
+f f icon Ljava/awt/image/BufferedImage;

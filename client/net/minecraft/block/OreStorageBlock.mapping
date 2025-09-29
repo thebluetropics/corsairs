@@ -1,0 +1,5 @@
+c l net/minecraft/block/OreStorageBlock
+
+m <init> (II)V
+arg 1 id
+arg 2 textureId

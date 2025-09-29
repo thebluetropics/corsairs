@@ -1,0 +1,4 @@
+c pw net/minecraft/block/SlabBlock
+
+f a names [Ljava/lang/String;
+f b doubleSlab Z

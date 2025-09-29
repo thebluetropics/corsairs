@@ -1,0 +1,23 @@
+c qx net/minecraft/world/explosion/Explosion
+
+f a fire Z
+f b x D
+f c y D
+f d z D
+f e source Lsn;
+f f power F
+f g damagedBlocks Ljava/util/Set;
+f h random Ljava/util/Random;
+f i world Lfd;
+
+m <init> (Lfd;Lsn;DDDF)V
+arg 1 world
+arg 2 source
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 power
+
+m a explode ()V
+m a playExplosionSound (Z)V
+arg 1 addParticles

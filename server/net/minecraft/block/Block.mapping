@@ -1,0 +1,416 @@
+c na net/minecraft/block/Block
+
+f A BEDROCK Lna;
+f B FLOWING_WATER Lna;
+f C WATER Lna;
+f D FLOWING_LAVA Lna;
+f E LAVA Lna;
+f F SAND Lna;
+f G GRAVEL Lna;
+f H GOLD_ORE Lna;
+f I IRON_ORE Lna;
+f J COAL_ORE Lna;
+f K LOG Lna;
+f L LEAVES Lar;
+f M SPONGE Lna;
+f N GLASS Lna;
+f O LAPIS_ORE Lna;
+f P LAPIS_BLOCK Lna;
+f Q DISPENSER Lna;
+f R SANDSTONE Lna;
+f S NOTE_BLOCK Lna;
+f T BED Lna;
+f U POWERED_RAIL Lna;
+f V DETECTOR_RAIL Lna;
+f W STICKY_PISTON Lna;
+f X COBWEB Lna;
+f Y GRASS Lkz;
+f Z DEAD_BUSH Lfz;
+f a translationKey Ljava/lang/String;
+f aA WHEAT Lna;
+f aB FARMLAND Lna;
+f aC FURNACE Lna;
+f aD LIT_FURNACE Lna;
+f aE SIGN Lna;
+f aF DOOR Lna;
+f aG LADDER Lna;
+f aH RAIL Lna;
+f aI COBBLESTONE_STAIRS Lna;
+f aJ WALL_SIGN Lna;
+f aK LEVER Lna;
+f aL STONE_PRESSURE_PLATE Lna;
+f aM IRON_DOOR Lna;
+f aN WOODEN_PRESSURE_PLATE Lna;
+f aO REDSTONE_ORE Lna;
+f aP LIT_REDSTONE_ORE Lna;
+f aQ REDSTONE_TORCH Lna;
+f aR LIT_REDSTONE_TORCH Lna;
+f aS BUTTON Lna;
+f aT SNOW Lna;
+f aU ICE Lna;
+f aV SNOW_BLOCK Lna;
+f aW CACTUS Lna;
+f aX CLAY Lna;
+f aY SUGAR_CANE Lna;
+f aZ JUKEBOX Lna;
+f aa PISTON Lna;
+f ab PISTON_HEAD Lg;
+f ac WOOL Lna;
+f ad MOVING_PISTON Lmz;
+f ae DANDELION Lnw;
+f af ROSE Lnw;
+f ag BROWN_MUSHROOM Lnw;
+f ah RED_MUSHROOM Lnw;
+f ai GOLD_BLOCK Lna;
+f aj IRON_BLOCK Lna;
+f ak DOUBLE_SLAB Lna;
+f al SLAB Lna;
+f am BRICKS Lna;
+f an TNT Lna;
+f ao BOOKSHELF Lna;
+f ap MOSSY_COBBLESTONE Lna;
+f aq OBSIDIAN Lna;
+f ar TORCH Lna;
+f as FIRE Lpt;
+f at SPAWNER Lna;
+f au WOODEN_STAIRS Lna;
+f av CHEST Lna;
+f aw REDSTONE_WIRE Lna;
+f ax DIAMOND_ORE Lna;
+f ay DIAMOND_BLOCK Lna;
+f az CRAFTING_TABLE Lna;
+f bA material Lhj;
+f bB slipperiness F
+f ba FENCE Lna;
+f bb PUMPKIN Lna;
+f bc NETHERRACK Lna;
+f bd SOUL_SAND Lna;
+f be GLOWSTONE Lna;
+f bf NETHER_PORTAL Lz;
+f bg JACK_O_LANTERN Lna;
+f bh CAKE Lna;
+f bi REPEATER Lna;
+f bj POWERED_REPEATER Lna;
+f bk LOCKED_CHEST Lna;
+f bl TRAPDOOR Lna;
+f bm textureId I
+f bn id I
+f bo hardness F
+f bp resistance F
+f bq constructed Z
+f br shouldTrackStatistics Z
+f bs minX D
+f bt minY D
+f bu minZ D
+f bv maxX D
+f bw maxY D
+f bx maxZ D
+f by soundGroup Lbu;
+f bz particleFallSpeedModifier F
+f d DEFAULT_SOUND_GROUP Lbu;
+f e WOOD_SOUND_GROUP Lbu;
+f f GRAVEL_SOUND_GROUP Lbu;
+f g DIRT_SOUND_GROUP Lbu;
+f h STONE_SOUND_GROUP Lbu;
+f i METAL_SOUND_GROUP Lbu;
+f j GLASS_SOUND_GROUP Lbu;
+f k WOOL_SOUND_GROUP Lbu;
+f l SAND_SOUND_GROUP Lbu;
+f m BLOCKS [Lna;
+f n BLOCKS_RANDOM_TICK [Z
+f o BLOCKS_OPAQUE [Z
+f p BLOCKS_WITH_ENTITY [Z
+f q BLOCKS_LIGHT_OPACITY [I
+f r BLOCKS_ALLOW_VISION [Z
+f s BLOCKS_LIGHT_LUMINANCE [I
+f t BLOCKS_IGNORE_META_UPDATE [Z
+f u STONE Lna;
+f v GRASS_BLOCK Loj;
+f w DIRT Lna;
+f x COBBLESTONE Lna;
+f y PLANKS Lna;
+f z SAPLING Lna;
+
+m <init> (IILhj;)V
+arg 1 id
+arg 2 textureId
+arg 3 material
+
+m <init> (ILhj;)V
+arg 1 id
+arg 2 material
+
+m b onSteppedOn (Ldj;IIILlq;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 entity
+
+m a canPlaceAt (Ldj;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 side
+
+m a addIntersectingBoundingBox (Ldj;IIILcz;Ljava/util/ArrayList;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 box
+arg 6 boxes
+
+m a onBlockAction (Ldj;IIIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 data1
+arg 6 data2
+
+m a raycast (Ldj;IIILba;Lba;)Lnh;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 startPos
+arg 6 endPos
+
+m c getTickRate ()I
+m f canGrow (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a canPlaceAt (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a isEmittingRedstonePowerInDirection (Lpb;IIII)Z
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 direction
+
+m d canEmitRedstonePower ()Z
+m d canTransferPowerInDirection (Ldj;IIII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 direction
+
+m a hasCollision (IZ)Z
+arg 1 meta
+arg 2 allowLiquids
+
+m a applyVelocity (Ldj;IIILlq;Lba;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 entity
+arg 6 velocity
+
+m b isSolidFace (Lpb;IIII)Z
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 face
+
+m e getPistonBehavior ()I
+m a getBlastResistance (Llq;)F
+arg 1 entity
+
+m k_ hasCollision ()Z
+m a setLuminance (F)Lna;
+arg 1 fractionalValue
+
+m a setBoundingBox (FFFFFF)V
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m a containsInYZPlane (Lba;)Z
+m a setSoundGroup (Lbu;)Lna;
+arg 1 soundGroup
+
+m a dropStack (Ldj;IIILfy;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 itemStack
+
+m a getHardness (Lem;)F
+arg 1 player
+
+m a setTranslationKey (Ljava/lang/String;)Lna;
+arg 1 name
+
+m a setTickRandomly (Z)Lna;
+arg 1 tickRandomly
+
+m b setResistance (F)Lna;
+arg 1 resistance
+
+m b containsInXZPlane (Lba;)Z
+m c setHardness (F)Lna;
+arg 1 hardness
+
+m c containsInXYPlane (Lba;)Z
+
+m f setOpacity (I)Lna;
+m g ignoreMetaUpdates ()Lna;
+m g dropStacks (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h init ()V
+m i setUnbreakable ()Lna;
+m j getHardness ()F
+m k getTranslatedName ()Ljava/lang/String;
+m l getTranslationKey ()Ljava/lang/String;
+m m isTrackingStatistics ()Z
+m n disableTrackingStatistics ()Lna;
+
+m a getDroppedItemId (ILjava/util/Random;)I
+arg 1 blockMeta
+arg 2 random
+
+m a onTick (Ldj;IIILjava/util/Random;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 random
+
+m a getDroppedItemCount (Ljava/util/Random;)I
+arg 1 random
+
+m e onPlaced (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 direction
+
+m a getTexture (I)I
+arg 1 side
+
+m a onUse (Ldj;IIILem;)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 player
+
+m b neighborUpdate (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 id
+
+m b onBlockBreakStart (Ldj;IIILem;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 player
+
+m c onPlaced (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m c onMetadataChange (Ldj;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta
+
+m d onDestroyedByExplosion (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a onPlaced (Ldj;IIILhl;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 placer
+
+m a onEntityCollision (Ldj;IIILlq;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 entity
+
+m a updateBoundingBox (Lpb;III)V
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+
+m b isSideVisible (Lpb;IIII)Z
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 side
+
+m a isOpaque ()Z
+
+m b isFullCube ()Z
+m e getCollisionShape (Ldj;III)Lcz;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a dropStacks (Ldj;IIIIF)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta
+arg 6 luck
+
+m a getTexture (II)I
+arg 1 side
+arg 2 meta
+
+m a afterBreak (Ldj;Lem;IIII)V
+arg 1 world
+arg 2 playerEntity
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 meta
+
+m a_ getDroppedItemMeta (I)I
+arg 1 blockMeta
+
+m b onBreak (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

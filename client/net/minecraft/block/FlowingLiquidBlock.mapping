@@ -1,0 +1,51 @@
+c om net/minecraft/block/FlowingLiquidBlock
+
+f a adjacentSources I
+f b spread [Z
+f c distanceToGap [I
+
+m b getDistanceToGap (Lfd;IIIII)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 distance
+arg 6 fromDirection
+
+m f getLowestDepth (Lfd;IIII)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 depth
+
+m h spreadTo (Lfd;IIII)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 depth
+
+m j convertToSource (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m k getSpread (Lfd;III)[Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m l isLiquidBreaking (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m m canSpreadTo (Lfd;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

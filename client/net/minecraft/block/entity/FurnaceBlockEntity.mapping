@@ -1,0 +1,20 @@
+c sk net/minecraft/block/entity/FurnaceBlockEntity
+
+f i inventory [Liz;
+f a burnTime I
+f b fuelTime I
+f c cookTime I
+
+m <init> ()V
+
+m b getCookTimeDelta (I)I
+arg 1 multiplier
+
+m c getFuelTimeDelta (I)I
+arg 1 multiplier
+
+m b isBurning ()Z
+m l canAcceptRecipeOutput ()Z
+m k craftRecipe ()V
+m a getFuelTime (Liz;)I
+arg 1 itemStack

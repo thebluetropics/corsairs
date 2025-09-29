@@ -1,0 +1,13 @@
+c ju net/minecraft/entity/FallingBlockEntity
+
+f a blockId I
+f b timeFalling I
+
+m <init> (Lfd;DDDI)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 blockId
+
+m k getWorld ()Lfd;

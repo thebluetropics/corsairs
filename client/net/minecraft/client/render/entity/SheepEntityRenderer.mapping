@@ -1,0 +1,6 @@
+c xy net/minecraft/client/render/entity/SheepEntityRenderer
+
+m <init> (Lko;Lko;F)V
+arg 1 model
+arg 2 furModel
+arg 3 shadowRadius

@@ -1,0 +1,31 @@
+c ht net/minecraft/client/option/Option
+
+f a MUSIC Lht;
+f b SOUND Lht;
+f c INVERT_MOUSE Lht;
+f d SENSITIVITY Lht;
+f e RENDER_DISTANCE Lht;
+f f VIEW_BOBBING Lht;
+f g ANAGLYPH Lht;
+f h ADVANCED_OPENGL Lht;
+f i FRAMERATE_LIMIT Lht;
+f j DIFFICULTY Lht;
+f k GRAPHICS Lht;
+f l AMBIENT_OCCLUSION Lht;
+f m GUI_SCALE Lht;
+f n slider Z
+f o toggle Z
+f p key Ljava/lang/String;
+
+m <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+arg 1 key
+arg 2 slider
+arg 3 toggle
+
+m a isSlider ()Z
+m a getById (I)Lht;
+arg 1 id
+
+m b isToggle ()Z
+m c getId ()I
+m d getKey ()Ljava/lang/String;

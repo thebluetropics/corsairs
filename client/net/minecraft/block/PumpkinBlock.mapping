@@ -1,0 +1,8 @@
+c fc net/minecraft/block/PumpkinBlock
+
+f a lit Z
+
+m <init> (IIZ)V
+arg 1 id
+arg 2 textureId
+arg 3 lit

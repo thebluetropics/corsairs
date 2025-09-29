@@ -1,0 +1,17 @@
+c wt net/minecraft/world/storage/WorldStorage
+
+m a save (Lei;)V
+arg 1 properties
+
+m a save (Lei;Ljava/util/List;)V
+arg 1 properties
+arg 2 players
+
+m a getChunkStorage (Lxa;)Lbf;
+arg 1 dimension
+
+m b checkSessionLock ()V
+m a getWorldPropertiesFile (Ljava/lang/String;)Ljava/io/File;
+arg 1 name
+
+m c loadProperties ()Lei;

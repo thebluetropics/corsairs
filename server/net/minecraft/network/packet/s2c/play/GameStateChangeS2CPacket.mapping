@@ -1,0 +1,4 @@
+c bg net/minecraft/network/packet/s2c/play/GameStateChangeS2CPacket
+
+f a REASONS [Ljava/lang/String;
+f b reason I

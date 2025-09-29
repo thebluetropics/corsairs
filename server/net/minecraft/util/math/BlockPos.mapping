@@ -1,0 +1,5 @@
+c oa net/minecraft/util/math/BlockPos
+
+f a x I
+f b y I
+f c z I

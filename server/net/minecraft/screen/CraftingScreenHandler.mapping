@@ -1,0 +1,8 @@
+c fu net/minecraft/screen/CraftingScreenHandler
+
+f a input Lhz;
+f b result Lhp;
+f c world Ldj;
+f h x I
+f i y I
+f j z I

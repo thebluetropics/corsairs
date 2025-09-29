@@ -1,0 +1,17 @@
+c hk net/minecraft/recipe/CraftingRecipeManager
+
+f a INSTANCE Lhk;
+f b recipes Ljava/util/List;
+
+m a getInstance ()Lhk;
+m a addShapedRecipe (Liz;[Ljava/lang/Object;)V
+arg 1 output
+arg 2 input
+
+m a craft (Lmq;)Liz;
+arg 1 craftingInventory
+
+m b getRecipes ()Ljava/util/List;
+m b addShapelessRecipe (Liz;[Ljava/lang/Object;)V
+arg 1 output
+arg 2 input

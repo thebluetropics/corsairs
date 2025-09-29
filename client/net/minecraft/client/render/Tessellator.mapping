@@ -1,0 +1,101 @@
+c nw net/minecraft/client/render/Tessellator
+
+f A vboCount I
+f B bufferSize I
+f a INSTANCE Lnw;
+f b TRIANGLE_MODE Z
+f c USE_VBO Z
+f d byteBuffer Ljava/nio/ByteBuffer;
+f e intBuffer Ljava/nio/IntBuffer;
+f f floatBuffer Ljava/nio/FloatBuffer;
+f g buffer [I
+f h vertexCount I
+f i u D
+f j v D
+f k color I
+f l hasColor Z
+f m hasTexture Z
+f n hasNormals Z
+f o bufferPosition I
+f p addedVertexCount I
+f q colorDisabled Z
+f r mode I
+f s xOffset D
+f t yOffset D
+f u zOffset D
+f v normal I
+f w drawing Z
+f x useVbo Z
+f y vboBuffer Ljava/nio/IntBuffer;
+f z vbo I
+
+m <init> (I)V
+arg 1 bufferSize
+
+m a draw ()V
+m a texture (DD)V
+arg 1 u
+arg 2 v
+
+m a vertex (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a vertex (DDDDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 u
+arg 5 v
+
+m a color (FFF)V
+arg 1 r
+arg 2 g
+arg 3 b
+
+m a color (FFFF)V
+arg 1 r
+arg 2 g
+arg 3 b
+arg 4 a
+
+m a start (I)V
+arg 1 mode
+
+m a color (II)V
+arg 1 rgb
+arg 2 a
+
+m a color (III)V
+arg 1 r
+arg 2 g
+arg 3 b
+
+m a color (IIII)V
+arg 1 r
+arg 2 g
+arg 3 b
+arg 4 a
+
+m b startQuads ()V
+m b setOffset (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b normal (FFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b color (I)V
+arg 1 rgb
+
+m c disableColor ()V
+m c translate (FFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d reset ()V

@@ -1,0 +1,11 @@
+c hj net/minecraft/client/Screenshot
+
+f a DATE_FORMAT Ljava/text/DateFormat;
+f b pixels Ljava/nio/ByteBuffer;
+f c colorBuffer [B
+f d pixelBuffer [I
+
+m a take (Ljava/io/File;II)Ljava/lang/String;
+arg 1 gameDir
+arg 2 width
+arg 3 height

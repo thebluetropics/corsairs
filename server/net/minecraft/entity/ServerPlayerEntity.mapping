@@ -1,0 +1,45 @@
+c dl net/minecraft/entity/ServerPlayerEntity
+
+f a networkHandler Lha;
+f b server Lnet/minecraft/server/MinecraftServer;
+f bL lastHealthScore I
+f bM joinInvulnerabilityTicks I
+f bN equipment [Lfy;
+f bO screenHandlerSyncId I
+f c interactionManager Lpu;
+f d lastX D
+f e lastZ D
+f f pendingChunkUpdates Ljava/util/List;
+f g activeChunks Ljava/util/Set;
+f h skipPacketSlotUpdates Z
+
+m A onHandledScreenClosed ()V
+m B onDisconnect ()V
+m C markHealthDirty ()V
+m a updateInput (FFZZFF)V
+arg 1 sidewaysSpeed
+arg 2 forwardSpeed
+arg 3 jumping
+arg 4 sneaking
+arg 5 pitch
+arg 6 yaw
+
+m a onContentsUpdate (Lcl;)V
+arg 1 screenHandler
+
+m a updateBlockEntity (Ljh;)V
+arg 1 blockentity
+
+m a playerTick (Z)V
+arg 1 shouldSendChunkUpdates
+
+m ai incrementScreenHandlerSyncId ()V
+m b handleFall (DZ)V
+arg 1 heightDifference
+arg 2 onGround
+
+m c_ getEquipment (I)Lfy;
+arg 1 slot
+
+m o initScreenHandler ()V
+m z updateCursorStack ()V

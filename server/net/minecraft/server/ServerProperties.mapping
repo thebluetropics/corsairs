@@ -1,0 +1,23 @@
+c ky net/minecraft/server/ServerProperties
+
+f a logger Ljava/util/logging/Logger;
+f b properties Ljava/util/Properties;
+f c propertiesFile Ljava/io/File;
+
+m a generateNew ()V
+m a getProperty (Ljava/lang/String;I)I
+arg 1 property
+arg 2 fallback
+
+m a getProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+arg 1 property
+arg 2 fallback
+
+m a getProperty (Ljava/lang/String;Z)Z
+arg 1 property
+arg 2 fallback
+
+m b save ()V
+m b setProperty (Ljava/lang/String;Z)V
+arg 1 property
+arg 2 value

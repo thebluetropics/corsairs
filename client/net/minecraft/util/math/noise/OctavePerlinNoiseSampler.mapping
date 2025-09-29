@@ -1,0 +1,28 @@
+c uf net/minecraft/util/math/noise/OctavePerlinNoiseSampler
+
+f a octaveSamplers [Lam;
+f b octaves I
+
+m <init> (Ljava/util/Random;I)V
+arg 1 random
+arg 2 i
+
+m a sample (DD)D
+arg 1 x
+arg 2 y
+
+m a create ([DDDDIIIDDD)[D
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 width
+arg 6 height
+arg 7 depth
+
+m a create ([DIIIIDDD)[D
+arg 1 map
+arg 2 x
+arg 3 z
+arg 4 width
+arg 5 depth

@@ -1,0 +1,45 @@
+c ff net/minecraft/server/entity/EntityTrackerEntry
+
+f a currentTrackedEntity Llq;
+f b trackedDistance I
+f c trackingFrequency I
+f d lastX I
+f e lastY I
+f f lastZ I
+f g lastYaw I
+f h lastPitch I
+f i velocityX D
+f j velocityY D
+f k velocityZ D
+f l ticks I
+f m newPlayerDataUpdated Z
+f n listeners Ljava/util/Set;
+f o x D
+f p y D
+f q z D
+f r isInitialized Z
+f s alwaysUpdateVelocity Z
+f t ticksSinceLastDismount I
+
+m a notifyEntityRemoved ()V
+m a notifyEntityRemoved (Ldl;)V
+arg 1 player
+
+m a sendToListeners (Lgt;)V
+arg 1 packet
+
+m a notifyNewLocation (Ljava/util/List;)V
+arg 1 players
+
+m b createAddEntityPacket ()Lgt;
+m b updateListener (Ldl;)V
+arg 1 player
+
+m b sendToAround (Lgt;)V
+arg 1 packet
+
+m b updateListeners (Ljava/util/List;)V
+arg 1 players
+
+m c removeListener (Ldl;)V
+arg 1 player

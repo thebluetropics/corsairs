@@ -1,0 +1,29 @@
+c mu net/minecraft/block/entity/PistonBlockEntity
+
+f a pushedBlockId I
+f b pushedBlockData I
+f c facing I
+f i extending Z
+f j source Z
+f k lastProgress F
+f l progress F
+f m pushedEntities Ljava/util/List;
+
+m <init> (IIIZZ)V
+arg 1 pushedBlockId
+arg 2 pushedBlockData
+arg 3 facing
+arg 4 extending
+arg 5 source
+
+m a getPushedBlockId ()I
+m a getProgress (F)F
+arg 1 tickDelta
+
+m a pushEntities (FF)V
+arg 1 collisionShapeSizeMultiplier
+arg 2 entityMoveMultiplier
+
+m c isExtending ()Z
+m d getFacing ()I
+m k finish ()V

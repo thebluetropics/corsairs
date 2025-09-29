@@ -1,0 +1,26 @@
+c nb net/minecraft/client/network/ClientNetworkHandler
+
+f a message Ljava/lang/String;
+f b clientPersistentStateManager Lhc;
+f c random Ljava/util/Random;
+f d disconnected Z
+f e connection Lpf;
+f f minecraft Lnet/minecraft/client/Minecraft;
+f g world Lmm;
+f h started Z
+
+m <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+arg 1 minecraft
+arg 2 address
+arg 3 port
+
+m a tick ()V
+m a getEntity (I)Lsn;
+arg 1 id
+
+m b sendPacketAndDisconnect (Lki;)V
+arg 1 packbet
+
+m b disconnect ()V
+m b sendPacket (Lki;)V
+arg 1 packet

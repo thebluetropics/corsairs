@@ -1,0 +1,9 @@
+c dt net/minecraft/recipe/CraftingRecipe
+
+m a getSize ()I
+m a matches (Lmq;)Z
+arg 1 craftingInventory
+
+m b getOutput ()Liz;
+m b craft (Lmq;)Liz;
+arg 1 craftingInventory

@@ -1,0 +1,13 @@
+c mf net/minecraft/network/packet/s2c/play/PlayerSpawnS2CPacket
+
+f a id I
+f b name Ljava/lang/String;
+f c x I
+f d y I
+f e z I
+f f yaw B
+f g pitch B
+f h itemRawId I
+
+m <init> (Lgs;)V
+arg 1 player

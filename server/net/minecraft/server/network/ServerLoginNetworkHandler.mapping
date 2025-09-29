@@ -1,0 +1,19 @@
+c ee net/minecraft/server/network/ServerLoginNetworkHandler
+
+f a LOGGER Ljava/util/logging/Logger;
+f b connection Ljl;
+f c closed Z
+f d random Ljava/util/Random;
+f e server Lnet/minecraft/server/MinecraftServer;
+f f loginTicks I
+f g username Ljava/lang/String;
+f h loginPacket Liv;
+f i serverId Ljava/lang/String;
+
+m a tick ()V
+m a disconnect (Ljava/lang/String;)V
+arg 1 reason
+
+m b getConnectionInfo ()Ljava/lang/String;
+m b accept (Liv;)V
+arg 1 packet

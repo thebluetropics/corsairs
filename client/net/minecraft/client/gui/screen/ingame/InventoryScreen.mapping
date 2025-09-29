@@ -1,0 +1,7 @@
+c ue net/minecraft/client/gui/screen/ingame/InventoryScreen
+
+f l mouseX F
+f m mouseY F
+
+m <init> (Lgs;)V
+arg 1 player

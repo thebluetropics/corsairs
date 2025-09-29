@@ -1,0 +1,47 @@
+c gb net/minecraft/world/gen/SkyChunkGenerator
+
+f a floatingIslandScale Lmp;
+f b floatingIslandNoise Lmp;
+f c forestNoise Lmp;
+f d perlinNoiseBuffer [D
+f e minLimitPerlinNoiseBuffer [D
+f f maxLimitPerlinNoiseBuffer [D
+f g scaleNoiseBuffer [D
+f h depthNoiseBuffer [D
+f i waterDepths [[I
+f j random Ljava/util/Random;
+f k minLimitPerlinNoise Lmp;
+f l maxLimitPerlinNoise Lmp;
+f m perlinNoise1 Lmp;
+f n perlinNoise2 Lmp;
+f o perlinNoise3 Lmp;
+f p world Ldj;
+f q heightMap [D
+f r sandBuffer [D
+f s gravelBuffer [D
+f t depthBuffer [D
+f u cave Ldy;
+f v biomes [Lgs;
+f w temperatures [D
+
+m a buildSurfaces (II[B[Lgs;)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 biomes
+
+m a buildTerrain (II[B[Lgs;[D)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 biomes
+arg 5 temperatures
+
+m a generateHeightMap ([DIIIIII)[D
+arg 1 heightMap
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 sizeX
+arg 6 sizeY
+arg 7 sizeZ

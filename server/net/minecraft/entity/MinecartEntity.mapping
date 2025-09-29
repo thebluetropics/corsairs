@@ -1,0 +1,23 @@
+c pr net/minecraft/entity/MinecartEntity
+
+f a damageWobbleStrength I
+f b damageWobbleTicks I
+f c damageWobbleSide I
+f d type I
+f e fuel I
+f f pushX D
+f g pushZ D
+f h inventory [Lfy;
+f i yawFlipped Z
+f j ADJACENT_RAIL_POSITIONS_BY_SHAPE [[[I
+f k clientInterpolationSteps I
+f l clientX D
+f m clientY D
+f n clientZ D
+f o clientPitch D
+f p clientYaw D
+
+m h snapPositionToRail (DDD)Lba;
+arg 1 x
+arg 2 y
+arg 3 z

@@ -1,0 +1,4 @@
+c gt net/minecraft/achievement/AchievementStatFormatter
+
+m a format (Ljava/lang/String;)Ljava/lang/String;
+arg 1 text

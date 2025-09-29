@@ -1,0 +1,7 @@
+c er net/minecraft/world/gen/feature/DungeonFeature
+
+m a getRandomChestItem (Ljava/util/Random;)Liz;
+arg 1 random
+
+m b getRandomEntity (Ljava/util/Random;)Ljava/lang/String;
+arg 1 random

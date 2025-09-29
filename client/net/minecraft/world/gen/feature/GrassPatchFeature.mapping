@@ -1,0 +1,8 @@
+c ap net/minecraft/world/gen/feature/GrassPatchFeature
+
+f a tallGrassBlockId I
+f b tallGrassBlockMeta I
+
+m <init> (II)V
+arg 1 tallGrassBlockId
+arg 2 tallGrassBlockMeta

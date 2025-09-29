@@ -1,0 +1,19 @@
+c vf net/minecraft/util/HitResult
+
+f a type Ljg;
+f b blockX I
+f c blockY I
+f d blockZ I
+f e side I
+f f pos Lbt;
+f g entity Lsn;
+
+m <init> (IIIILbt;)V
+arg 1 blockX
+arg 2 blockY
+arg 3 blockZ
+arg 4 side
+arg 5 pos
+
+m <init> (Lsn;)V
+arg 1 entity

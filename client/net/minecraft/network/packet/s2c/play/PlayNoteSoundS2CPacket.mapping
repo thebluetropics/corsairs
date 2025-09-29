@@ -1,0 +1,7 @@
+c vw net/minecraft/network/packet/s2c/play/PlayNoteSoundS2CPacket
+
+f a x I
+f b y I
+f c z I
+f d instrument I
+f e pitch I

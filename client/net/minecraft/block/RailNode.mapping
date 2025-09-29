@@ -1,0 +1,51 @@
+c vo net/minecraft/block/RailNode
+
+f b world Lfd;
+f c x I
+f d y I
+f e z I
+f f alwaysStraight Z
+f g connections Ljava/util/List;
+
+m <init> (Lpc;Lfd;III)V
+arg 1 railBlock
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+
+m a removeSoftConnections ()V
+m a updateConnections (I)V
+arg 1 meta
+
+m a couldConnectTo (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a getNeighborRail (Lwf;)Lvo;
+arg 1 pos
+
+m a updateState (ZZ)V
+arg 1 powered
+arg 2 force
+
+m b countConnections ()I
+m b hasConnection (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b connectsTo (Lvo;)Z
+arg 1 railNode
+
+m c hasNeighborRail (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c canConnectTo (Lvo;)Z
+arg 1 railNode
+
+m d addConnection (Lvo;)V
+arg 1 railNode

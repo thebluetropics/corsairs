@@ -1,0 +1,16 @@
+c pf net/minecraft/entity/SquidEntity
+
+f a tiltAngle F
+f b lastTiltAngle F
+f c rollAngle F
+f f lastRollAngle F
+f g thrustTimer F
+f h lastThrustTimer F
+f i tentacleAngle F
+f j lastTentacleAngle F
+f k swimVelocityScale F
+f l thrustTimerSpeed F
+f m turningSpeed F
+f n swimX F
+f o swimY F
+f p swimZ F

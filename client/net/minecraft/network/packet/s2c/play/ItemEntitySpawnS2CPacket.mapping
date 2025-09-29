@@ -1,0 +1,15 @@
+c nd net/minecraft/network/packet/s2c/play/ItemEntitySpawnS2CPacket
+
+f a id I
+f b x I
+f c y I
+f d z I
+f e velocityX B
+f f velocityY B
+f g velocityZ B
+f h itemRawId I
+f i itemCount I
+f l itemDamage I
+
+m <init> (Lhl;)V
+arg 1 itemEntity

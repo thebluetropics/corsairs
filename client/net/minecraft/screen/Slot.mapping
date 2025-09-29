@@ -1,0 +1,32 @@
+c gp net/minecraft/screen/Slot
+
+f a id I
+f b x I
+f c y I
+f d index I
+f e inventory Llw;
+
+m <init> (Llw;III)V
+arg 1 inventory
+arg 2 index
+arg 3 x
+arg 4 y
+
+m e getBackgroundTextureId ()I
+m a getStack ()Liz;
+m a takeStack (I)Liz;
+arg 1 amount
+
+m a onTakeItem (Liz;)V
+arg 1 stack
+
+m b hasStack ()Z
+m b canInsert (Liz;)Z
+arg 1 stack
+
+m c markDirty ()V
+
+m c setStack (Liz;)V
+arg 1 stack
+
+m d getMaxItemCount ()I

@@ -1,0 +1,73 @@
+c bw net/minecraft/client/render/entity/EntityRenderer
+
+f a bipedModel Lko;
+f b dispatcher Lth;
+f c shadowRadius F
+f d shadowDarkness F
+f e renderManager Lcv;
+
+m a render (Lsn;DDDFF)V
+arg 1 entity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 yaw
+arg 6 pitch
+
+m a getTextRenderer ()Lsj;
+m a renderShapeFlat (Leq;)V
+arg 1 box
+
+m a renderShape (Leq;DDD)V
+arg 1 box
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a bindTexture (Ljava/lang/String;)V
+arg 1 texturePath
+
+m a bindDownloadedTexture (Ljava/lang/String;Ljava/lang/String;)Z
+arg 1 url
+arg 2 backup
+
+m a renderOnFire (Lsn;DDDF)V
+arg 1 entity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+arg 5 tickDelta
+
+m a setDispatcher (Lth;)V
+arg 1 dispatcher
+
+m a renderShadowOnBlock (Luu;DDDIIIFFDDD)V
+arg 1 block
+arg 2 dx
+arg 3 dy
+arg 4 dz
+arg 5 x
+arg 6 y
+arg 7 z
+arg 8 yaw
+arg 9 shadowSize
+arg 10 cx
+arg 11 cy
+arg 12 cz
+
+m b getWorld ()Lfd;
+m b postRender (Lsn;DDDFF)V
+arg 1 entity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+arg 5 yaw
+arg 6 tickDelta
+
+m c renderShadow (Lsn;DDDFF)V
+arg 1 entity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+arg 5 yaw
+arg 6 tickDelta

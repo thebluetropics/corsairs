@@ -1,0 +1,23 @@
+c dx net/minecraft/color/MapColor
+
+f a COLORS [Ldx;
+f b CLEAR Ldx;
+f c PALE_GREEN Ldx;
+f d PALE_YELLOW Ldx;
+f e LIGHT_GRAY Ldx;
+f f RED Ldx;
+f g LIGHT_BLUE Ldx;
+f h LIGHT_GRAY2 Ldx;
+f i GREEN Ldx;
+f j WHITE Ldx;
+f k SILVER Ldx;
+f l ORANGE Ldx;
+f m GRAY Ldx;
+f n BLUE Ldx;
+f o BROWN Ldx;
+f p color I
+f q id I
+
+m <init> (II)V
+arg 1 id
+arg 2 color

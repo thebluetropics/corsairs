@@ -1,0 +1,28 @@
+c dc net/minecraft/entity/ClientPlayerEntity
+
+f a input Luo;
+f b minecraft Lnet/minecraft/client/Minecraft;
+
+m <init> (Lnet/minecraft/client/Minecraft;Lfd;Lgr;I)V
+arg 1 minecraft
+arg 2 world
+arg 3 session
+arg 4 dimensionId
+
+m a updateKey (IZ)V
+arg 1 key
+arg 2 state
+
+m a sendChatMessage (Ljava/lang/String;)V
+arg 1 message
+
+m d shouldSuffocate (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d_ damageTo (I)V
+arg 1 health
+
+m o_ releaseAllKeys ()V
+m s getTotalArmorDurability ()I

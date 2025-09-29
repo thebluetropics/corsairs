@@ -1,0 +1,4 @@
+c pt net/minecraft/block/NoteBlock
+
+m <init> (I)V
+arg 1 id

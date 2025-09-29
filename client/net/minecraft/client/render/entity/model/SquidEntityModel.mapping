@@ -1,0 +1,4 @@
+c wn net/minecraft/client/render/entity/model/SquidEntityModel
+
+f a root Lps;
+f b tentacles [Lps;

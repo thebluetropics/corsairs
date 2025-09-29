@@ -1,0 +1,25 @@
+c id net/minecraft/client/gui/screen/ingame/HandledScreen
+
+f a backgroundWidth I
+f i backgroundHeight I
+f j container Ldw;
+f l itemRenderer Lbb;
+
+m <init> (Ldw;)V
+arg 1 container
+
+m a drawBackground (F)V
+arg 1 tickDelta
+
+m k drawForeground ()V
+m a getSlotAt (II)Lgp;
+arg 1 x
+arg 2 y
+
+m a drawSlot (Lgp;)V
+arg 1 slot
+
+m a isPointOverSlot (Lgp;II)Z
+arg 1 slot
+arg 2 x
+arg 3 y

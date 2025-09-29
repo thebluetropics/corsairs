@@ -1,0 +1,14 @@
+c sr net/minecraft/client/render/FrustumCuller
+
+f a frustum Ldr;
+f b offsetX D
+f c offsetY D
+f d offsetZ D
+
+m a intersectsFrustum (DDDDDD)Z
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ

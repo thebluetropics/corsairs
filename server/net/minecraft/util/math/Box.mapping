@@ -1,0 +1,95 @@
+c cz net/minecraft/util/math/Box
+
+f a minX D
+f b minY D
+f c minZ D
+f d maxX D
+f e maxY D
+f f maxZ D
+f g cache Ljava/util/List;
+f h cacheCount I
+
+m c containsInXZPlane (Lba;)Z
+arg 1 pos
+
+m c getZOffset (Lcz;D)D
+arg 1 box
+arg 2 z
+
+m d translate (DDD)Lcz;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d containsInXYPlane (Lba;)Z
+arg 1 pos
+
+m e contract (DDD)Lcz;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a resetCacheCount ()V
+m a stretch (DDD)Lcz;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a create (DDDDDD)Lcz;
+arg 1 x1
+arg 2 y1
+arg 3 z1
+arg 4 x2
+arg 5 y2
+arg 6 z2
+
+m a contains (Lba;)Z
+arg 1 pos
+
+m a raycast (Lba;Lba;)Lnh;
+arg 1 min
+arg 2 max
+
+m a intersects (Lcz;)Z
+arg 1 box
+
+m a getXOffset (Lcz;D)D
+arg 1 box
+arg 2 x
+
+m b copy ()Lcz;
+m b expand (DDD)Lcz;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b createCached (DDDDDD)Lcz;
+arg 1 x1
+arg 2 y1
+arg 3 z1
+arg 4 x2
+arg 5 y2
+arg 6 z2
+
+m b containsInYZPlane (Lba;)Z
+arg 1 pos
+
+m b clone (Lcz;)V
+arg 1 other
+
+m b getYOffset (Lcz;D)D
+arg 1 box
+arg 2 y
+
+m c offset (DDD)Lcz;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c set (DDDDDD)Lcz;
+arg 1 x1
+arg 2 y1
+arg 3 z1
+arg 4 x2
+arg 5 y2
+arg 6 z2

@@ -1,0 +1,7 @@
+c ta net/minecraft/item/AxeItem
+
+f bk axeEffectiveBlocks [Luu;
+
+m <init> (ILbu;)V
+arg 1 id
+arg 2 toolMaterial

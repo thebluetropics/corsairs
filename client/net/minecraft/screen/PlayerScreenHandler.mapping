@@ -1,0 +1,12 @@
+c aa net/minecraft/screen/PlayerScreenHandler
+
+f a craftingInput Lmq;
+f b craftingResult Llw;
+f c isLocal Z
+
+m <init> (Lix;)V
+arg 1 inventory
+
+m <init> (Lix;Z)V
+arg 1 inventory
+arg 2 isLocal

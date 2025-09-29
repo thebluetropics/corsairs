@@ -1,0 +1,34 @@
+c kv net/minecraft/block/LiquidBlock
+
+m b getLiquidDepth (Lpb;III)I
+arg 1 blockView
+arg 2 x
+arg 3 y
+arg 4 z
+
+m c getFluidHeightFromMeta (I)F
+arg 1 meta
+
+m c getFlow (Lpb;III)Lba;
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m g getLiquidState (Ldj;III)I
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h fizz (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m i checkBlockCollisions (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

@@ -1,0 +1,87 @@
+c px net/minecraft/client/render/GameRenderer
+
+f a anaglyph3d Z
+f b activeEye I
+f j client Lnet/minecraft/client/Minecraft;
+f k viewDistance F
+f c heldItemRenderer Lra;
+f l ticks I
+f m targetedEntity Lsn;
+f t thirdPersonDistance F
+f u prevThirdPersonDistance F
+f v thirdPersonYaw F
+f w prevThirdPersonYaw F
+f x thirdPersonPitch F
+f y prevThirdPersonPitch F
+f z cameraRoll F
+f A prevCameraRoll F
+f B cameraRollAmount F
+f C prevCameraRollAmount F
+f D renderFog Z
+f E zoom D
+f F zoomX D
+f G zoomY D
+f H lastInactiveTime J
+f I lastFrameTime J
+f J random Ljava/util/Random;
+f K rainSoundCounter I
+f d leftEyeRenderPass I
+f e rightEyeRenderPass I
+f f fogColorBuffer Ljava/nio/FloatBuffer;
+f g fogRed F
+f h fogGreen F
+f i fogBlue F
+f L lastViewBob F
+f M viewBob F
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 client
+
+m a updateCamera ()V
+m a updateTargetedEntity (F)V
+arg 1 tickDelta
+
+m d getFov (F)F
+arg 1 tickDelta
+
+m e applyDamageTiltEffect (F)V
+arg 1 tickDelta
+
+m f applyViewBobbing (F)V
+arg 1 tickDelta
+
+m g applyCameraTransform (F)V
+arg 1 tickDelta
+
+m a renderWorld (FI)V
+arg 1 tickDelta
+arg 2 eye
+
+m b renderFirstPersonHand (FI)V
+arg 1 tickDelta
+arg 2 eye
+
+m b onFrameUpdate (F)V
+arg 1 tickDelta
+
+m a renderFrame (FJ)V
+arg 1 tickDelta
+arg 2 time
+
+m c renderRain ()V
+m c renderSnow (F)V
+arg 1 tickDelta
+
+m b setupHudRender ()V
+m h updateSkyAndFogColors (F)V
+arg 1 tickDelta
+
+m a applyFog (IF)V
+arg 1 mode
+arg 2 tickDelta
+
+m a updateFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+arg 1 red
+arg 2 green
+arg 3 blue
+arg 4 alpha

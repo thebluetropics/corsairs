@@ -1,0 +1,4 @@
+c ce net/minecraft/client/gui/screen/FatalErrorScreen
+
+f a title Ljava/lang/String;
+f i description Ljava/lang/String;

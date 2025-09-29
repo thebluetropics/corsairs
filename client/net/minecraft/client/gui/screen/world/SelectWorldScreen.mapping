@@ -1,0 +1,30 @@
+c rq net/minecraft/client/gui/screen/world/SelectWorldScreen
+
+f a parent Lda;
+f i title Ljava/lang/String;
+f j dateFormat Ljava/text/DateFormat;
+f l selected Z
+f m selectedWorldId I
+f n saves Ljava/util/List;
+f o worldList Lmg;
+f p worldText Ljava/lang/String;
+f q conversionText Ljava/lang/String;
+f r isInChildScreen Z
+f s renameWorldButton Lke;
+f t playSelectedWorldButton Lke;
+f u deleteWorldButton Lke;
+
+m <init> (Lda;)V
+arg 1 parent
+
+m c getSaveFileNames (I)Ljava/lang/String;
+arg 1 index
+
+m d getWorldName (I)Ljava/lang/String;
+arg 1 index
+
+m e selectWorld (I)V
+arg 1 id
+
+m k addButton ()V
+m l getSaves ()V

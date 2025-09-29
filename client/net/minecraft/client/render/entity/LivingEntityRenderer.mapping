@@ -1,0 +1,69 @@
+c gv net/minecraft/client/render/entity/LivingEntityRenderer
+
+f e model Lko;
+f f decorationModel Lko;
+
+m <init> (Lko;F)V
+arg 1 entityModel
+arg 2 shadowRadius
+
+m a setDecorationModel (Lko;)V
+arg 1 model
+
+m a getDeathYaw (Lls;)F
+arg 1 entity
+
+m a getOverlayColor (Lls;FF)I
+arg 1 entity
+arg 2 brightness
+arg 3 timeDelta
+
+m a renderNameTag (Lls;Ljava/lang/String;DDDI)V
+arg 1 entity
+arg 2 name
+arg 3 dx
+arg 4 dy
+arg 5 dz
+arg 6 range
+
+m b bindDecorationTexture (Lls;IF)Z
+arg 1 entity
+
+m d getHandSwingProgress (Lls;F)F
+arg 1 entity
+arg 2 tickDelta
+
+m a renderNameTag (Lls;DDD)V
+arg 1 entity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+
+m a applyScale (Lls;F)V
+arg 1 entity
+arg 2 scale
+
+m a applyHandSwingRotation (Lls;FFF)V
+arg 1 entity
+arg 2 dx
+arg 3 dy
+arg 4 dz
+
+m a bindTexture (Lls;IF)Z
+arg 1 mob
+arg 2 layer
+arg 3 tickDelta
+
+m b applyTranslation (Lls;DDD)V
+arg 1 entity
+arg 2 headBob
+arg 3 bodyYaw
+arg 4 tickDelta
+
+m b renderMore (Lls;F)V
+arg 1 entity
+arg 2 tickDelta
+
+m c getHeadBob (Lls;F)F
+arg 1 entity
+arg 2 tickDelta

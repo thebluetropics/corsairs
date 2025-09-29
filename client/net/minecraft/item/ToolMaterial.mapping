@@ -1,0 +1,22 @@
+c bu net/minecraft/item/ToolMaterial
+
+f a WOOD Lbu;
+f b STONE Lbu;
+f c IRON Lbu;
+f d DIAMOND Lbu;
+f e GOLD Lbu;
+f f miningLevel I
+f g itemDurability I
+f h miningSpeed F
+f i attackDamage I
+
+m <init> (Ljava/lang/String;IIIFI)V
+arg 1 miningLevel
+arg 2 itemDurability
+arg 3 miningSpeed
+arg 4 attackDamage
+
+m a getDurability ()I
+m b getMiningSpeedMultiplier ()F
+m c getAttackDamage ()I
+m d getMiningLevel ()I

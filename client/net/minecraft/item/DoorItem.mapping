@@ -1,0 +1,7 @@
+c hu net/minecraft/item/DoorItem
+
+f a material Lln;
+
+m <init> (ILln;)V
+arg 1 id
+arg 2 material

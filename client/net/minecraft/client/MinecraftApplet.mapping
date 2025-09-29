@@ -1,0 +1,9 @@
+c net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+
+f a canvas Ljava/awt/Canvas;
+f b minecraft Lnet/minecraft/client/Minecraft;
+f c thread Ljava/lang/Thread;
+
+m a startThread ()V
+m b stopThread ()V
+m c clearMemory ()V

@@ -1,0 +1,9 @@
+c ql net/minecraft/network/packet/c2s/play/PlayerInputC2SPacket
+
+f a sideways F
+f b forward F
+f c jumping Z
+f d sneaking Z
+f e pitch F
+f f yaw F
+

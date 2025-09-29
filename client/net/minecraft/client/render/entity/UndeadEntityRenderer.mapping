@@ -1,0 +1,7 @@
+c v net/minecraft/client/render/entity/UndeadEntityRenderer
+
+f a entityModel Lfh;
+
+m <init> (Lfh;F)V
+arg 1 model
+arg 2 shadowSize

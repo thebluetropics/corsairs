@@ -1,0 +1,4 @@
+c hs net/minecraft/client/render/texture/NetherPortalSprite
+
+f g ticks I
+f h frames [[B

@@ -1,0 +1,9 @@
+c yn net/minecraft/client/render/Culler
+
+m a prepare (DDD)V
+arg 1 offsetX
+arg 2 offsetY
+arg 3 offsetZ
+
+m a isVisible (Leq;)Z
+arg 1 box

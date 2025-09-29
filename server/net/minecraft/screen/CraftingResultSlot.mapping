@@ -1,0 +1,4 @@
+c py net/minecraft/screen/CraftingResultSlot
+
+f d input Lhp;
+f e player Lem;

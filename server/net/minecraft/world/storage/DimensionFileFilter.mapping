@@ -1,0 +1,3 @@
+c bm net/minecraft/world/storage/DimensionFileFilter
+
+f a PATTERN Ljava/util/regex/Pattern;

@@ -1,0 +1,27 @@
+c iv net/minecraft/client/gui/widget/AbstractStatsListWidget
+
+f b clickedIconId I
+f c entries Ljava/util/List;
+f d statComparator Ljava/util/Comparator;
+f e selectedTab I
+f f statSortOrder I
+
+m a renderStat (Ltw;II)V
+arg 1 stat
+arg 2 x
+arg 3 y
+
+m a renderStat (Ltw;IIZ)V
+arg 1 stat
+arg 2 x
+arg 3 y
+arg 4 isRowEven
+
+m b getEntry (I)Ltw;
+arg 1 index
+
+m c click (I)V
+arg 1 buttonDownTime
+
+m a getColumnHeader (I)Ljava/lang/String;
+arg 1 column

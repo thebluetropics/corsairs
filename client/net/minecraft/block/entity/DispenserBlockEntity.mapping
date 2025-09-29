@@ -1,0 +1,8 @@
+c az net/minecraft/block/entity/DispenserBlockEntity
+
+f a inventory [Liz;
+f b random Ljava/util/Random;
+
+m <init> ()V
+
+m b getItemToDispense ()Liz;

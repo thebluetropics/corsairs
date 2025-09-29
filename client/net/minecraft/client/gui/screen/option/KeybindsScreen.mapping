@@ -1,0 +1,12 @@
+c up net/minecraft/client/gui/screen/option/KeybindsScreen
+
+f a title Ljava/lang/String;
+f i parent Lda;
+f j gameOptions Lkv;
+f l selectedKeyBinding I
+
+m <init> (Lda;Lkv;)V
+arg 1 parent
+arg 2 gameOptions
+
+m k getControlsListX ()I

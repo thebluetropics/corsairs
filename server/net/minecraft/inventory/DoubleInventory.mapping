@@ -1,0 +1,5 @@
+c iy net/minecraft/inventory/DoubleInventory
+
+f a name Ljava/lang/String;
+f b first Lhp;
+f c second Lhp;

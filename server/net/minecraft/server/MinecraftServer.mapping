@@ -1,0 +1,57 @@
+c net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+
+f a LOGGER Ljava/util/logging/Logger;
+
+f c connections Lcu;
+f d properties Lky;
+f e worlds [Ldp;
+f f playerManager Lfc;
+f g stopped Z
+f h ticks I
+f i progressMessage Ljava/lang/String;
+f j progress I
+f k entityTrackers [Lnl;
+f l onlineMode Z
+f m spawnAnimals Z
+f n pvpEnabled Z
+f o flightEnabled Z
+f p commandHandler Lmc;
+f q running Z
+f r tickables Ljava/util/List;
+f s pendingCommands Ljava/util/List;
+
+m main main ([Ljava/lang/String;)V
+arg 1 args
+
+m a stop ()V
+m a getWorld (I)Ldp;
+arg 1 dimensionId
+
+m a addTickable (Ldg;)V
+arg 1 tickable
+
+m a loadWorld (Lil;Ljava/lang/String;J)V
+arg 1 storageSource
+arg 2 worldDir
+arg 3 seed
+
+m a getFile (Ljava/lang/String;)Ljava/io/File;
+arg 1 path
+
+m a logProgress (Ljava/lang/String;I)V
+arg 1 progressType
+arg 2 progress
+
+m a queueCommands (Ljava/lang/String;Lmb;)V
+m b runPendingCommands ()V
+m b getEntityTracker (I)Lnl;
+arg 1 dimensionId
+
+m c init ()Z
+m c warn (Ljava/lang/String;)V
+arg 1 message
+
+m e clearProgress ()V
+m f saveWorlds ()V
+m g shutdown ()V
+m h tick ()V

@@ -1,0 +1,41 @@
+c xw net/minecraft/client/particle/Particle
+
+f b textureId I
+f c prevU F
+f d prevV F
+f e particleAge I
+f f maxParticleAge I
+f g scale F
+f h gravityStrength F
+f i red F
+f j green F
+f k blue F
+f l xOffset D
+f m yOffset D
+f n zOffset D
+
+m <init> (Lfd;DDDDDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+
+m c multiplyVelocity (F)Lxw;
+arg 1 factor
+
+m d setScale (F)Lxw;
+arg 1 scale
+
+m a render (Lnw;FFFFFF)V
+arg 1 tessellator
+arg 2 partialTicks
+arg 3 horizontalSize
+arg 4 verticalSize
+arg 5 depthSize
+arg 6 widthOffset
+arg 7 heightOffset
+
+m c_ getGroup ()I

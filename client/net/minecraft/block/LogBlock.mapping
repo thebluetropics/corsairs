@@ -1,0 +1,4 @@
+c vg net/minecraft/block/LogBlock
+
+m <init> (I)V
+arg 1 id

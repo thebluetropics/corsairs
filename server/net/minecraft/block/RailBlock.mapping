@@ -1,0 +1,38 @@
+c jj net/minecraft/block/RailBlock
+
+f a alwaysStraight Z
+
+m a isPoweredByConnectedRails (Ldj;IIIIZI)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 meta
+arg 6 towardsNegative
+arg 7 depth
+
+m a updateShape (Ldj;IIIZ)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 force
+
+m a isPoweredByRail (Ldj;IIIZII)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 towardsNegative
+arg 6 depth
+arg 7 shape
+
+m c isRail (I)Z
+arg 1 id
+
+m f isAlwaysStraight ()Z
+m g isRail (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

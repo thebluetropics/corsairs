@@ -1,0 +1,8 @@
+c qa net/minecraft/util/math/ChunkPos
+
+f a x I
+f b z I
+
+m a hashCode (II)I
+arg 1 x
+arg 2 z

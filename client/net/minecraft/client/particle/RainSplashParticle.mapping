@@ -1,0 +1,7 @@
+c xd net/minecraft/client/particle/RainSplashParticle
+
+m <init> (Lfd;DDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

@@ -1,0 +1,7 @@
+c lr net/minecraft/client/input/KeyboardInput
+
+f f keys [Z
+f g options Lkv;
+
+m <init> (Lkv;)V
+arg 1 options

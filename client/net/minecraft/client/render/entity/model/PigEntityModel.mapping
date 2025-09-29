@@ -1,0 +1,4 @@
+c eh net/minecraft/client/render/entity/model/PigEntityModel
+
+m <init> (F)V
+arg 1 dilation

@@ -1,0 +1,12 @@
+c vp net/minecraft/client/resource/pack/ZippedTexturePack
+
+f e zip Ljava/util/zip/ZipFile;
+f f iconId I
+f g icon Ljava/awt/image/BufferedImage;
+f h file Ljava/io/File;
+
+m <init> (Ljava/io/File;)V
+arg 1 file
+
+m b trim (Ljava/lang/String;)Ljava/lang/String;
+arg 1 line

@@ -1,0 +1,6 @@
+c cj net/minecraft/item/ToolItem
+
+f a toolMaterial Lbb;
+f bk effectiveOnBlocks [Lna;
+f bl miningSpeed F
+f bm damage I

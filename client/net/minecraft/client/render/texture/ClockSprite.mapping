@@ -1,0 +1,10 @@
+c ku net/minecraft/client/render/texture/ClockSprite
+
+f g minecraft Lnet/minecraft/client/Minecraft;
+f h clock [I
+f i dial [I
+f j angle D
+f k angleDelta D
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft

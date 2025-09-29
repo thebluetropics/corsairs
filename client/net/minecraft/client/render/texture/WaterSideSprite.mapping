@@ -1,0 +1,7 @@
+c oh net/minecraft/client/render/texture/WaterSideSprite
+
+f g current [F
+f h next [F
+f i heat [F
+f j heatDelta [F
+f k ticks I

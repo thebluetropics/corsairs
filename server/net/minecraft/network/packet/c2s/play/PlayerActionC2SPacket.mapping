@@ -1,0 +1,7 @@
+c gm net/minecraft/network/packet/c2s/play/PlayerActionC2SPacket
+
+f a x I
+f b y I
+f c z I
+f d direction I
+f e action I

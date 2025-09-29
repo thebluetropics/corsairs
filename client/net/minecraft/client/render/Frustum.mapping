@@ -1,0 +1,13 @@
+c w net/minecraft/client/render/Frustum
+
+f e INSTANCE Lw;
+f f projectionBuffer Ljava/nio/FloatBuffer;
+f g modelBuffer Ljava/nio/FloatBuffer;
+f h clipBuffer Ljava/nio/FloatBuffer;
+
+m a getInstance ()Ldr;
+m a normalize ([[FI)V
+arg 1 frustum
+arg 2 face
+
+m b compute ()V

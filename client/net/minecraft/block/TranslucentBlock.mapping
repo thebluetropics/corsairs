@@ -1,0 +1,9 @@
+c jp net/minecraft/block/TranslucentBlock
+
+f a transparent Z
+
+m <init> (IILln;Z)V
+arg 1 id
+arg 2 textureId
+arg 3 material
+arg 4 transparent

@@ -1,0 +1,9 @@
+c ww net/minecraft/entity/ChickenEntity
+
+f a unused Z
+f b flapProgress F
+f c maxWingDeviation F
+f f prevMaxWingDeviation F
+f g prevFlapProgress F
+f h flapSpeed F
+f i eggLayTime I

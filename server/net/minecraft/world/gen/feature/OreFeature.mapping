@@ -1,0 +1,4 @@
+c dr net/minecraft/world/gen/feature/OreFeature
+
+f a oreBlockId I
+f b oreCount I

@@ -1,0 +1,7 @@
+c fl net/minecraft/server/world/PlayerSaveHandler
+
+m a savePlayerData (Lem;)V
+arg 1 player
+
+m b loadPlayerData (Lem;)V
+arg 1 player

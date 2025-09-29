@@ -1,0 +1,4 @@
+c oz net/minecraft/client/gui/screen/GameMenuScreen
+
+f a saveStep I
+f i ticks I

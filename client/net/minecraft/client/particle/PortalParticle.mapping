@@ -1,0 +1,6 @@
+c op net/minecraft/client/particle/PortalParticle
+
+f a initialScale F
+f o initialX D
+f p initialY D
+f q initialZ D

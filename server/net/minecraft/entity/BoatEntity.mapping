@@ -1,0 +1,11 @@
+c eb net/minecraft/entity/BoatEntity
+
+f a damageWobbleStrength I
+f b damageWobbleTicks I
+f c damageWobbleSide I
+f d clientInterpolationSteps I
+f e clientX D
+f f clientY D
+f g clientZ D
+f h clientPitch D
+f i clientYaw D

@@ -1,0 +1,628 @@
+c fd net/minecraft/world/World
+
+f a instantBlockUpdateEnabled Z
+f C lightingQueue Ljava/util/List;
+f b entities Ljava/util/List;
+f D entitiesToUnload Ljava/util/List;
+f E scheduledUpdates Ljava/util/TreeSet;
+f F scheduledUpdateSet Ljava/util/Set;
+f c blockEntities Ljava/util/List;
+f G blockEntityUpdateQueue Ljava/util/List;
+f d players Ljava/util/List;
+f e globalEntities Ljava/util/List;
+f H worldTimeMask J
+f f ambientDarkness I
+f g lcgBlockSeed I
+f h lcgBlockSeedIncrement I
+f i rainGradientPrev F
+f j rainGradient F
+f k thunderGradientPrev F
+f l thunderGradient F
+f m ticksSinceLightning I
+f n lightningTicksLeft I
+f o pauseTicking Z
+f I timeLoaded J
+f p saveInterval I
+f q difficulty I
+f r random Ljava/util/Random;
+f s newWorld Z
+f t dimension Lxa;
+f u eventListeners Ljava/util/List;
+f v chunkSource Lcl;
+f w storage Lwt;
+f x properties Lei;
+f y eventProcessingEnabled Z
+f J allPlayersSleeping Z
+f z persistentStateManager Lhc;
+f K tempCollisionBoxes Ljava/util/ArrayList;
+f L processingDeferred Z
+f M lightingUpdateCount I
+f N allowMonsterSpawning Z
+f O allowMobSpawning Z
+f A lightingQueueCount I
+f P activeChunks Ljava/util/Set;
+f Q ambientSoundCounter I
+f R tempEntityList Ljava/util/List;
+f B isRemote Z
+
+m <init> (Lfd;Lxa;)V
+arg 1 world
+arg 2 dimension
+
+m <init> (Lwt;Ljava/lang/String;J)V
+arg 1 storage
+arg 2 name
+arg 3 seed
+
+m <init> (Lwt;Ljava/lang/String;JLxa;)V
+arg 1 storage
+arg 2 name
+arg 3 seed
+arg 4 dimension
+
+m <init> (Lwt;Ljava/lang/String;Lxa;J)V
+arg 1 storage
+arg 2 name
+arg 3 dimension
+arg 4 seed
+
+m b createChunkCache ()Lcl;
+m c initializeSpawnPoint ()V
+m d updateSpawnPosition ()V
+m a getSpawnBlockId (II)I
+arg 1 x
+arg 2 z
+
+m e saveWorldData ()V
+m a addPlayer (Lgs;)V
+arg 1 player
+
+m a saveWithLoadingDisplay (ZLyb;)V
+arg 1 saveEntities
+arg 2 loadingDisplay
+
+m D save ()V
+m a attemptSaving (I)Z
+m d isAir (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m i isPosLoaded (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b isRegionLoaded (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 range
+
+m a isRegionLoaded (IIIIII)Z
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m f hasChunk (II)Z
+arg 1 x
+arg 2 z
+
+m b getChunkFromPos (II)Llm;
+arg 1 x
+arg 2 z
+
+m c getChunk (II)Llm;
+arg 1 chunkX
+arg 2 chunkZ
+
+m a setBlockWithoutNotifyingNeighbors (IIIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+arg 5 meta
+
+m c setBlockWithoutNotifyingNeighbors (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m d setBlockMeta (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 meta
+
+m e setBlockMetaWithoutNotifyingNeighbors (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 meta
+
+m f setBlock (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m b setBlock (IIIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+arg 5 meta
+
+m j blockUpdateEvent (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m g blockUpdate (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m h setBlocksDirty (IIII)V
+arg 1 x
+arg 2 z
+arg 3 minY
+arg 4 maxY
+
+m k setBlockDirty (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b setBlocksDirty (IIIIII)V
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ
+
+m i notifyNeighbors (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m l neighborUpdate (IIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockId
+
+m l hasSkyLight (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m m getBrightness (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m n getLightLevel (III)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a getLightLevel (IIIZ)I
+arg 1 x
+arg 2 y
+arg 3 z
+
+m o isTopY (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d getTopY (II)I
+arg 1 x
+arg 2 z
+
+m a updateLight (Leb;IIII)V
+arg 1 lightType
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a getBrightness (Leb;III)I
+arg 1 type
+arg 2 x
+arg 3 y
+arg 4 z
+
+m b setLight (Leb;IIII)V
+arg 1 lightType
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 value
+
+m f canMonsterSpawn ()Z
+m a raycast (Lbt;Lbt;)Lvf;
+arg 1 start
+arg 2 end
+
+m a raycast (Lbt;Lbt;Z)Lvf;
+arg 1 start
+arg 2 end
+
+m a raycast (Lbt;Lbt;ZZ)Lvf;
+arg 1 start
+arg 2 end
+
+m a playSound (Lsn;Ljava/lang/String;FF)V
+arg 1 source
+arg 2 sound
+arg 3 volume
+arg 4 pitch
+
+m a playSound (DDDLjava/lang/String;FF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 sound
+arg 5 volume
+arg 6 pitch
+
+m a playStreaming (Ljava/lang/String;III)V
+arg 1 music
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a addParticle (Ljava/lang/String;DDDDDD)V
+arg 1 particle
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+
+m a spawnGlobalEntity (Lsn;)Z
+arg 1 entity
+
+m b spawnEntity (Lsn;)Z
+arg 1 entity
+
+m c notifyEntityAdded (Lsn;)V
+arg 1 entity
+
+m d notifyEntityRemoved (Lsn;)V
+arg 1 entity
+
+m e remove (Lsn;)V
+arg 1 entity
+
+m a addEventListener (Lpm;)V
+arg 1 eventListener
+
+m b removeEventListener (Lpm;)V
+arg 1 eventListener
+
+m a getEntityCollisions (Lsn;Leq;)Ljava/util/List;
+arg 1 entity
+arg 2 box
+
+m a getAmbientDarkness (F)I
+arg 1 partialTicks
+
+m a getSkyColor (Lsn;F)Lbt;
+arg 1 entity
+arg 2 partialTicks
+
+m b getTime (F)F
+arg 1 partialTicks
+
+m c getCloudColor (F)Lbt;
+arg 1 partialTicks
+
+m d getFogColor (F)Lbt;
+arg 1 partialTicks
+
+m e getTopSolidBlockY (II)I
+arg 1 x
+arg 2 z
+
+m e calculateSkyLightIntensity (F)F
+arg 1 partialTicks
+
+m c scheduleBlockUpdate (IIIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 id
+arg 5 tickRate
+
+m g tickEntities ()V
+m a processBlockUpdates (Ljava/util/Collection;)V
+arg 1 blockUpdates
+
+m f serverRemove (Lsn;)V
+arg 1 entity
+
+m a updateEntity (Lsn;Z)V
+arg 1 entity
+arg 2 requireLoaded
+
+m a canSpawnEntity (Leq;)Z
+arg 1 box
+
+m b isAnyBlockInBox (Leq;)Z
+arg 1 box
+
+m c isFireOrLavaInBox (Leq;)Z
+arg 1 box
+
+m a updateMovementInFluid (Leq;Lln;Lsn;)Z
+arg 1 entityBoundingBox
+arg 2 fluidMaterial
+arg 3 entity
+
+m a isMaterialInBox (Leq;Lln;)Z
+arg 1 boundingBox
+arg 2 material
+
+m b isFluidInBox (Leq;Lln;)Z
+arg 1 boundingBox
+arg 2 fluid
+
+m a createExplosion (Lsn;DDDF)Lqx;
+arg 1 source
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 power
+
+m a createExplosion (Lsn;DDDFZ)Lqx;
+arg 1 source
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 power
+arg 6 fire
+
+m a getVisibilityRatio (Lbt;Leq;)F
+arg 1 vec
+arg 2 box
+
+m a extinguishFire (Lgs;IIII)V
+arg 1 player
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 direction
+
+m a getPlayerForProxy (Ljava/lang/Class;)Lsn;
+arg 1 playerClass
+
+m h getEntityCount ()Ljava/lang/String;
+m i getDebugInfo ()Ljava/lang/String;
+m a setBlockEntity (IIILow;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockEntity
+
+m p removeBlockEntity (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a savingProgress (Lyb;)V
+arg 1 display
+
+m j doLightingUpdates ()Z
+m a queueLightUpdate (Leb;IIIIII)V
+arg 1 type
+arg 2 minX
+arg 3 minY
+arg 4 minZ
+arg 5 maxX
+arg 6 maxY
+arg 7 maxZ
+
+m a queueLightUpdate (Leb;IIIIIIZ)V
+arg 1 type
+arg 2 minX
+arg 3 minY
+arg 4 minZ
+arg 5 maxX
+arg 6 maxY
+arg 7 maxZ
+
+m k updateSkyBrightness ()V
+m a allowSpawning (ZZ)V
+arg 1 allowMonsterSpawning
+arg 2 allowMobSpawning
+
+m l tick ()V
+m E prepareWeather ()V
+m m updateWeatherCycles ()V
+m F clearWeather ()V
+m n manageChunkUpdatesAndEvents ()V
+m a processScheduledTicks (Z)Z
+arg 1 flush
+
+m q displayTick (III)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b getEntities (Lsn;Leq;)Ljava/util/List;
+arg 1 entity
+arg 2 box
+
+m a collectEntitiesByClass (Ljava/lang/Class;Leq;)Ljava/util/List;
+arg 1 entityClass
+arg 2 box
+
+m o getEntities ()Ljava/util/List;
+m b updateBlockEntity (IIILow;)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 blockEntity
+
+m b countEntities (Ljava/lang/Class;)I
+arg 1 entityClass
+
+m a addEntities (Ljava/util/List;)V
+arg 1 entities
+
+m b unloadEntities (Ljava/util/List;)V
+arg 1 entities
+
+m p tickChunks ()V
+m a canPlace (IIIIZI)Z
+arg 1 blockId
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 fallingBlock
+arg 6 side
+
+m a findPath (Lsn;Lsn;F)Ldh;
+arg 1 entity
+arg 2 target
+arg 3 range
+
+m a findPath (Lsn;IIIF)Ldh;
+arg 1 entity
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 range
+
+m j canTransferPowerInDirection (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 direction
+
+m r canTransferPower (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m k isEmittingRedstonePowerInDirection (IIII)Z
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 direction
+
+m s isEmittingRedstonePower (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a getClosestPlayer (Lsn;D)Lgs;
+arg 1 entity
+arg 2 range
+
+m a getClosestPlayer (DDDD)Lgs;
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 range
+
+m a getPlayer (Ljava/lang/String;)Lgs;
+arg 1 name
+
+m a handleChunkDataUpdate (IIIIII[B)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 sizeX
+arg 5 sizeY
+arg 6 sizeZ
+arg 7 chunkData
+
+m q disconnect ()V
+m r checkSessionLock ()V
+m a setTime (J)V
+arg 1 time
+
+m s getSeed ()J
+m t getTime ()J
+m u getSpawnPos ()Lbr;
+m a setSpawnPos (Lbr;)V
+arg 1 pos
+
+m g loadChunksNearEntity (Lsn;)V
+arg 1 entity
+
+m a canInteract (Lgs;III)Z
+arg 1 player
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a broadcastEntityEvent (Lsn;B)V
+arg 1 entity
+arg 2 event
+
+m v updateEntityLists ()V
+m w getChunkSource ()Lcl;
+m d playNoteBlockActionAt (IIIII)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 soundType
+arg 5 pitch
+
+m x getProperties ()Lei;
+m y updateSleepingPlayers ()V
+m z afterSkipNight ()V
+m A canSkipNight ()Z
+m f getThunderGradient (F)F
+arg 1 delta
+
+m g getRainGradient (F)F
+arg 1 delta
+
+m h setRainGradient (F)V
+arg 1 rainGradient
+
+m B isThundering ()Z
+m C isRaining ()Z
+m t isRaining (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a setState (Ljava/lang/String;Lhm;)V
+arg 1 id
+arg 2 state
+
+m a getOrCreateState (Ljava/lang/Class;Ljava/lang/String;)Lhm;
+arg 1 stateClass
+arg 2 id
+
+m b getIdCount (Ljava/lang/String;)I
+arg 1 id
+
+m e worldEvent (IIIII)V
+arg 1 event
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 data
+
+m a worldEvent (Lgs;IIIII)V
+arg 1 player
+arg 2 event
+arg 3 x
+arg 4 y
+arg 5 z
+arg 6 data

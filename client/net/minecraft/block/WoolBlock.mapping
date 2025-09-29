@@ -1,0 +1,7 @@
+c ee net/minecraft/block/WoolBlock
+
+m d getBlockMeta (I)I
+arg 1 itemMeta
+
+m e getItemMeta (I)I
+arg 1 blockMeta

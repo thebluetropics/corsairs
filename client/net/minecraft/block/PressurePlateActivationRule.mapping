@@ -1,0 +1,5 @@
+c rt net/minecraft/block/PressurePlateActivationRule
+
+f a EVERYTHING Lrt;
+f b MOBS Lrt;
+f c PLAYERS Lrt;

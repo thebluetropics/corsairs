@@ -1,0 +1,12 @@
+c ki net/minecraft/world/BlockEvent
+
+f a x I
+f b y I
+f c z I
+f d blockId I
+f e ticks J
+f f counter J
+f g globalId J
+
+m a get (J)Lki;
+arg 1 ticks

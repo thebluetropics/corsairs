@@ -1,0 +1,15 @@
+c hr net/minecraft/client/sound/SoundEntry
+
+f a loadedSoundCount I
+f b isRandom Z
+f c random Ljava/util/Random;
+f d weightedSoundSet Ljava/util/Map;
+f e loadedSounds Ljava/util/List;
+
+m a getSounds ()Lbh;
+m a get (Ljava/lang/String;)Lbh;
+arg 1 id
+
+m a loadStatic (Ljava/lang/String;Ljava/io/File;)Lbh;
+arg 1 soundName
+arg 2 soundFile

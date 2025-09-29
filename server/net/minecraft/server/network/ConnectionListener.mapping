@@ -1,0 +1,17 @@
+c cu net/minecraft/server/network/ConnectionListener
+
+f a LOGGER Ljava/util/logging/Logger;
+f b open Z
+f c server Lnet/minecraft/server/MinecraftServer;
+f d socket Ljava/net/ServerSocket;
+f e thread Ljava/lang/Thread;
+f f connectionCounter I
+f g pendingConnections Ljava/util/ArrayList;
+f h connections Ljava/util/ArrayList;
+
+m a tick ()V
+m a addPendingConnection (Lee;)V
+arg 1 connection
+
+m a addConnection (Lha;)V
+arg 1 connection

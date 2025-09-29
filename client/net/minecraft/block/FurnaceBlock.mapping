@@ -1,0 +1,22 @@
+c tc net/minecraft/block/FurnaceBlock
+
+f a random Ljava/util/Random;
+f b lit Z
+f c ignoreBlockRemoval Z
+
+m <init> (IZ)V
+arg 1 id
+arg 2 lit
+
+m a updateLitState (ZLfd;III)V
+arg 1 lit
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+
+m h updateDirection (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

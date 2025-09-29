@@ -1,0 +1,21 @@
+c qm net/minecraft/client/particle/BlockParticle
+
+f a block Luu;
+f o side I
+
+m <init> (Lfd;DDDDDDLuu;II)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+arg 8 block
+arg 9 side
+arg 10 meta
+
+m a color (III)Lqm;
+arg 1 x
+arg 2 y
+arg 3 z

@@ -1,0 +1,16 @@
+c qt net/minecraft/client/gui/screen/ConfirmScreen
+
+f a parent Lda;
+f i message1 Ljava/lang/String;
+f j message2 Ljava/lang/String;
+f l confirmText Ljava/lang/String;
+f m cancelText Ljava/lang/String;
+f n id I
+
+m <init> (Lda;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+arg 1 parent
+arg 2 message1
+arg 3 message2
+arg 4 confirmText
+arg 5 cancelText
+arg 6 id

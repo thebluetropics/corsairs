@@ -1,0 +1,11 @@
+c lq net/minecraft/client/gui/screen/MultiplayerScreen
+
+f a parent Lda;
+f i serverField Lro;
+
+m <init> (Lda;)V
+arg 1 parent
+
+m a parseInt (Ljava/lang/String;I)I
+arg 1 s
+arg 2 defaultValue

@@ -1,0 +1,17 @@
+c uo net/minecraft/client/input/Input
+
+f a movementSideways F
+f b movementForward F
+f c unused Z
+f d jumping Z
+f e sneaking Z
+
+m <init> ()V
+
+m a update (Lgs;)V
+arg 1 player
+
+m a reset ()V
+m a updateKey (IZ)V
+arg 1 key
+arg 2 keyDown

@@ -1,0 +1,18 @@
+c mq net/minecraft/util/math/noise/OctaveSimplexNoiseSampler
+
+f a octaveSamplers [Lbi;
+f b octaves I
+
+m a sample ([DDDIIDDD)[D
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height
+
+m a sample ([DDDIIDDDD)[D
+arg 1 map
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height

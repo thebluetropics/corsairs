@@ -1,0 +1,15 @@
+c ns net/minecraft/stat/Stat
+
+f a formatter Loe;
+f b DEFAULT_NUMBER_FORMAT Ljava/text/NumberFormat;
+f c DEFAULT_DECIMAL_FORMAT Ljava/text/DecimalFormat;
+f e id I
+f f stringId Ljava/lang/String;
+f g localOnly Z
+f h uuid Ljava/lang/String;
+f i INTEGER_FORMAT Loe;
+f j TIME_PROVIDER Loe;
+f k DISTANCE_PROVIDER Loe;
+
+m d addStat ()Lns;
+m e localOnly ()Lns;

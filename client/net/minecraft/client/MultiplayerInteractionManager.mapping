@@ -1,0 +1,18 @@
+c xk net/minecraft/client/MultiplayerInteractionManager
+
+f c breakingPosX I
+f d breakingPosY I
+f e breakingPosZ I
+f f blockBreakingProgress F
+f g lastBlockBreakingProgress F
+f h breakingSoundDelayTicks F
+f i breakingDelayTicks I
+f j breakingBlock Z
+f k networkHandler Lnb;
+f l selectedSlot I
+
+m <init> (Lnet/minecraft/client/Minecraft;Lnb;)V
+arg 1 minecraft
+arg 2 networkHandler
+
+m e updateSelectedSlot ()V

@@ -1,0 +1,13 @@
+c un net/minecraft/isometric/IsometricChunkRenderer
+
+f a colors [F
+f b pixels [I
+f c height [I
+f d waterHeight [I
+f e waterBrightness [I
+f f depth [I
+f g sprites [I
+
+m a postProcess ()V
+m a render (Lre;)V
+arg 1 chunk

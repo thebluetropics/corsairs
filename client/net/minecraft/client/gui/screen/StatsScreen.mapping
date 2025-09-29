@@ -1,0 +1,31 @@
+c dv net/minecraft/client/gui/screen/StatsScreen
+
+f a parent Lda;
+f i title Ljava/lang/String;
+f j itemRenderer Lbb;
+f l generalStats Lsu;
+f m itemStats Lci;
+f n blockStats Lga;
+f o stats Lxi;
+f p selectedStatsList Llg;
+
+m <init> (Lda;Lxi;)V
+arg 1 parent
+arg 2 stats
+
+m a renderIcon (II)V
+arg 1 x
+arg 2 y
+
+m c render (III)V
+arg 1 mouseX
+arg 2 mouseY
+arg 3 tickDelta
+
+m c renderIcon (IIII)V
+arg 1 x
+arg 2 y
+arg 3 u
+arg 4 v
+
+m k createButtons ()V

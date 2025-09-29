@@ -1,0 +1,8 @@
+c qb net/minecraft/client/option/KeyBinding
+
+f a translationKey Ljava/lang/String;
+f b code I
+
+m <init> (Ljava/lang/String;I)V
+arg 1 translationKey
+arg 2 code

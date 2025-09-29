@@ -1,0 +1,8 @@
+c he net/minecraft/block/SaplingBlock
+
+m c generate (Lfd;IIILjava/util/Random;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 random

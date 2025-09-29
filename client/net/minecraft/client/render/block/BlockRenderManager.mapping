@@ -1,0 +1,354 @@
+c cv net/minecraft/client/render/block/BlockRenderManager
+
+f A southBottomBrightness F
+f B southWestBottomBrightness F
+f C northEastTopBrightness F
+f D northTopBrightness F
+f E northWestTopBrightness F
+f F eastTopBrightness F
+f G southEastTopBrightness F
+f H southTopBrightness F
+f I westTopBrightness F
+f J southWestTopBrightness F
+f K northEastBrightness F
+f L southEastBrightness F
+f M northWestBrightness F
+f N southWestBrightness F
+f O useSurroundingBrightness I
+f P firstVertexRed F
+f Q secondVertexRed F
+f R thirdVertexRed F
+f S fourthVertexRed F
+f T firstVertexGreen F
+f U secondVertexGreen F
+f V thirdVertexGreen F
+f W fourthVertexGreen F
+f X firstVertexBlue F
+f Y secondVertexBlue F
+f Z thirdVertexBlue F
+f a fancyGraphics Z
+f aa fourthVertexBlue F
+f ab topNorthEdgeTranslucent Z
+f ac topEastEdgeTranslucent Z
+f ad topWestEdgeTranslucent Z
+f ae topSouthEdgeTranslucent Z
+f af northWestEdgeTranslucent Z
+f ag southEastEdgeTranslucent Z
+f ah southWestEdgeTranslucent Z
+f ai northEastEdgeTranslucent Z
+f aj bottomNorthEdgeTranslucent Z
+f ak bottomEastEdgeTranslucent Z
+f al bottomWestEdgeTranslucent Z
+f am bottomSouthEdgeTranslucent Z
+f b inventoryColorEnabled Z
+f c blockView Lxp;
+f d textureOverride I
+f e flipTextureHorizontally Z
+f f skipFaceCulling Z
+f g eastFaceRotation I
+f h westFaceRotation I
+f i southFaceRotation I
+f j northFaceRotation I
+f k topFaceRotation I
+f l bottomFaceRotation I
+f m useAo Z
+f n selfBrightness F
+f o northBrightness F
+f p bottomBrightness F
+f q eastBrightness F
+f r southBrightness F
+f s topBrightness F
+f t westBrightness F
+f u northEastBottomBrightness F
+f v northBottomBrightness F
+f w northWestBottomBrightness F
+f x eastBottomBrightness F
+f y westBottomBrightness F
+f z southEastBottomBrightness F
+
+m <init> (Lxp;)V
+arg 1 blockView
+
+m a renderPistonHeadYAxis (DDDDDDFD)V
+arg 1 x1
+arg 2 x2
+arg 3 y1
+arg 4 y2
+arg 5 z1
+arg 6 z2
+arg 7 brightness
+arg 8 shiftU
+
+m a isSideLit (I)Z
+arg 1 renderType
+
+m a getFluidHeight (IIILln;)F
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 material
+
+m a renderRail (Lpc;III)Z
+arg 1 rail
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a renderTiltedTorch (Luu;DDDDD)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 xTilt
+arg 6 zTilt
+
+m a renderBottomFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m a renderCross (Luu;IDDD)V
+arg 1 block
+arg 2 metadata
+arg 3 x
+arg 4 y
+arg 5 z
+
+m a render (Luu;IF)V
+arg 1 block
+arg 2 metadata
+arg 3 brightness
+
+m a renderWithoutCulling (Luu;III)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m a renderSmooth (Luu;IIIFFF)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 red
+arg 6 green
+arg 7 blue
+
+m a renderWithTexture (Luu;IIII)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 textureOverride
+
+m a renderPistonHeadWithoutCulling (Luu;IIIZ)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 extendedHalfway
+
+m a renderFallingBlockEntity (Luu;Lfd;III)V
+arg 1 block
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+
+m b renderPistonHeadZAxis (DDDDDDFD)V
+arg 1 x1
+arg 2 x2
+arg 3 y1
+arg 4 y2bb
+arg 5 z1
+arg 6 z2
+arg 7 brightness
+arg 8 shiftU
+
+m b renderTopFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m b renderCrop (Luu;IDDD)V
+arg 1 block
+arg 2 metadata
+arg 3 x
+arg 4 y
+arg 5 z
+
+m b render (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m b renderFlat (Luu;IIIFFF)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 red
+arg 6 green
+arg 7 blue
+
+m b renderPiston (Luu;IIIZ)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 extended
+
+m c renderPistonHeadXAxis (DDDDDDFD)V
+arg 1 x1
+arg 2 x2
+arg 3 y1
+arg 4 y2
+arg 5 z1
+arg 6 z2
+arg 7 brightness
+arg 8 shiftU
+
+m c renderEastFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m c renderTorch (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m c renderCactus (Luu;IIIFFF)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 red
+arg 6 green
+arg 7 blue
+
+m c renderPistonHead (Luu;IIIZ)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 extendedHalfway
+
+m d renderWestFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m d renderExtendedPiston (Luu;III)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m e renderNorthFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m e renderLever (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m f renderSouthFace (Luu;DDDI)V
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 texture
+
+m f renderFire (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m g renderRedstoneDust (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h renderLadder (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m i renderCross (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m j renderCrop (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m k renderFluid (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m l renderBlock (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m m renderCactus (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m n renderFence (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m o renderStairs (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m p renderDoor (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m q renderBed (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z
+
+m r renderRepeater (Luu;III)Z
+arg 1 block
+arg 2 x
+arg 3 y
+arg 4 z

@@ -1,0 +1,183 @@
+c net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+
+f b MEMORY_RESERVED_FOR_CRASH [B
+f a INSTANCE Lnet/minecraft/client/Minecraft;
+f c interactionManager Lob;
+f Q fullscreen Z
+f R crashed Z
+f d displayWidth I
+f e displayHeight I
+f S openGlCapabilities Lcx;
+f T timer Lpy;
+f f world Lfd;
+f g worldRenderer Ln;
+f h player Ldc;
+f i camera Lls;
+f j particleManager Ldn;
+f k session Lgr;
+f l hostAddress Ljava/lang/String;
+f m canvas Ljava/awt/Canvas;
+f n isApplet Z
+f o paused Z
+f p textureManager Lji;
+f q textRenderer Lsj;
+f r currentScreen Lda;
+f s progressRenderer Lmk;
+f t gameRenderer Lpx;
+f U resourceDownloadThread Lcz;
+f V ticksPlayed I
+f W attackCooldown I
+f X initWidth I
+f Y initHeight I
+f u toast Lvu;
+f v inGameHud Luq;
+f w skipGameRender Z
+f x bipedModel Lfh;
+f y crosshairTarget Lvf;
+f z options Lkv;
+f A applet Lnet/minecraft/client/MinecraftApplet;
+f B soundManager Lyo;
+f C mouse Lvy;
+f D texturePacks Lik;
+f Z runDirectory Ljava/io/File;
+f aa worldStorageSource Lnl;
+f E frameTimes [J
+f F tickTimes [J
+f G frameTimeIndex I
+f H failedSessionCheckTime J
+f I stats Lxi;
+f ab startupServerAddress Ljava/lang/String;
+f ac startupServerPort I
+f ad waterSprite Lvs;
+f ae lavaSprite Lcg;
+f af runDirectoryCache Ljava/io/File;
+f J running Z
+f K debugText Ljava/lang/String;
+f L screenshotKeyDown Z
+f M timeAfterLastTick J
+f N focused Z
+f ag lastClickTicks I
+f O raining Z
+f P lastTickTime J
+f ah joinPlayerCounter I
+
+m <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+arg 1 component
+arg 2 canvas
+arg 3 applet
+arg 4 width
+arg 5 height
+
+m b gameCrashed (Lmh;)V
+arg 1 crashReport
+
+m a handleCrash (Lmh;)V
+arg 1 crashReport
+
+m a setStartupServer (Ljava/lang/String;I)V
+arg 1 address
+arg 2 port
+
+m a init ()V
+m x renderLoadingScreen ()V
+m a draw (IIIIII)V
+arg 1 x
+arg 2 y
+arg 3 u
+arg 4 v
+arg 5 width
+arg 6 height
+
+m b getRunDirectory ()Ljava/io/File;
+m a getApplicationDirectory (Ljava/lang/String;)Ljava/io/File;
+arg 1 name
+
+m y getOperatingSystem ()Lpd;
+m c getWorldStorageSource ()Lnl;
+m a setScreen (Lda;)V
+arg 1 screen
+
+m c logGlError (Ljava/lang/String;)V
+arg 1 phase
+
+m d stop ()V
+m e cleanHeap ()V
+m z handleScreenshotKey ()V
+m a renderProfilerChart (J)V
+arg 1 tickTime
+
+m f scheduleStop ()V
+m g lockMouse ()V
+m h unlockMouse ()V
+m i pauseGame ()V
+m a handleMouseDown (IZ)V
+arg 1 button
+arg 2 holdingAttack
+
+m a handleMouseClick (I)V
+arg 1 button
+
+m j toggleFullscreen ()V
+m a resize (II)V
+arg 1 width
+arg 2 height
+
+m A handlePickBlock ()V
+m B startSessionCheck ()V
+m k tick ()V
+m C forceResourceReload ()V
+m l isWorldRemote ()Z
+m a startGame (Ljava/lang/String;Ljava/lang/String;J)V
+arg 1 worldName
+arg 2 name
+arg 3 seed
+
+m m changeDimension ()V
+m a setWorld (Lfd;)V
+arg 1 world
+
+m a setWorld (Lfd;Ljava/lang/String;)V
+arg 1 world
+arg 2 message
+
+m a setWorld (Lfd;Ljava/lang/String;Lgs;)V
+arg 1 world
+arg 2 message
+arg 3 player
+
+m b convertAndSaveWorld (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 worldName
+arg 2 name
+
+m d prepareWorld (Ljava/lang/String;)V
+arg 1 worldName
+
+m a loadResource (Ljava/lang/String;Ljava/io/File;)V
+arg 1 path
+arg 2 file
+
+m n getOpenGlCapabilities ()Lcx;
+m o getRenderChunkDebugInfo ()Ljava/lang/String;
+m p getRenderEntityDebugInfo ()Ljava/lang/String;
+m q getChunkSourceDebugInfo ()Ljava/lang/String;
+m r getWorldDebugInfo ()Ljava/lang/String;
+m a respawnPlayer (ZI)V
+arg 1 worldSpawn
+arg 2 dimension
+
+m a start (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 username
+arg 2 sessionId
+
+m a startAndConnect (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+arg 1 username
+arg 2 sessionId
+arg 3 server
+
+m s getNetworkHandler ()Lnb;
+m t isDisplayGui ()Z
+m u isFancyGraphicsEnabled ()Z
+m v isAmbientOcclusionEnabled ()Z
+m w isDebugProfilerEnabled ()Z
+m b isCommand (Ljava/lang/String;)Z
+arg 1 message

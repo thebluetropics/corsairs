@@ -1,0 +1,4 @@
+c of net/minecraft/network/packet/s2c/play/IncreaseStatS2CPacket
+
+f a statId I
+f b amount I

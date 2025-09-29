@@ -1,0 +1,8 @@
+c fl net/minecraft/world/gen/feature/OreFeature
+
+f a oreBlockId I
+f b oreCount I
+
+m <init> (II)V
+arg 1 oreBlockId
+arg 2 oreCount

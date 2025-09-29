@@ -1,0 +1,10 @@
+c yc net/minecraft/client/gui/screen/ingame/SignEditScreen
+
+f a title Ljava/lang/String;
+f i sign Lyk;
+f j ticksSinceOpened I
+f l currentRow I
+f m VALID_CHARACTERS Ljava/lang/String;
+
+m <init> (Lyk;)V
+arg 1 sign

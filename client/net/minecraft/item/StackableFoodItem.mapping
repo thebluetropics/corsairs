@@ -1,0 +1,7 @@
+c qk net/minecraft/item/StackableFoodItem
+
+m <init> (IIZI)V
+arg 1 id
+arg 2 healthRestored
+arg 3 meat
+arg 4 maxCount

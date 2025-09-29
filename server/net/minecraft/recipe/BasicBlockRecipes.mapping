@@ -1,0 +1,4 @@
+c gp net/minecraft/recipe/BasicBlockRecipes
+
+m a add (Ley;)V
+arg 1 recipeManager

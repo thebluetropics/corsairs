@@ -1,0 +1,23 @@
+c lt net/minecraft/world/gen/CaveCarver
+
+m a carve (II[BDDD)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 x
+arg 5 y
+arg 6 z
+
+m a carveTunnels (II[BDDDFFFIID)V
+arg 1 chunkX
+arg 2 chunkZ
+arg 3 blocks
+arg 4 x
+arg 5 y
+arg 6 z
+arg 7 baseWidth
+arg 8 yaw
+arg 9 pitch
+arg 10 tunnel
+arg 11 tunnelCount
+arg 12 widthHeightRatio

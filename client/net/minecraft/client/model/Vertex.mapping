@@ -1,0 +1,26 @@
+c ib net/minecraft/client/model/Vertex
+
+f a pos Lbt;
+f b u F
+f c v F
+
+m <init> (FFFFF)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 u
+arg 5 v
+
+m <init> (Lbt;FF)V
+arg 1 pos
+arg 2 u
+arg 3 v
+
+m <init> (Lib;FF)V
+arg 1 vertex
+arg 2 u
+arg 3 v
+
+m a remap (FF)Lib;
+arg 1 u
+arg 2 v

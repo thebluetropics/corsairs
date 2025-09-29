@@ -1,0 +1,71 @@
+c bt net/minecraft/util/math/Vec3d
+
+f a x D
+f b y D
+f c z D
+f d cache Ljava/util/List;
+f e cacheCount I
+
+m <init> (DDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+
+m b resetCacheCount ()V
+m a create (DDD)Lbt;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c distanceTo (Lbt;)D
+arg 1 vec
+
+m a interpolateByX (Lbt;D)Lbt;
+arg 1 vec
+arg 2 deltaX
+
+m c normalize ()Lbt;
+m b createCached (DDD)Lbt;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m d squaredDistanceTo (Lbt;)D
+arg 1 vec
+
+m b interpolateByY (Lbt;D)Lbt;
+arg 1 vec
+arg 2 deltaY
+
+m d length ()D
+m c add (DDD)Lbt;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m c interpolateByZ (Lbt;D)Lbt;
+arg 1 vec
+arg 2 deltaZ
+
+m d squaredDistanceTo (DDD)D
+arg 1 x
+arg 2 y
+arg 3 z
+
+m e set (DDD)Lbt;
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a clearCache ()V
+m a rotateX (F)V
+arg 1 angle
+
+m a relativize (Lbt;)Lbt;
+arg 1 vec
+
+m b rotateY (F)V
+arg 1 angle
+
+m b crossProduct (Lbt;)Lbt;
+arg 1 vec

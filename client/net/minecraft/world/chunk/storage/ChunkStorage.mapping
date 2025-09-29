@@ -1,0 +1,16 @@
+c bf net/minecraft/world/chunk/storage/ChunkStorage
+
+m a tick ()V
+m a loadChunk (Lfd;II)Llm;
+arg 1 world
+arg 2 chunkX
+arg 3 chunkZ
+
+m a saveChunk (Lfd;Llm;)V
+arg 1 world
+arg 2 chunk
+
+m b flush ()V
+m b saveEntities (Lfd;Llm;)V
+arg 1 world
+arg 2 chunk

@@ -1,0 +1,15 @@
+c ei net/minecraft/block/SandBlock
+
+f a fallInstantly Z
+
+m c_ canFallThrough (Ldj;III)Z
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m g processFall (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

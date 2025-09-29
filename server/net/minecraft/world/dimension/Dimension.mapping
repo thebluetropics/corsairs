@@ -1,0 +1,29 @@
+c os net/minecraft/world/dimension/Dimension
+
+f a world Ldj;
+f b biomeSource Lph;
+f c isNether Z
+f d evaporatesWater Z
+f e hasCeiling Z
+f f lightLevelToLuminance [F
+f g id I
+f h backgroundColor [F
+
+m c initBrightnessTable ()V
+m d hasWorldSpawn ()Z
+m a fromId (I)Los;
+arg 1 id
+
+m a setWorld (Ldj;)V
+arg 1 world
+
+m a initBiomeSource ()V
+m a isValidSpawnPoint (II)Z
+arg 1 x
+arg 2 z
+
+m a getTimeOfDay (JF)F
+arg 1 time
+arg 2 tickDelta
+
+m b createChunkGenerator ()Lbl;

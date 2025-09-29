@@ -1,0 +1,6 @@
+c iv net/minecraft/network/packet/LoginHelloPacket
+
+f a protocolVersion I
+f b username Ljava/lang/String;
+f c worldSeed J
+f d dimensionId B

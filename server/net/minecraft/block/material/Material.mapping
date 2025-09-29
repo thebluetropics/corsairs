@@ -1,0 +1,55 @@
+c hj net/minecraft/block/material/Material
+
+f A COBWEB Lhj;
+f B PISTON Lhj;
+f C mapColor Lcm;
+f D burnable Z
+f E replaceable Z
+f F transparent Z
+f G handHarvestable Z
+f H pistonBehavior I
+f a AIR Lhj;
+f b SOLID_ORGANIC Lhj;
+f c SOIL Lhj;
+f d WOOD Lhj;
+f e STONE Lhj;
+f f METAL Lhj;
+f g WATER Lhj;
+f h LAVA Lhj;
+f i LEAVES Lhj;
+f j PLANT Lhj;
+f k SPONGE Lhj;
+f l WOOL Lhj;
+f m FIRE Lhj;
+f n SAND Lhj;
+f o PISTON_BREAKABLE Lhj;
+f p GLASS Lhj;
+f q TNT Lhj;
+f r UNUSED Lhj;
+f s ICE Lhj;
+f t SNOW_LAYER Lhj;
+f u SNOW_BLOCK Lhj;
+f v CACTUS Lhj;
+f w CLAY Lhj;
+f x PUMPKIN Lhj;
+f y NETHER_PORTAL Lhj;
+f z CAKE Lhj;
+
+m <init> (Lcm;)V
+arg 1 mapColor
+
+m d isFluid ()Z
+m e isBurnable ()Z
+m f setReplaceable ()Lhj;
+m g isReplaceable ()Z
+m h suffocates ()Z
+m i isHandHarvestable ()Z
+m j getPistonBehavior ()I
+m k setDestroyPistonBehavior ()Lhj;
+m l setUnpushablePistonBehavior ()Lhj;
+m m setTransparent ()Lhj;
+m n setRequiresTool ()Lhj;
+m o setBurnable ()Lhj;
+m a isSolid ()Z
+m b blocksVision ()Z
+m c blocksMovement ()Z

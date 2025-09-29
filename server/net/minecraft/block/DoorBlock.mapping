@@ -1,0 +1,17 @@
+c hc net/minecraft/block/DoorBlock
+
+m a setOpen (Ldj;IIIZ)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 open
+
+m c rotate (I)V
+arg 1 meta
+
+m d setOpen (I)I
+arg 1 meta
+
+m e getOpen (I)Z
+arg 1 meta

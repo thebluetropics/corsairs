@@ -1,0 +1,7 @@
+c gy net/minecraft/server/dedicated/PlayerStatsGui
+
+f a memoryUsePercentage [I
+f b memoryUsage I
+f c lines [Ljava/lang/String;
+
+m a update ()V

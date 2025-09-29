@@ -1,0 +1,46 @@
+c ke net/minecraft/client/gui/widget/ButtonWidget
+
+f a width I
+f b height I
+f c x I
+f d y I
+f e text Ljava/lang/String;
+f f id I
+f g active Z
+f h visible Z
+
+m <init> (IIIIILjava/lang/String;)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 height
+arg 6 text
+
+m <init> (IIILjava/lang/String;)V
+arg 1 id
+arg 2 x
+arg 3 y
+arg 4 text
+
+m a getYImage (Z)I
+arg 1 hovered
+
+m a render (Lnet/minecraft/client/Minecraft;II)V
+arg 1 minecraft
+arg 2 mouseX
+arg 3 mouseY
+
+m b renderBackground (Lnet/minecraft/client/Minecraft;II)V
+arg 1 minecraft
+arg 2 mouseX
+arg 3 mouseY
+
+m a mouseReleased (II)V
+arg 1 mouseX
+arg 2 mouseY
+
+m c isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
+arg 1 minecraft
+arg 2 mouseX
+arg 3 mouseY

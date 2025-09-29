@@ -1,0 +1,41 @@
+c uq net/minecraft/client/gui/hud/InGameHud
+
+f d ITEM_RENDERER Lbb;
+f e messages Ljava/util/List;
+f f random Ljava/util/Random;
+f g minecraft Lnet/minecraft/client/Minecraft;
+f a selectedName Ljava/lang/String;
+f h ticks I
+f i overlayMessage Ljava/lang/String;
+f j overlayRemaining I
+f l overlayTinted Z
+f b progress F
+f c vignetteDarkness F
+
+m <init> (Lnet/minecraft/client/Minecraft;)V
+arg 1 minecraft
+
+m a render (FZII)V
+arg 1 tickDelta
+arg 2 screenOpen
+arg 3 mouseX
+arg 4 mouseY
+
+m a renderPumpkinOverlay (II)V
+m a renderVignette (FII)V
+m b renderPortalOverlay (FII)V
+m a renderHotbarItem (IIIF)V
+arg 1 slot
+arg 2 x
+arg 3 y
+
+m a tick ()V
+m b clearChat ()V
+m a addChatMessage (Ljava/lang/String;)V
+arg 1 message
+
+m b setRecordPlayingOverlay (Ljava/lang/String;)V
+arg 1 record
+
+m c addTranslatedChatMessage (Ljava/lang/String;)V
+arg 1 text

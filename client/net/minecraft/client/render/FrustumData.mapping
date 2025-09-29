@@ -1,0 +1,14 @@
+c dr net/minecraft/client/render/FrustumData
+
+f a frustum [[F
+f b projectionMatrix [F
+f c modelMatrix [F
+f d clipMatrix [F
+
+m a intersects (DDDDDD)Z
+arg 1 minX
+arg 2 minY
+arg 3 minZ
+arg 4 maxX
+arg 5 maxY
+arg 6 maxZ

@@ -1,0 +1,4 @@
+c sd net/minecraft/client/render/texture/FireSprite
+
+f g current [F
+f h next [F

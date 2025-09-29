@@ -1,0 +1,5 @@
+c et net/minecraft/world/biome/FixedBiomeSource
+
+f e biome Lgs;
+f f temperature D
+f g downfall D

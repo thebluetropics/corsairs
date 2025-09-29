@@ -1,0 +1,30 @@
+c cf net/minecraft/entity/FireballEntity
+
+f a shake I
+f b owner Lls;
+f c powerX D
+f d powerY D
+f e powerZ D
+f f blockX I
+f g blockY I
+f h blockZ I
+f i blockId I
+f j inGround Z
+f k removalTimer I
+f l inAirTime I
+
+m <init> (Lfd;DDDDDD)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 velocityX
+arg 6 velocityY
+arg 7 velocityZ
+
+m <init> (Lfd;Lls;DDD)V
+arg 1 world
+arg 2 owner
+arg 3 velocityX
+arg 4 velocityY
+arg 5 velocityZ

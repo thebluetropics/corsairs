@@ -1,0 +1,15 @@
+c ce net/minecraft/entity/SheepEntity
+
+f a COLORS [[F
+
+m a generateDefaultColor (Ljava/util/Random;)I
+arg 1 random
+
+m a setSheared (Z)V
+arg 1 sheared
+
+m b_ setColor (I)V
+arg 1 color
+
+m r getColor ()I
+m s isSheared ()Z

@@ -1,0 +1,19 @@
+c jb net/minecraft/world/chunk/ChunkCache
+
+f a chunksToUnload Ljava/util/Set;
+f b empty Lhi;
+f c generator Lbl;
+f d storage Lan;
+f e chunkByPos Ljava/util/Map;
+f f chunks Ljava/util/List;
+f g world Ldj;
+
+m a saveEntities (Lhi;)V
+arg 1 chunk
+
+m b saveChunk (Lhi;)V
+arg 1 chunk
+
+m d loadChunkFromStorage (II)Lhi;
+arg 1 chunkX
+arg 2 chunkZ

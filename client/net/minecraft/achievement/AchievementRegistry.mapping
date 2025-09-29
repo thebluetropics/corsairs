@@ -1,0 +1,27 @@
+c ep net/minecraft/achievement/AchievementRegistry
+
+f a minColumn I
+f b minRow I
+f c maxColumn I
+f d maxRow I
+f e ACHIEVEMENTS Ljava/util/List;
+f f OPEN_INVENTORY Lny;
+f g MINE_WOOD Lny;
+f h CRAFT_WORKBENCH Lny;
+f i CRAFT_PICKAXE Lny;
+f j CRAFT_FURNACE Lny;
+f k ACQUIRE_IRON Lny;
+f l CRAFT_HOE Lny;
+f m CRAFT_BREAD Lny;
+f n CRAFT_CAKE Lny;
+f o CRAFT_STONE_PICKAXE Lny;
+f p COOK_FISH Lny;
+f q CRAFT_RAIL Lny;
+f r CRAFT_SWORD Lny;
+f s KILL_ENEMY Lny;
+f t KILL_COW Lny;
+f u FLY_PIG Lny;
+
+m <init> ()V
+
+m a initialize ()V

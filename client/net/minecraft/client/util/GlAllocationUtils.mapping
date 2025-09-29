@@ -1,0 +1,23 @@
+c ge net/minecraft/client/util/GlAllocationUtils
+
+f a DISPLAY_LISTS Ljava/util/List;
+f b TEXTURE_NAMES Ljava/util/List;
+
+m a clear ()V
+m a generateDisplayLists (I)I
+arg 1 range
+
+m a generateTextureNames (Ljava/nio/IntBuffer;)V
+arg 1 textures
+
+m b deleteDisplayLists (I)V
+arg 1 index
+
+m c allocateByteBuffer (I)Ljava/nio/ByteBuffer;
+arg 1 size
+
+m d allocateIntBuffer (I)Ljava/nio/IntBuffer;
+arg 1 size
+
+m e allocateFloatBuffer (I)Ljava/nio/FloatBuffer;
+arg 1 size

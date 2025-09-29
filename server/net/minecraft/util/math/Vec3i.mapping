@@ -1,0 +1,10 @@
+c ay net/minecraft/util/math/Vec3i
+
+f a x I
+f b y I
+f c z I
+
+m a distanceTo (III)D
+arg 1 x
+arg 2 y
+arg 3 z

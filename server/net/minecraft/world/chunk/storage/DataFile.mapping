@@ -1,0 +1,9 @@
+c cn net/minecraft/world/chunk/storage/DataFile
+
+f a file Ljava/io/File;
+f b chunkX I
+f c chunkZ I
+
+m a getFile ()Ljava/io/File;
+m b getChunkX ()I
+m c getChunkZ ()I

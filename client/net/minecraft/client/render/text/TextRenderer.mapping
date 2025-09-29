@@ -1,0 +1,44 @@
+c sj net/minecraft/rendering/TextRenderer
+
+f b characterWidths [I
+f a boundTexture I
+f c boundPage I
+f d pageBuffer Ljava/nio/IntBuffer;
+
+m <init> (Lkv;Ljava/lang/String;Lji;)V
+arg 1 options
+arg 2 fontPath
+arg 3 textureManager
+
+m a drawWithShadow (Ljava/lang/String;III)V
+arg 1 text
+arg 2 x
+arg 3 y
+arg 4 color
+
+m b draw (Ljava/lang/String;III)V
+arg 1 text
+arg 2 x
+arg 3 y
+arg 4 color
+
+m a draw (Ljava/lang/String;IIIZ)V
+arg 1 text
+arg 2 x
+arg 3 y
+arg 4 color
+arg 5 shadow
+
+m a getWidth (Ljava/lang/String;)I
+arg 1 text
+
+m a drawSplit (Ljava/lang/String;IIII)V
+arg 1 text
+arg 2 x
+arg 3 y
+arg 4 width
+arg 5 color
+
+m a splitAndGetHeight (Ljava/lang/String;I)I
+arg 1 text
+arg 2 width

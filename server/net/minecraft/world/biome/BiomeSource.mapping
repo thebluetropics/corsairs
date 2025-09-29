@@ -1,0 +1,36 @@
+c ph net/minecraft/world/biome/BiomeSource
+
+f a temperatureMap [D
+f b downfallMap [D
+f c weirdnessMap [D
+f d biomes [Lgs;
+f e temperatureSampler Lmq;
+f f downfallSampler Lmq;
+f g weirdnessSampler Lmq;
+
+m a getBiome (II)Lgs;
+arg 1 x
+arg 2 z
+
+m a getBiomesInArea (IIII)[Lgs;
+arg 1 x
+arg 2 z
+arg 3 width
+arg 4 depth
+
+m a getBiome (Lqa;)Lgs;
+arg 1 chunkPos
+
+m a create ([DIIII)[D
+arg 1 map
+arg 2 x
+arg 3 z
+arg 4 width
+arg 5 depth
+
+m a getBiomesInArea ([Lgs;IIII)[Lgs;
+arg 1 biomes
+arg 2 x
+arg 3 z
+arg 4 width
+arg 5 depth

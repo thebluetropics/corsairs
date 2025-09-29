@@ -1,0 +1,6 @@
+c md net/minecraft/client/render/world/DirtyChunkSorter
+
+f a camera Lls;
+
+m <init> (Lls;)V
+arg 1 camera

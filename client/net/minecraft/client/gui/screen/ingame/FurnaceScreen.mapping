@@ -1,0 +1,7 @@
+c ov net/minecraft/client/gui/screen/ingame/FurnaceScreen
+
+f l furnaceBlockEntity Lsk;
+
+m <init> (Lix;Lsk;)V
+arg 1 inventory
+arg 2 furnaceBlockEntity

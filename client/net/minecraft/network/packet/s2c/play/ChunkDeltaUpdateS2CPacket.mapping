@@ -1,0 +1,8 @@
+c wu net/minecraft/network/packet/s2c/play/ChunkDeltaUpdateS2CPacket
+
+f a x I
+f b z I
+f c positions [S
+f d blockRawIds [B
+f e blockMetadata [B
+f f size I

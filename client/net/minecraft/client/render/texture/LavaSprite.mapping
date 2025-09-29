@@ -1,0 +1,6 @@
+c cg net/minecraft/client/render/texture/LavaSprite
+
+f g current [F
+f h next [F
+f i heat [F
+f j heatDelta [F

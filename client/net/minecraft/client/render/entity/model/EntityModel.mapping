@@ -1,0 +1,26 @@
+c ko net/minecraft/client/render/entity/model/EntityModel
+
+f m handSwingProgress F
+f n riding Z
+
+m a animateModel (Lls;FFF)V
+arg 1 entity
+arg 2 limbAngle
+arg 3 limbDistance
+arg 4 tickDelta
+
+m b setAngles (FFFFFF)V
+arg 1 limbAngle
+arg 2 limbDistance
+arg 3 animationProgress
+arg 4 headYaw
+arg 5 headPitch
+arg 6 scale
+
+m a render (FFFFFF)V
+arg 1 limbAngle
+arg 2 limbDistance
+arg 3 animationProgress
+arg 4 headYaw
+arg 5 headPitch
+arg 6 scale

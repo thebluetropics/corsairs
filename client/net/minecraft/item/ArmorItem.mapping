@@ -1,0 +1,14 @@
+c wa net/minecraft/item/ArmorItem
+
+f a type I
+f bk equipmentSlot I
+f bl maxProtection I
+f bm textureIndex I
+f bn PROTECTION_BY_SLOT [I
+f bo DURABILITY_BY_SLOT [I
+
+m <init> (IIII)V
+arg 1 id
+arg 2 type
+arg 3 textureIndex
+arg 4 equipmentSlot

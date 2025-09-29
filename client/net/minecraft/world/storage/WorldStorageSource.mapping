@@ -1,0 +1,25 @@
+c nl net/minecraft/world/storage/WorldStorageSource
+
+m a getName ()Ljava/lang/String;
+m b getAll ()Ljava/util/List;
+m c flush ()V
+m b (Ljava/lang/String;)Lei;
+arg 1 saveName
+
+m a rename (Ljava/lang/String;Ljava/lang/String;)V
+arg 1 saveName
+arg 2 newName
+
+m c delete (Ljava/lang/String;)V
+arg 1 saveName
+
+m a needsConversion (Ljava/lang/String;)Z
+arg 1 saveName
+
+m a convert (Ljava/lang/String;Lyb;)Z
+arg 1 saveName
+arg 2 display
+
+m a (Ljava/lang/String;Z)Lwt;
+arg 1 saveName
+arg 2 createPlayerDataDir

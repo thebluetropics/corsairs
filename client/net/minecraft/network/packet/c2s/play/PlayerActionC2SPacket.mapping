@@ -1,0 +1,14 @@
+c jv net/minecraft/network/packet/c2s/play/PlayerActionC2SPacket
+
+f a x I
+f b y I
+f c z I
+f d direction I
+f e action I
+
+m <init> (IIIII)V
+arg 1 action
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 direction

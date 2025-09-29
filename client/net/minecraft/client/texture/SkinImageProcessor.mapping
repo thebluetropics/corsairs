@@ -1,0 +1,23 @@
+c rr net/minecraft/client/texture/SkinImageProcessor
+
+f a data [I
+f b width I
+f c height I
+
+m a setTransparent (IIII)V
+arg 1 x1
+arg 2 y1
+arg 3 x2
+arg 4 y2
+
+m b setOpaque (IIII)V
+arg 1 x1
+arg 2 y1
+arg 3 x2
+arg 4 y2
+
+m c hasTransparency (IIII)Z
+arg 1 x1
+arg 2 y1
+arg 3 x2
+arg 4 y2

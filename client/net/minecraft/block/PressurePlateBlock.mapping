@@ -1,0 +1,15 @@
+c bv net/minecraft/block/PressurePlateBlock
+
+f a activationRule Lrt;
+
+m <init> (IILrt;Lln;)V
+arg 1 id
+arg 2 textureId
+arg 3 activationRule
+arg 4 material
+
+m h updatePlateState (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

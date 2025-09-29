@@ -1,0 +1,5 @@
+c xz net/minecraft/client/network/OtherPlayerEntity
+
+m <init> (Lfd;Ljava/lang/String;)V
+arg 1 world
+arg 2 name

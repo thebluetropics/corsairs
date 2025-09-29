@@ -1,0 +1,54 @@
+c gs net/minecraft/world/biome/Biome
+
+f a RAINFOREST Lgs;
+f b SWAMPLAND Lgs;
+f c SEASONAL_FOREST Lgs;
+f d FOREST Lgs;
+f e SAVANNA Lgs;
+f f SHRUBLAND Lgs;
+f g TAIGA Lgs;
+f h DESERT Lgs;
+f i PLAINS Lgs;
+f j ICE_DESERT Lgs;
+f k TUNDRA Lgs;
+f l HELL Lgs;
+f m SKY Lgs;
+f n name Ljava/lang/String;
+f o grassColor I
+f p topBlockId B
+f q soilBlockId B
+f r foliageColor I
+f s spawnableMonsters Ljava/util/List;
+f t spawnablePassive Ljava/util/List;
+f u spawnableWaterCreatures Ljava/util/List;
+f v hasSnow Z
+f w hasRain Z
+f x BIOMES [Lgs;
+
+m a init ()V
+m a getBiome (DD)Lgs;
+arg 1 temperature
+arg 2 downfall
+
+m a locateBiome (FF)Lgs;
+arg 1 temperature
+arg 2 downfall
+
+m a setFoliageColor (I)Lgs;
+arg 1 foliageColor
+
+m a getSpawnableEntities (Lhh;)Ljava/util/List;
+arg 1 group
+
+m a setName (Ljava/lang/String;)Lgs;
+arg 1 name
+
+m b enableSnow ()Lgs;
+m b setGrassColor (I)Lgs;
+arg 1 grassColor
+
+m c canSnow ()Z
+m d canRain ()Z
+m e disableRain ()Lgs;
+m a getRandomTreeFeature (Ljava/util/Random;)Ljm;
+arg 1 random

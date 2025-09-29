@@ -1,0 +1,83 @@
+c lg net/minecraft/client/gui/widget/EntryListWidget
+
+f a minecraft Lnet/minecraft/client/Minecraft;
+f b width I
+f c height I
+f h top I
+f i bottom I
+f d right I
+f e left I
+f j itemHeight I
+f f scrollUpButtonId I
+f g scrollDownButtonId I
+f k mostYStart F
+f l scrollSpeedMultiplier F
+f m scrollAmount F
+f n pos I
+f o time J
+f p renderSelectionHighlight Z
+f q renderHeader Z
+f r headerHeight I
+
+m <init> (Lnet/minecraft/client/Minecraft;IIIII)V
+arg 1 minecraft
+arg 2 width
+arg 3 height
+arg 4 top
+arg 5 bottom
+arg 6 itemHeight
+
+m a setRenderSelectionHighlight (Z)V
+arg 1 renderSelectionHighlight
+
+m a setHeader (ZI)V
+arg 1 renderHeader
+arg 2 headerHeight
+
+m a getEntryCount ()I
+m a entryClicked (IZ)V
+arg 1 index
+arg 2 doubleClick
+
+m c_ isSelectedEntry (I)Z
+arg 1 index
+
+m b getEntriesHeight ()I
+m c renderBackground ()V
+m a renderEntry (IIIILnw;)V
+arg 1 index
+arg 2 x
+arg 3 y
+arg 4 tessellator
+
+m a renderHeader (IILnw;)V
+arg 1 x
+arg 2 y
+arg 3 tessellator
+
+m a headerClicked (II)V
+arg 1 x
+arg 2 y
+
+m b renderDecorations (II)V
+arg 1 mouseX
+arg 2 mouseY
+
+m c getEntryAt (II)I
+arg 1 x
+arg 2 y
+
+m a registerButtons (Ljava/util/List;II)V
+arg 1 buttons
+arg 2 scrollUp
+arg 3 scrollDown
+
+m d clampScrolling ()V
+m a buttonClicked (Lke;)V
+arg 1 button
+
+m a render (IIF)V
+arg 1 mouseX
+arg 2 mouseY
+
+m a renderBackground (IIII)V

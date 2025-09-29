@@ -1,0 +1,6 @@
+c rs net/minecraft/world/storage/DataFilenameFilter
+
+f a PATTERN Ljava/util/regex/Pattern;
+
+m <init> (Lic;)V
+arg 1 subclass

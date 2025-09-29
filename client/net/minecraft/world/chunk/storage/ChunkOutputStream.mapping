@@ -1,0 +1,8 @@
+c hz net/minecraft/world/chunk/storage/ChunkOutputStream
+
+f b chunkX I
+f c chunkZ I
+
+m <init> (Lqj;II)V
+arg 1 chunkX
+arg 2 chunkZ

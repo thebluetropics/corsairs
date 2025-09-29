@@ -1,0 +1,4 @@
+c hv net/minecraft/inventory/InventoryListener
+
+m a onInventoryChanged (Lqo;)V
+arg 1 inventory

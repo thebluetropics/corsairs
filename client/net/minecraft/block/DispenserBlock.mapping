@@ -1,0 +1,19 @@
+c xq net/minecraft/block/DispenserBlock
+
+f a random Ljava/util/Random;
+
+m <init> (I)V
+arg 1 id
+
+m c dispense (Lfd;IIILjava/util/Random;)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+arg 5 random
+
+m h updateDirection (Lfd;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

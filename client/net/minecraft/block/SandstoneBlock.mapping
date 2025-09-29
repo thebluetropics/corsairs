@@ -1,0 +1,4 @@
+c rd net/minecraft/block/SandstoneBlock
+
+m <init> (I)V
+arg 1 id

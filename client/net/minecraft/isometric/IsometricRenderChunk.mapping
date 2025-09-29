@@ -1,0 +1,24 @@
+c re net/minecraft/isometric/IsometricRenderChunk
+
+f a image Ljava/awt/image/BufferedImage;
+f b world Lfd;
+f c chunkX I
+f d chunkZ I
+f e rendered Z
+f f empty Z
+f g lastVisible I
+f h toBeRendered Z
+
+m <init> (Lfd;II)V
+arg 1 world
+arg 2 chunkX
+arg 3 chunkZ
+
+m a init (II)V
+arg 1 chunkX
+arg 2 chunkZ
+
+m a init (Lfd;II)V
+arg 1 world
+arg 2 chunkX
+arg 3 chunkZ

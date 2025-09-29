@@ -1,0 +1,3 @@
+c dg net/minecraft/util/Tickable
+
+m a tick ()V

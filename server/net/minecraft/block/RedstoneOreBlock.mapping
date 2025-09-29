@@ -1,0 +1,15 @@
+c az net/minecraft/block/RedstoneOreBlock
+
+f a lit Z
+
+m g light (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z
+
+m h spawnParticles (Ldj;III)V
+arg 1 world
+arg 2 x
+arg 3 y
+arg 4 z

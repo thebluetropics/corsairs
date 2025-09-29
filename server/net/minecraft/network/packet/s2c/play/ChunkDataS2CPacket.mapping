@@ -1,0 +1,10 @@
+c cs net/minecraft/network/packet/s2c/play/ChunkDataS2CPacket
+
+f f sizeZ I
+f g chunkData [B
+f h chunkDataSize I
+f a x I
+f b y I
+f c z I
+f d sizeX I
+f e sizeY I

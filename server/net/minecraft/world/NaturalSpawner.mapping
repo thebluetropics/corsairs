@@ -1,0 +1,32 @@
+c bp net/minecraft/world/NaturalSpawner
+
+f a MONSTER_TYPE [Ljava/lang/Class;
+f b mobSpawningChunks Ljava/util/Set;
+
+m a getRandomPosInChunk (Ldj;II)Loa;
+arg 1 world
+arg 2 chunkX
+arg 3 chunkZ
+
+m a spawnMonstersAndWakePlayers (Ldj;Ljava/util/List;)Z
+arg 1 world
+arg 2 players
+
+m a tick (Ldj;ZZ)I
+arg 1 world
+arg 2 spawnAnimals
+arg 3 spawnMonsters
+
+m a isValidSpawnPos (Lhh;Ldj;III)Z
+arg 1 spawnGroup
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z
+
+m a postSpawnEntity (Lhl;Ldj;FFF)V
+arg 1 entity
+arg 2 world
+arg 3 x
+arg 4 y
+arg 5 z

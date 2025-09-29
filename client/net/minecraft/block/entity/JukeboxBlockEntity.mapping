@@ -1,0 +1,5 @@
+c eg net/minecraft/block/entity/JukeboxBlockEntity
+
+f a recordId I
+
+m <init> ()V

@@ -1,0 +1,17 @@
+c py net/minecraft/client/util/Timer
+
+f a tps F
+f b ticksThisFrame I
+f c partialTick F
+f d tpsScale F
+f e tickDelta F
+f f timeSec D
+f g prevTickTime J
+f h prevCorrectionTime J
+f i cooldownTickTime J
+f j tickTimeCorrection D
+
+m <init> (F)V
+arg 1 tps
+
+m a advance ()V

@@ -1,0 +1,4 @@
+c ng net/minecraft/recipe/DyeRecipes
+
+m a add (Lhk;)V
+arg 1 recipeManager

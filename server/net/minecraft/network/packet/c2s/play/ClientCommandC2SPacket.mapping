@@ -1,0 +1,4 @@
+c mk net/minecraft/network/packet/c2s/play/ClientCommandC2SPacket
+
+f a entityId I
+f b mode I

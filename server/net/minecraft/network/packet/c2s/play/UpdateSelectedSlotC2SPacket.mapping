@@ -1,0 +1,3 @@
+c fd net/minecraft/network/packet/c2s/play/UpdateSelectedSlotC2SPacket
+
+f a selectedSlot I

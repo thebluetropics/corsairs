@@ -1,0 +1,6 @@
+c wj net/minecraft/block/PistonConstants
+
+f a TEXTURE_SIDES [I
+f b HEAD_OFFSET_X [I
+f c HEAD_OFFSET_Y [I
+f d HEAD_OFFSET_Z [I

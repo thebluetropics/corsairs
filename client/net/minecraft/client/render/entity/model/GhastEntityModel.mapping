@@ -1,0 +1,4 @@
+c lo net/minecraft/client/render/entity/model/GhastEntityModel
+
+f a root Lps;
+f b tentacles [Lps;

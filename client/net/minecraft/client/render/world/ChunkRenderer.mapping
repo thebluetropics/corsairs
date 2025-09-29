@@ -1,0 +1,30 @@
+c tg net/minecraft/client/render/world/ChunkRenderer
+
+f a x I
+f b y I
+f c z I
+f d offsetX F
+f e offsetY F
+f f offsetZ F
+f g glListBuffer Ljava/nio/IntBuffer;
+f h initialized Z
+f i rendered Z
+
+m a render ()V
+m a addGlList (I)V
+arg 1 glList
+
+m a isAt (III)Z
+arg 1 x
+arg 2 y
+arg 3 z
+
+m a init (IIIDDD)V
+arg 1 x
+arg 2 y
+arg 3 z
+arg 4 offsetX
+arg 5 offsetY
+arg 6 offsetZ
+
+m b clear ()V

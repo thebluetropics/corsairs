@@ -1,0 +1,4 @@
+c mt net/minecraft/block/SignBlock
+
+f a blockEntityClazz Ljava/lang/Class;
+f b standing Z

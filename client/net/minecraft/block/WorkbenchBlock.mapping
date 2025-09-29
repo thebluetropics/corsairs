@@ -1,0 +1,4 @@
+c fi net/minecraft/block/WorkbenchBlock
+
+m <init> (I)V
+arg 1 id

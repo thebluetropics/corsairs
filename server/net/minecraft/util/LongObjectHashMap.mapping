@@ -1,0 +1,43 @@
+c dx net/minecraft/util/LongObjectHashMap
+
+f a entries [Lkd;
+f b size I
+f c capacity I
+f d loadFactor F
+f e modCount I
+
+m a hash (I)I
+arg 1 key
+
+m a indexOf (II)I
+arg 1 hash
+arg 2 arrayLength
+
+m a addEntry (IJLjava/lang/Object;I)V
+arg 1 hash
+arg 2 key
+arg 3 value
+arg 4 index
+
+m a get (J)Ljava/lang/Object;
+arg 1 key
+
+m a put (JLjava/lang/Object;)V
+arg 1 key
+arg 2 value
+
+m a transfer ([Lkd;)V
+arg 1 entryArray
+
+m b resize (I)V
+arg 1 size
+
+m b remove (J)Ljava/lang/Object;
+arg 1 key
+
+m c removeEntry (J)Lkd;
+arg 1 key
+
+m d synthHash (J)I
+m e hash (J)I
+arg 1 key

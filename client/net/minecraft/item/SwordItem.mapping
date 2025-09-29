@@ -1,0 +1,7 @@
+c qd net/minecraft/item/SwordItem
+
+f a damage I
+
+m <init> (ILbu;)V
+arg 1 id
+arg 2 toolMaterial
