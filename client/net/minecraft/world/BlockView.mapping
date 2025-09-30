@@ -25,7 +25,7 @@ arg 1 x
 arg 2 y
 arg 3 z
 
-m a ()Lxv;
+m a getBiomeSource ()Lxv;
 
 m c (III)F
 arg 1 x
