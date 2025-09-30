@@ -285,6 +285,38 @@ def write_baked_mappings(chz, file_path):
 
 	file.close()
 
+def write_reobfuscation_mappings(chz, file_path):
+	file = open(file_path, 'w')
+
+	for name in sorted(chz.keys()):
+		mc = chz[name]
+
+		if mc.mapped_name:
+			file.write(f'c {mc.mapped_name} {mc.name}\n')
+		else:
+			file.write(f'c {mc.name}\n')
+
+		for mf in mc.f:
+			mapped_desc = get_mapped_descriptor(chz, mf.desc)
+
+			if mf.mapped_name:
+				file.write(f'f {mf.mapped_name} {mf.name} {mapped_desc}\n')
+			else:
+				file.write(f'f {mf.name} {mapped_desc}\n')
+
+		for mm in mc.m:
+			mapped_desc = get_mapped_descriptor(chz, mm.desc)
+
+			if mm.mapped_name:
+				file.write(f'm {mm.mapped_name} {mm.name} {mapped_desc}\n')
+			else:
+				file.write(f'm {mm.name} {mapped_desc}\n')
+
+			for idx in sorted(mm.args.keys()):
+				file.write(f'arg {idx} {mm.args[idx]}\n')
+
+	file.close()
+
 def read_args():
 	argv = sys.argv[1:]
 
@@ -375,6 +407,16 @@ if __name__.__eq__('__main__'):
 		write_baked_mappings(chz, os.path.join(project_dir, 'out', 'client.baked'))
 		exit()
 
+	if args[0].__eq__('client_reobfuscation'):
+		hmap = {}
+		load_hint(hmap, os.path.join(project_dir, 'hint', 'client.hint'))
+
+		chz = {}
+		load_mappings(hmap, chz, os.path.join(project_dir, 'client'))
+
+		write_reobfuscation_mappings(chz, os.path.join(project_dir, 'out', 'client_reobfuscation.baked'))
+		exit()
+
 	if args[0].__eq__('server'):
 		hmap = {}
 		load_hint(hmap, os.path.join(project_dir, 'hint', 'server.hint'))
@@ -383,4 +425,14 @@ if __name__.__eq__('__main__'):
 		load_mappings(hmap, chz, os.path.join(project_dir, 'server'))
 
 		write_baked_mappings(chz, os.path.join(project_dir, 'out', 'server.baked'))
+		exit()
+
+	if args[0].__eq__('server_reobfuscation'):
+		hmap = {}
+		load_hint(hmap, os.path.join(project_dir, 'hint', 'server.hint'))
+
+		chz = {}
+		load_mappings(hmap, chz, os.path.join(project_dir, 'server'))
+
+		write_reobfuscation_mappings(chz, os.path.join(project_dir, 'out', 'server_reobfuscation.baked'))
 		exit()
